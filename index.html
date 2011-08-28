@@ -1,0 +1,480 @@
+<!doctype html>
+
+<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
+<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
+<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
+<!--[if gt IE 8]> <html class="no-js" lang="en"> 		   <![endif]-->
+
+<head>
+	<meta charset="utf-8">
+
+  	<!-- You can use .htaccess and remove these lines to avoid edge case issues. -->
+  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+  	<title>❖ Workless</title>
+
+  	<meta name="author" content="">
+	<meta name="description" content="">
+	<meta name="keywords" content="">
+
+  	<!-- Mobile viewport optimized -->
+  	<meta name="viewport" content="width=device-width,initial-scale=1">
+
+  	<!-- CSS. No need to specify the media attribute unless specifically targeting a media type, leaving blank implies media=all -->
+  	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="css/workless.css">
+  	<!-- End CSS-->
+
+	<!-- Load up some favicons -->
+  	<link rel="shortcut icon" href="favicon.ico">
+  	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+  	<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png">
+  	<link rel="apple-touch-icon" href="apple-touch-icon-57x57-precomposed.png">
+  	<link rel="apple-touch-icon" href="apple-touch-icon-72x72-precomposed.png">
+  	<link rel="apple-touch-icon" href="apple-touch-icon-114x114-precomposed.png">
+
+  	<!-- All JavaScript at the bottom, except for Modernizr / Respond. Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries -->
+  	<script src="js/libs/modernizr.js"></script>
+
+</head>
+
+<body onload="prettyPrint()">
+
+<!-- container -->
+<div class="container">	
+	
+	<!-- main -->
+	<div id="main">
+		
+		<hr>
+		
+		<header>
+			<div id="logo">
+				<a href="#"><h1>❖ Workless</h1></a>
+			</div>
+		
+			<nav id="primary">
+				<ul>
+					<li>
+						<a href="#">Options</a>
+							<ul>
+								<li><a href="#scaffold">Scaffolding</a></li>
+								<li><a href="#help">Helpers</a></li>
+							</ul>
+					</li>
+					<li><a href="#">Github</a></li>
+				</ul>
+			</nav>
+   		</header>
+
+		<hr>
+
+		<section>
+			<h3>What is Workless?</h3>
+
+			<p>
+				When designing/developing a new application we all have our own way of doing things, using frameworks, grid systems, saved code snippets etc..., but what we usually have in common is the fact that we end up repeating lots of tasks for each project.
+			</p>
+			<p>
+				Workless aims to help you by offering a basic HTML5 base template filled with goodies to get you up and running on every project you do as quickly as possible.
+			</p>
+			<p>
+				At it's core Workless is simply a mashup of all the things I like about <a class="tooltip" title="Visit HTML5 Boilerplate" href="https://github.com/paulirish/html5-boilerplate" title="HTML5 Boilerplate">HTML5 Boilerplate</a> and <a class="tooltip" title="Visit Twitter Bootstrap" href="https://github.com/twitter/bootstrap" title="Twitter Bootstrap">Twitter Bootstrap</a> with some additional stuff which I tend to use on every project such as PrettyPhoto for lightboxes, Tipsy for tooltips, Prettify for styling and colorizing code and various other bits and pieces.
+			</p>
+			<p>
+				Workless comes with responsive media queries setup for <span class="highlight">'Mobile Portrait'</span>, <span class="highlight">'Mobile Landscape'</span>, <span class="highlight">'Tablet Portrait'</span>, <span class="highlight">'Tablet Landscape/Small Browser'</span> and <span class="highlight">'Large Browser'</span>, you can demo the effect right now by simply scaling your browser window. The blue button above the logo will show what query is running.
+			<p>
+				Remember, this isn't a 'Use this, its great!', it's simply a way I found to improve my workflow and cut down on repetitive tasks in every project. Feel free to use/abuse and hack into something that fits your workflow.
+			</p>
+		</section>
+		
+		<hr>
+		
+		<!-- Scaffolding -->
+		<section id="scaffold">
+    		<h3>Scaffolding</h3>
+
+			<p>
+				Scaffolding simply refers to referencing an available class that helps you build(scaffold) layouts/grids as quickly as possible!
+			</p>
+			
+			<hr>
+
+  			<div class="one_third">
+      			<h4>Default grid system</h4>
+      			<p>
+					Although I'm not a fan of grid systems and prefer to hand code elements, I have included a basic grid system with Workless to create columns. I'm also not a fan of the naming conventions in most grid systems: 'grid_12 row_6 pull_7'
+				</p> 
+				<p>
+					WTF!?!
+				</p>
+				<p>
+					I prefer a cleaner, semantic, logical naming system for classes, such as 'one_half' or 'one_third' etc...
+				</p>
+    		</div>
+    			
+			<div class="two_third">
+      			<h4>Example markup</h4>
+
+      			<p>Creating layouts with grids is easy, simply add the relevant class to the div and away you go!</p>
+
+<pre class="prettyprint linenums">&lt;div class="one_third"&gt;
+	...
+&lt;/div&gt;
+					
+&lt;div class="two_third"&gt;
+	...	
+&lt;/div&gt;</pre>
+    		</div>
+
+			<hr>
+
+			<div class="one_full">
+      			<h4>1 Grid</h4>
+      			<p>
+					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.		</p>
+    		</div>
+
+			<hr>
+
+			<div class="one_half">
+      			<h4>&frac12; Grid</h4>
+      			<p>
+					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
+    		</div>
+
+			<div class="one_half">
+      			<h4>&frac12; Grid</h4>
+      			<p>
+					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
+    		</div>
+
+			<hr>
+
+			<div class="one_third">
+      			<h4>&frac13; Grid</h4>
+      			<p>
+					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
+    		</div>
+
+			<div class="one_third">
+      			<h4>&frac13; Grid</h4>
+      			<p>
+					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
+    		</div>
+
+			<div class="one_third">
+      			<h4>&frac13; Grid</h4>
+      			<p>
+					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
+    		</div>
+
+			<hr>
+
+			<div class="one_third">
+      			<h4>&frac13; Grid</h4>
+      			<p>
+					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
+    		</div>
+
+			<div class="two_third">
+      			<h4>&frac23; Grid</h4>
+      			<p>
+					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
+    		</div>
+
+			<hr>
+
+			<div class="one_quarter">
+      			<h4>&frac14; Grid</h4>
+      			<p>
+					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
+    		</div>
+
+			<div class="one_quarter">
+      			<h4>&frac14; Grid</h4>
+      			<p>
+					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
+    		</div>
+			
+			<div class="one_quarter">
+      			<h4>&frac14; Grid</h4>
+      			<p>
+					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
+    		</div>
+
+			<div class="one_quarter">
+      			<h4>&frac14; Grid</h4>
+      			<p>
+					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
+    		</div>
+
+		</section>
+		
+		<div class="hr top"><a href="#">&uarr; top</a></div>
+		
+		<section id="help">
+			<h3>Helpers</h3>
+			
+			<p>
+				Again, helpers simply reference available classes that help you to create things such as CSS3 buttons, tabs, alerts, pagination etc... Simply reference the class and away you go!
+			</p>
+			
+			<hr>
+			
+			<div class="one_full">
+				<h4>Alerts</h4>
+				<div class="one_half">
+					<div class="alert error"><a class="close" href="#">&times;</a>This is an error alert!</div>
+					<div class="alert warning"><a class="close" href="#">&times;</a>This is a warning alert!</div>
+					<div class="alert success"><a class="close" href="#">&times;</a>This is a success alert!</div>
+					<div class="alert info"><a class="close" href="#">&times;</a>This is an info alert!</div>
+				</div>
+			
+				<div class="one_half">
+					<div class="block-message error"><a class="close" href="#">&times;</a>This is a block-message error alert!</div>
+					<div class="block-message warning"><a class="close" href="#">&times;</a>This is a block-message warning alert!</div>
+					<div class="block-message success"><a class="close" href="#">&times;</a>This is a block-message success alert!</div>
+					<div class="block-message info"><a class="close" href="#">&times;</a>This is a block-message info alert!</div>
+				</div>
+			</div>
+
+			<hr>
+			
+			<div class="one_full">	
+				<div class="one_half">
+					<h4>CSS3 Buttons</h4>
+				
+					<ul>
+						<li class="btn red inline"><a href="#">Red</a></li>
+						<li class="btn orange inline"><a href="#">Orange</a></li>
+						<li class="btn green inline"><a href="#">Green</a></li>
+						<li class="btn blue inline"><a href="#">Blue</a></li>
+					</ul>
+				</div>
+			
+				<div class="one_half">
+					<h4>Pill Buttons</h4>
+				
+					<ul class="pill">
+    					<li class="active inline"><a href="#">Home</a></li>
+    					<li class="inline"><a href="#">Profile</a></li>
+    					<li class="inline"><a href="#">Messages</a></li>
+    				</ul>
+				</div>
+			</div>
+			
+			<hr>
+			
+			<div class="one_full">
+				<div class="one_half">
+					<h4>Tabs</h4>
+
+			   		<ul class="tabs">
+    					<li class="active"><a href="#">Home</a></li>
+    					<li><a href="#">Profile</a></li>
+    					<li><a href="#">Messages</a></li>
+    				</ul>
+				</div>
+			
+		    	<div class="one_half pagination">
+					<h4>Pagination</h4>
+				
+    				<ul>
+    					<li class="prev disabled"><a href="#">&larr; Prev</a></li>
+    					<li class="active"><a href="#">1</a></li>
+    					<li><a href="#">2</a></li>
+    					<li><a href="#">3</a></li>
+    					<li class="next"><a href="#">Next &rarr;</a></li>
+    				</ul>
+    			</div>
+			</div>
+			
+			<hr>
+			
+			<div class="one_full">
+    			<h4>Forms</h4>
+
+      			<p>
+					All forms are given default styles to present them in a readable and scalable way. Styles are provided for text inputs, select lists, textareas, radio buttons and checkboxes, and buttons. We also use jQuery Uniform to give selects and checkboxes some nice styling.
+				</p>
+      			
+				<form>
+					<fieldset>
+          				<legend>Example form legend</legend>
+
+             			<input name="" size="30" type="text" placeholder="Text Input" />
+						
+						<br>
+
+              			<select name="">
+                			<option>1</option>
+                			<option>2</option>
+                			<option>3</option>
+                			<option>4</option>
+                			<option>5</option>
+              			</select>
+
+						<br>
+
+            			<select name="">
+                			<option>1</option>
+                			<option>2</option>
+                			<option>3</option>
+                			<option>4</option>
+                			<option>5</option>
+              			</select>
+						
+						<br>
+
+            			<input class="disabled" name="" size="30" type="text" placeholder="Disabled input here… carry on." disabled />
+						
+						<br>
+
+              			<input class="error" name="" size="30" type="text" placeholder="Error Text Input" />
+              			<span class="help-inline">Small snippet of help text</span>
+
+        			</fieldset>
+        
+					<fieldset>
+          				<legend>Example form legend</legend>
+              			<div class="input-prepend">
+                			<span class="">@</span>
+                			<input name="" size="16" type="text" placeholder="Text Input" />
+              			</div>
+
+              			<div class="input-prepend">
+                			<input type="checkbox" name="" value="" />
+                			<input name="" size="16" type="text" placeholder="Text Input" />
+              			</div>
+
+              			<div class="input-append">
+                			<input class="" name="" size="16" type="text" placeholder="Text Input" />
+                			<input type="checkbox" name="" checked="checked" />
+              			</div>
+    
+              			<input class="input-file" name="fileInput" type="file" />
+        			</fieldset>
+
+        			<fieldset>
+          				<legend>Example form legend</legend>
+            			<label>List of Options</label>
+              			<ul class="inputs-list">
+                			<li>
+                  				<label>
+                    				<input type="checkbox" name="" value="" />
+                    				<span>Option one is this and that&mdash;be sure to include why it’s great</span>
+                  				</label>
+                			</li>
+
+                			<li>
+                  				<label>
+                    				<input type="checkbox" name="" value="" />
+                    				<span>Option two can also be checked and included in form results</span>
+                  				</label>
+                			</li>
+                			
+							<li>
+                  				<label>
+                    				<input type="checkbox" name="" value="" />
+                    				<span>Option three can&mdash;yes, you guessed it&mdash;also be checked and included in form results</span>
+                  				</label>
+                			</li>
+                				
+							<li>
+                  				<label class="disabled">
+                    				<input type="checkbox" name="" value="" disabled />
+                    				<span>Option four cannot be checked as it is disabled.</span>
+                  				</label>
+                			</li>
+              			</ul>
+
+            			<label>Date Range</label>
+              			<div class="inline-inputs">
+                			<input type="text" placeholder="May 1, 2011" />
+                			<input type="text" placeholder="12:00am" />
+                			to
+                			<input type="text" placeholder="May 8, 2011" />
+                			<input type="text" placeholder="11:59pm" />
+                			<span class="help-inline">All times are shown as GMT.</span>
+              			</div>
+
+            			<label for="textarea">Textarea</label>
+            			<div class="input">
+              				<textarea class="" id="textarea" name="textarea"></textarea>
+            			</div>
+
+            			<label>List of Options</label>
+              			<ul class="inputs-list">
+                			<li>
+                  				<label>
+                    				<input type="checkbox" name="optionsCheckboxes" value="option1" />
+                    				<span>Option one is this and that&mdash;be sure to include why it’s great</span>
+                  				</label>
+                			</li>
+
+                			<li>
+                  				<label>
+                    				<input type="checkbox" name="optionsCheckboxes" value="option2" />
+                    				<span>Option two can also be checked and included in form results</span>
+                  				</label>
+                			</li>
+              			</ul>
+
+						<p>
+      						<input type="submit" value="Submit" />
+      						&nbsp;
+      						<input type="button" value="Button" />
+      						&nbsp;
+      						<input type="reset" value="Reset" />
+      						&nbsp;
+      						<button>Button</button>
+    					</p>
+
+
+          				<div class="actions">
+            				<button type="submit" class="btn blue">Save Changes</button>&nbsp;<button type="reset" class="btn gray">Cancel</button>
+          				</div>
+        			</fieldset>
+      			</form>
+    		</div>
+			
+		</section>
+		
+		<footer>
+			<p>Copyright &copy; 2011. All Rights Reserved.</p>
+    	</footer>
+		
+    </div>
+	<!-- /main -->
+
+</div>
+<!-- /container -->
+
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery.js"><\/script>')</script>
+
+  <!-- Scripts -->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- End Scripts -->
+
+  <!-- Change UA-XXXXX-X to be your site's ID -->
+  <script>
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6. chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
+</body>
+</html>
