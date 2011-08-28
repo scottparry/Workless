@@ -193,7 +193,7 @@ figure { margin: 0; }
 -------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------
 
-Forms (We're using jQuery Uniform for styling so this just sets some defaults and is a fallback for no JS)
+Forms (We're using jQuery Chosen for styling so this just sets some defaults and is a fallback for no JS)
 
 -------------------------------------------------------------------------------------------------------
 -------------------------------------------------------------------------------------------------------
@@ -210,6 +210,8 @@ label { cursor: pointer; font-size: 12px; font-weight: bold; }
 legend { border: 0; padding: 0; margin-left: 5px; font-size: 18px; font-weight: bold; }
 
 button, input, select, textarea { font-size: 100%; margin: 0; vertical-align: baseline; *vertical-align: middle; margin: 5px 0 5px 0; }
+
+select{ min-width: 260px; }
 
 button,
 input[type="reset"],

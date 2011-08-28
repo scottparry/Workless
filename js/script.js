@@ -47,8 +47,8 @@ $('.tooltip-w').tipsy({
 	html: true
 });
 
-// Uniform
-$("select, input:checkbox, input:radio, input:file").uniform();
+// Chosen
+$(".chzn").chosen();
 
 
 
