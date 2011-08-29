@@ -11,10 +11,9 @@
   	<!-- You can use .htaccess and remove these lines to avoid edge case issues. -->
   	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 
-  	<title>Page Not Found</title> 
+  	<title>❖ Workless | Not Found</title>
 
   	<meta name="author" content="">
-	<meta name="copyright" content="">
 	<meta name="description" content="">
 	<meta name="keywords" content="">
 
@@ -22,7 +21,8 @@
   	<meta name="viewport" content="width=device-width,initial-scale=1">
 
   	<!-- CSS. No need to specify the media attribute unless specifically targeting a media type, leaving blank implies media=all -->
-  	<link rel="stylesheet" href="css/strapless.css">
+  	<link rel="stylesheet" href="css/plugins.css">
+	<link rel="stylesheet" href="css/workless.css">
   	<!-- End CSS-->
 
 	<!-- Load up some favicons -->
@@ -38,31 +38,33 @@
 
 </head>
 
-<body>
-	
+<body onload="prettyPrint()">
+
 <!-- container -->
 <div class="container">	
 	
 	<!-- main -->
 	<div id="main">
+		
+		<hr>
+		
 		<header>
 			<div id="logo">
-				<a href="#"><h1>❖ Strapless</h1></a>
-				<small>A mixup of HTML5 Boilerplate and Twitters Bootstrap with some added extras!</small>
+				<a href="#"><h1>❖ Workless</h1></a>
 			</div>
 		
 			<nav id="primary">
 				<ul>
-					<li><a href="#">Scaffolding</a></li>
-					<li><a href="#">Helpers</a></li>
 					<li><a href="#">Github</a></li>
 				</ul>
 			</nav>
    		</header>
+
+		<hr>
 		
-		<article class="grid">
+		<section>
 			
-			<div class="row8">
+			<div class="one_full">
 				<h2>Not found (aka 404)</h2>
 	
 				<div>
@@ -74,6 +76,8 @@
 		   				<li>an out-of-date link</li>
 	   				</ul>
 				</div>
+				
+				<hr>
 
 				<script>
 	    			var GOOG_FIXURL_LANG = (navigator.language || '').slice(0,2),
@@ -82,15 +86,44 @@
 	    		<script src="http://linkhelp.clients.google.com/tbproxy/lh/wm/fixurl.js"></script>
 			</div>
 			
-		</article>
+		</section>
+		
+		<hr>
+		
+		<footer>
+			<p>Copyright &copy; 2011. All Rights Reserved.</p>
+    	</footer>
 		
     </div>
 	<!-- /main -->
 
-    <footer>
-    </footer>
 </div>
 <!-- /container -->
 
+  <!-- JavaScript at the bottom for fast page loading -->
+
+  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="js/libs/jquery.js"><\/script>')</script>
+
+  <!-- Scripts -->
+  <script defer src="js/plugins.js"></script>
+  <script defer src="js/script.js"></script>
+  <!-- End Scripts -->
+
+  <!-- Change UA-XXXXX-X to be your site's ID -->
+  <script>
+    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
+    Modernizr.load({
+      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
+    });
+  </script>
+
+  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6. chromium.org/developers/how-tos/chrome-frame-getting-started -->
+  <!--[if lt IE 7 ]>
+    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
+    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
+  <![endif]-->
+  
 </body>
 </html>
