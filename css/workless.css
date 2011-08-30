@@ -535,12 +535,6 @@ Helpers.
   transition: 250ms linear all;
 }
 
-.btn:hover {
-  background-position: 0 -15px;
-  color: #333333;
-  text-decoration: none;
-}
-
 .btn, .btn a, a.btn {
   color: #ffffff;
 }
@@ -563,6 +557,20 @@ Helpers.
   border: 1px solid #5c1611;
 }
 
+.btn.red:hover {
+  background-color: #d83a2e;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#9d261d), to(#d83a2e));
+  background-image: -moz-linear-gradient(#9d261d, #d83a2e);
+  background-image: -ms-linear-gradient(#9d261d, #d83a2e);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9d261d), color-stop(100%, #d83a2e));
+  background-image: -webkit-linear-gradient(#9d261d, #d83a2e);
+  background-image: -o-linear-gradient(#9d261d, #d83a2e);
+  background-image: linear-gradient(#9d261d, #d83a2e);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #5c1611;
+}
+
 .btn.orange {
   background-color: #d89342;
   background-repeat: repeat-x;
@@ -575,6 +583,18 @@ Helpers.
   background-image: linear-gradient(#f3ad55, #d89342);
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   border: 1px solid #b6782c;
+}
+
+.btn.orange:hover {
+  background-color: #f3ad55;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#d89342), to(#f3ad55));
+  background-image: -moz-linear-gradient(#d89342, #f3ad55);
+  background-image: -ms-linear-gradient(#d89342, #f3ad55);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d89342), color-stop(100%, #f3ad55));
+  background-image: -webkit-linear-gradient(#d89342, #f3ad55);
+  background-image: -o-linear-gradient(#d89342, #f3ad55);
+  background-image: linear-gradient(#d89342, #f3ad55);
 }
 
 .btn.green {
@@ -591,6 +611,20 @@ Helpers.
   border: 1px solid #7b9b18;
 }
 
+.btn.green:hover {
+  background-color: #bada55;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#96b633), to(#bada55));
+  background-image: -moz-linear-gradient(#96b633, #bada55);
+  background-image: -ms-linear-gradient(#96b633, #bada55);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #bada55), color-stop(100%, #bada55));
+  background-image: -webkit-linear-gradient(#96b633, #bada55);
+  background-image: -o-linear-gradient(#96b633, #bada55);
+  background-image: linear-gradient(#96b633, #bada55);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #7b9b18;
+}
+
 .btn.blue {
   background-color: #0064cd;
   background-repeat: repeat-x;
@@ -601,6 +635,20 @@ Helpers.
   background-image: -webkit-linear-gradient(#049cdb, #0064cd);
   background-image: -o-linear-gradient(#049cdb, #0064cd);
   background-image: linear-gradient(#049cdb, #0064cd);
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+  border: 1px solid #003f81;
+}
+
+.btn.blue:hover {
+  background-color: #049cdb;
+  background-repeat: repeat-x;
+  background-image: -khtml-gradient(linear, left top, left bottom, from(#0064cd), to(#049cdb));
+  background-image: -moz-linear-gradient(#0064cd, #049cdb);
+  background-image: -ms-linear-gradient(#0064cd, #049cdb);
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #0064cd), color-stop(100%, #049cdb));
+  background-image: -webkit-linear-gradient(#0064cd, #049cdb);
+  background-image: -o-linear-gradient(#0064cd, #049cdb);
+  background-image: linear-gradient(#0064cd, #049cdb);
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
   border: 1px solid #003f81;
 }
@@ -928,6 +976,7 @@ button.btn::-moz-focus-inner, input[type=submit].btn::-moz-focus-inner {
 .pagination ul {
   float: left;
   margin: 0;
+  padding: 0;
   border: 1px solid #ddd;
   border: 1px solid rgba(0, 0, 0, 0.15);
   -webkit-border-radius: 3px;
