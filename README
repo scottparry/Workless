@@ -7,3 +7,5 @@ At it's core Workless is simply a mashup of all the things I like about HTML5 Bo
 Workless comes with responsive media queries setup for 'Mobile Portrait', 'Mobile Landscape', 'Tablet Portrait', 'Tablet Landscape/Small Browser' and 'Large Browser', you can demo the effect right now by simply scaling your browser window. The blue button above the logo will show what query is running.
 
 Remember, this isn't a 'Use this, its great!', it's simply a way I found to improve my workflow and cut down on repetitive tasks in every project. Feel free to use/abuse and hack into something that fits your workflow. 
+
+To use the minify build script simply head to: http://example.com/min/build/ and follow the instructions.
