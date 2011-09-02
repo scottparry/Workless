@@ -1400,14 +1400,14 @@ Primary styles. (Mobile first, everything else is overridden with @media queries
 */
 
 .container {
-	width: 380px;
+	width: 280px;
 	margin: 0 auto;
 }
 	
 #main {
 	background: #ffffff;
-	width: 280px;
-	padding: 25px 50px 100px 50px;
+	width: 230px;
+	padding: 25px 25px 100px 25px;
 	margin: 0 auto;
 	border: 1px solid #ffffff;
 	grid-shadow: 0px 0px 3px #bbbbbb;
@@ -1492,10 +1492,63 @@ nav#primary ul li ul li a {
 	float: none;
 }
 
+.one_full { 
+	width: 230px; 
+	margin: 0; 
+	float: left; 
+}
+
+.one_half { 
+	width: 230px; 
+	margin-right: 20px; 
+	float: left; 
+}
+	
+.one_half:last-child { 
+	width: 230px; 
+	margin-right: 0; 
+}
+
+.one_third { 
+	width: 230px; 
+	margin-right: 20px; 
+	float: left; 
+}
+	
+.one_third:last-child { 
+	width: 230px; 
+	margin-right: 0; 
+}
+
+.two_third { 
+	width: 230px; 
+	margin-right: 20px; 
+	float: left; 
+}
+	
+.two_third:last-child { 
+	width: 230px; 
+	margin-right: 0; 
+}
+
+.one_quarter { 
+	width: 230px; 
+	margin-right: 20px; 
+	float: left; 
+}
+	
+.one_quarter:last-child { 
+	width: 230px; 
+	margin-right: 0;  
+}
+
+form legend, form input, form select {
+	max-width: 230px;
+}
+
 footer {
 	padding: 25px 0 0 0;
 }
-
 
 /*
 -------------------------------------------------------------------------------------------------------
