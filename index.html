@@ -19,10 +19,15 @@
 
   	<!-- Mobile viewport optimized -->
   	<meta name="viewport" content="width=device-width,initial-scale=1">
+	
+	<!-- Adaptive Images -->
+	<script type="text/javascript">
+	var device_width=screen.width;var device_height=screen.height;if(device_width>device_height){ai_width=device_width;}else{ai_width=device_height;}document.cookie='resolution='+ai_width+'; expires=; path=/';
+	</script>
 
   	<!-- CSS. No need to specify the media attribute unless specifically targeting a media type, leaving blank implies media=all -->
-  	<link rel="stylesheet" href="css/plugins.css">
-	<link rel="stylesheet" href="css/workless.css">
+  	<link rel="stylesheet" href="assets/css/plugins.css">
+	<link rel="stylesheet" href="assets/css/workless.css">
   	<!-- End CSS-->
 
 	<!-- Googlelicious -->
@@ -38,7 +43,7 @@
   	<link rel="apple-touch-icon" href="apple-touch-icon-114x114-precomposed.png">
 
   	<!-- All JavaScript at the bottom, except for Modernizr / Respond. Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries -->
-  	<script src="js/libs/modernizr.js"></script>
+  	<script src="assets/js/libs/modernizr.js"></script>
 
 </head>
 
@@ -100,6 +105,16 @@
 			<p>
 				Remember, this isn't a 'Use this, its great!', it's simply a way I found to improve my workflow and cut down on repetitive tasks in every project. Feel free to use/abuse and hack into something that fits your workflow.
 			</p>
+		</section>
+		
+		<hr>
+		
+		<section>
+			<h3>Adaptive Images</h3>
+			<p>
+				Adaptive images is simply a small PHP script that resizes images based on the screen resolution. This prevents users on mobile devices downloading full size images meant for web. I.E: Web image = 500kb, Mobile image = 30kb.
+			</p>
+			<img src="ai-images/workless.jpg" alt="Workless" />
 		</section>
 		
 		<hr>
@@ -472,8 +487,8 @@
   <script>window.jQuery || document.write('<script src="js/libs/jquery.js"><\/script>')</script>
 
   <!-- Scripts -->
-  <script defer src="js/plugins.js"></script>
-  <script defer src="js/script.js"></script>
+  <script defer src="assets/js/plugins.js"></script>
+  <script defer src="assets/js/script.js"></script>
   <!-- End Scripts -->
 
   <!-- Change UA-XXXXX-X to be your site's ID -->
