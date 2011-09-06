@@ -1515,7 +1515,7 @@ Ensure your main styling comes before this!
 -------------------------------------------------------------------------------------------------------
 */
 
-@media only screen and (min-width: 480px) {
+@media only screen and (min-width: 481px) {
 	
 	.container {
 		width: 480px;
@@ -1602,7 +1602,7 @@ Ensure your main styling comes before this!
 
 }
 
-@media only screen and (min-width: 768px) {
+@media only screen and (min-width: 769px) {
 	
 	p { font-size: 14px; }
 	
@@ -1699,7 +1699,7 @@ Ensure your main styling comes before this!
 
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1025px) {
 	
 	p { font-size: 14px; }
 	
@@ -1796,7 +1796,7 @@ Ensure your main styling comes before this!
 
 }
 
-@media only screen and (min-width: 1280px) {
+@media only screen and (min-width: 1281px) {
 	
 	p { font-size: 14px; }
 	
