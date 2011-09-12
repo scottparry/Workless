@@ -1523,7 +1523,7 @@ Ensure your main styling comes before this!
 	}
 
 	#main {
-		min-width: 380px;
+		min-width: 430px;
 	}
 	
 	#main:before { /* This is to demostrate responsive sizing. Delete when ready. */
@@ -1550,52 +1550,52 @@ Ensure your main styling comes before this!
 	}
 	
 	.one_full { 
-		width: 380px; 
+		width: 430px; 
 		margin: 0; 
 		float: left; 
 	}
 
 	.one_half { 
-		width: 380px; 
+		width: 430px; 
 		margin-right: 20px; 
 		float: left; 
 	}
 	
 	.one_half:last-child { 
-		width: 380px; 
+		width: 430px; 
 		margin-right: 0; 
 	}
 
 	.one_third { 
-		width: 380px; 
+		width: 430px; 
 		margin-right: 20px; 
 		float: left; 
 	}
 	
 	.one_third:last-child { 
-		width: 380px; 
+		width: 430px; 
 		margin-right: 0; 
 	}
 
 	.two_third { 
-		width: 380px; 
+		width: 430px; 
 		margin-right: 20px; 
 		float: left; 
 	}
 	
 	.two_third:last-child { 
-		width: 380px; 
+		width: 430px; 
 		margin-right: 0; 
 	}
 
 	.one_quarter { 
-		width: 380px; 
+		width: 430px; 
 		margin-right: 20px; 
 		float: left; 
 	}
 	
 	.one_quarter:last-child { 
-		width: 380px; 
+		width: 430px; 
 		margin-right: 0;  
 	}
 
@@ -1612,7 +1612,7 @@ Ensure your main styling comes before this!
 	}
 	
 	#main {
-		width: 668px;
+		width: 718px;
 	}
 	
 	#main:before { /* This is to demostrate responsive sizing. Delete when ready. */
@@ -1648,52 +1648,52 @@ Ensure your main styling comes before this!
 	}
 	
 	.one_full { 
-		width: 668px; 
+		width: 718px; 
 		margin: 0; 
 		float: left; 
 	}
 
 	.one_half { 
-		width: 294px; 
+		width: 339px; 
 		margin-right: 40px; 
 		float: left; 
 	}
 	
 	.one_half:last-child { 
-		width: 294px; 
+		width: 339px; 
 		margin-right: 0; 
 	}
 
 	.one_third { 
-		width: 202px; 
+		width: 226px; 
 		margin-right: 20px; 
 		float: left; 
 	}
 	
 	.one_third:last-child { 
-		width: 202px; 
+		width: 226px; 
 		margin-right: 0; 
 	}
 
 	.two_third { 
-		width: 424px; 
+		width: 472px; 
 		margin-right: 20px; 
 		float: left; 
 	}
 	
 	.two_third:last-child { 
-		width: 424px; 
+		width: 472px; 
 		margin-right: 0; 
 	}
 
 	.one_quarter { 
-		width: 147px; 
+		width: 164px; 
 		margin-right: 20px; 
 		float: left; 
 	}
 	
 	.one_quarter:last-child { 
-		width: 147px; 
+		width: 164px; 
 		margin-right: 0;  
 	}
 
@@ -1709,7 +1709,7 @@ Ensure your main styling comes before this!
 	}
 	
 	#main {
-		width: 924px;
+		width: 974px;
 	}
 	
 	#main:before { /* This is to demostrate responsive sizing. Delete when ready. */
@@ -1745,52 +1745,52 @@ Ensure your main styling comes before this!
 	}
 	
 	.one_full { 
-		width: 924px; 
+		width: 974px; 
 		margin: 0; 
 		float: left; 
 	}
 
 	.one_half { 
-		width: 412px; 
+		width: 462px; 
 		margin-right: 50px; 
 		float: left; 
 	}
 	
 	.one_half:last-child { 
-		width: 412px; 
+		width: 462px; 
 		margin-right: 0; 
 	}
 
 	.one_third { 
-		width: 288px; 
+		width: 311px; 
 		margin-right: 20px; 
 		float: left; 
 	}
 	
 	.one_third:last-child { 
-		width: 288px; 
+		width: 311px; 
 		margin-right: 0; 
 	}
 
 	.two_third { 
-		width: 596px; 
+		width: 642px; 
 		margin-right: 20px; 
 		float: left; 
 	}
 	
 	.two_third:last-child { 
-		width: 596px; 
+		width: 642px; 
 		margin-right: 0; 
 	}
 
 	.one_quarter { 
-		width: 211px; 
+		width: 228px; 
 		margin-right: 20px; 
 		float: left; 
 	}
 	
 	.one_quarter:last-child { 
-		width: 211px; 
+		width: 228px; 
 		margin-right: 0;  
 	}
 
@@ -1806,7 +1806,7 @@ Ensure your main styling comes before this!
 	}
 	
 	#main {
-		width: 1180px;
+		width: 1230px;
 	}
 	
 	#main:before { /* This is to demostrate responsive sizing. Delete when ready. */
@@ -1836,52 +1836,52 @@ Ensure your main styling comes before this!
 	}
 	
 	.one_full { 
-		width: 1180px; 
+		width: 1230px; 
 		margin: 0; 
 		float: left; 
 	}
 
 	.one_half { 
-		width: 540px; 
+		width: 590px; 
 		margin-right: 50px; 
 		float: left; 
 	}
 	
 	.one_half:last-child { 
-		width: 540px; 
+		width: 590px; 
 		margin-right: 0; 
 	}
 
 	.one_third { 
-		width: 373px; 
+		width: 396px; 
 		margin-right: 20px; 
 		float: left; 
 	}
 	
 	.one_third:last-child { 
-		width: 373px; 
+		width: 396px; 
 		margin-right: 0; 
 	}
 
 	.two_third { 
-		width: 766px; 
+		width: 812px; 
 		margin-right: 20px; 
 		float: left; 
 	}
 	
 	.two_third:last-child { 
-		width: 766px; 
+		width: 812px; 
 		margin-right: 0; 
 	}
 
 	.one_quarter { 
-		width: 275px; 
+		width: 292px; 
 		margin-right: 20px; 
 		float: left; 
 	}
 	
 	.one_quarter:last-child { 
-		width: 275px; 
+		width: 292px; 
 		margin-right: 0;  
 	}
 }
