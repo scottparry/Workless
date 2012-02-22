@@ -1,0 +1,250 @@
+<!doctype html>
+
+<!--[if lt IE 7]> 
+	<html class="nojs ms lt_ie7" lang="en"> 
+<![endif]-->
+
+<!--[if IE 7]>    
+	<html class="nojs ms ie7" lang="en"> 
+<![endif]-->
+
+<!--[if IE 8]>    
+	<html class="nojs ms ie8" lang="en"> 
+<![endif]-->
+
+<!--[if gt IE 8]> 
+	<html class="nojs ms" lang="en"> 
+<![endif]-->
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="">
+    <meta name="author" content="">
+	
+	<!-- Mobile Viewport -->
+    <meta name="viewport" content="width=device-width">
+
+	<title>Workless v2.0</title>
+
+    <!-- styles -->
+    <link href="assets/css/plugins.css" rel="stylesheet">
+	<link href="assets/css/workless.css" rel="stylesheet">
+	<link href="assets/css/application.css" rel="stylesheet">
+	<link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- Favicon and Touch Icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png">
+	
+	<!-- All JavaScript at the bottom, except Modernizr -->
+  	<script type="text/javascript" src="assets/js/modernizr.js"></script>
+</head>
+
+<body class="noise" id="top" onload="prettyPrint()">
+
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6 -->
+<!--[if lt IE 7]>
+	<p>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+<![endif]-->
+
+	<!-- navbar -->
+    <div class="navbar navbar-fixed-top">
+		<div class="wrapper">
+			<a class="logo" href="./index.html">Workless v2.0</a>
+			
+			<nav id="mainnav">
+            	<ul class="nav">
+              		<li><a href="./index.html">Overview</a></li>
+              		<li><a href="./scaffold.html">Scaffolding</a></li>
+					<li><a href="./helpers.html">Helpers</a></li>
+              		<li><a href="./plugins.html">Plugins</a></li>
+            	</ul>
+      		</nav>
+		</div>
+    </div>
+	<!-- /navbar -->
+
+	<!-- wrapper -->
+	<div class="wrapper">
+		
+		<!-- content -->
+		<section id="content">
+			
+			<!-- scaffold -->
+			<section id="scaffold">
+				<h4>What is Scaffolding?</h4>
+	
+				<div class="one_full">
+					<p>Although I'm not a fan of grid systems in general I have included scaffolding to help you to build simple grid layouts of varying sizes.</p>
+					<p>The main reason I don't like grid systems is not the actual system, more the naming conventions used, .box1 .grid12 .row6 .span11..WTF!?!?</p>
+					
+					<p>You'll notice the scaffolding included with Workless is much simpler with more semantic naming conventions, .one_full, .one_half, .one_third, .one_quarter. Of course this doesn't allow the flexibility of more elaborate grid systems, but I find it does what I need and at least I can remember the class names!</p>
+
+<pre>
+&lt;div class="one_full"&gt;&lt;/div&gt;
+</pre>
+				</div>
+
+				<hr>
+				
+				<div class="one_half">
+					<h4>1/2</h4>
+					<p>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst.</p>
+
+					<p>Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit.</p>
+					
+<pre>
+&lt;div class="one_half"&gt;&lt;/div&gt;
+</pre>
+				</div>
+				
+				<div class="one_half last">
+					<h4>1/2</h4>
+					<p>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh. Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst.</p>
+					<p>Nam pulvinar, odio sed rhoncus suscipit, sem diam ultrices mauris, eu consequat purus metus eu velit.</p>
+<pre>
+&lt;div class="one_half last"&gt;&lt;/div&gt;
+</pre>
+				</div>
+
+				<hr>
+				
+				<div class="one_third">
+					<h4>1/3</h4>
+					<p>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+					<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst.</p>
+
+<pre>
+&lt;div class="one_third"&gt;&lt;/div&gt;
+</pre>
+				</div>
+
+				<div class="one_third">
+					<h4>1/3</h4>
+					<p>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+					<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst.</p>
+					
+<pre>
+&lt;div class="one_third"&gt;&lt;/div&gt;
+</pre>
+				</div>
+
+				<div class="one_third last">
+					<h4>1/3</h4>
+					<p>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+					<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst.</p>
+					
+<pre>
+&lt;div class="one_third last"&gt;&lt;/div&gt;
+</pre>
+				</div>
+				
+				<hr>
+				
+				<div class="two_third">
+					<h4>2/3</h4>
+					<p>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+					<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst. Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+					<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst.</p>
+					
+<pre>
+&lt;div class="two_third"&gt;&lt;/div&gt;
+</pre>
+				</div>
+				
+				<div class="one_third last">
+					<h4>1/3</h4>
+					<p>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+					<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst.</p>
+					
+<pre>
+&lt;div class="one_third last"&gt;&lt;/div&gt;
+</pre>
+				</div>
+
+				<hr>
+				
+				<div class="one_quarter">
+					<h4>1/4</h4>
+					<p>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+					<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst.</p>
+					
+<pre>
+&lt;div class="one_quarter"&gt;&lt;/div&gt;
+</pre>
+				</div>
+				
+				<div class="one_quarter">
+					<h4>1/4</h4>
+					<p>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+					<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst.</p>
+				
+<pre>
+&lt;div class="one_quarter"&gt;&lt;/div&gt;
+</pre>
+				</div>
+				
+				<div class="one_quarter">
+					<h4>1/4</h4>
+					<p>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+					<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst.</p>
+					
+<pre>
+&lt;div class="one_quarter"&gt;&lt;/div&gt;
+</pre>
+				</div>
+				
+				<div class="one_quarter last">
+					<h4>1/4</h4>
+					<p>Nam vestibulum, arcu sodales feugiat consectetur, nisl orci bibendum elit, eu euismod magna sapien ut nibh.</p>
+					<p>Donec semper quam scelerisque tortor dictum gravida. In hac habitasse platea dictumst.</p>
+					
+<pre>
+&lt;div class="one_quarter last"&gt;&lt;/div&gt;
+</pre>
+				</div>
+	 		</section>
+			<!-- /scaffold -->
+			
+	</section>
+	<!-- /content -->
+	
+</div>
+<!-- /wrapper -->
+
+<!-- footer -->
+<footer class="footer noisedark">
+	<div class="wrapper">
+		<a class="btn primary alignright" href="#top"><i class="icon-arrow-up icon-white"></i> Back to top</a>
+	</div>
+</footer>
+<!-- /footer -->
+
+<!-- JavaScript at the bottom for fast page loading -->
+
+<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/jquery.js"><\/script>')</script>
+
+<!-- scripts  -->
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/application.js"></script>
+<!-- /scripts -->
+
+<!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID -->
+<script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){
+		var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    	s.parentNode.insertBefore(g,s)
+	}(document,'script'));
+</script>
+
+</body>
+</html>

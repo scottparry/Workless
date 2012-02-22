@@ -1,521 +1,228 @@
 <!doctype html>
 
-<!--[if lt IE 7]> <html class="no-js ie6 oldie" lang="en"> <![endif]-->
-<!--[if IE 7]>    <html class="no-js ie7 oldie" lang="en"> <![endif]-->
-<!--[if IE 8]>    <html class="no-js ie8 oldie" lang="en"> <![endif]-->
-<!--[if gt IE 8]> <html class="no-js" lang="en"> 		   <![endif]-->
+<!--[if lt IE 7]> 
+	<html class="nojs ms lt_ie7" lang="en"> 
+<![endif]-->
+
+<!--[if IE 7]>    
+	<html class="nojs ms ie7" lang="en"> 
+<![endif]-->
+
+<!--[if IE 8]>    
+	<html class="nojs ms ie8" lang="en"> 
+<![endif]-->
+
+<!--[if gt IE 8]> 
+	<html class="nojs ms" lang="en"> 
+<![endif]-->
+
+<html lang="en">
 
 <head>
 	<meta charset="utf-8">
-
-  	<!-- You can use .htaccess and remove these lines to avoid edge case issues. -->
-  	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-
-  	<title>❖ Workless</title>
-
-  	<meta name="author" content="">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 	<meta name="description" content="">
-	<meta name="keywords" content="">
-
-  	<!-- Mobile viewport optimized -->
-  	<meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="author" content="">
 	
-	<!-- Adaptive Images -->
-	<script type="text/javascript">
-	var device_width=screen.width;var device_height=screen.height;if(device_width>device_height){ai_width=device_width;}else{ai_width=device_height;}document.cookie='resolution='+ai_width+'; expires=; path=/';
-	</script>
+	<!-- Mobile Viewport -->
+    <meta name="viewport" content="width=device-width">
 
-  	<!-- CSS. No need to specify the media attribute unless specifically targeting a media type, leaving blank implies media=all -->
-  	<link rel="stylesheet" href="assets/css/plugins.css">
-	<link rel="stylesheet" href="assets/css/workless.css">
-  	<!-- End CSS-->
+	<title>Workless v2.0</title>
 
-	<!-- Googlelicious -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Sans:regular,bold" type="text/css" />
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Droid+Serif:regular,bold" type="text/css" />
+    <!-- styles -->
+    <link href="assets/css/plugins.css" rel="stylesheet">
+	<link href="assets/css/workless.css" rel="stylesheet">
+	<link href="assets/css/application.css" rel="stylesheet">
+	<link href="assets/css/responsive.css" rel="stylesheet">
 
-	<!-- Load up some favicons -->
-  	<link rel="shortcut icon" href="favicon.ico">
-  	<link rel="apple-touch-icon" href="apple-touch-icon.png">
-  	<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png">
-  	<link rel="apple-touch-icon" href="apple-touch-icon-57x57-precomposed.png">
-  	<link rel="apple-touch-icon" href="apple-touch-icon-72x72-precomposed.png">
-  	<link rel="apple-touch-icon" href="apple-touch-icon-114x114-precomposed.png">
-
-  	<!-- All JavaScript at the bottom, except for Modernizr / Respond. Modernizr enables HTML5 elements & feature detects; Respond is a polyfill for min/max-width CSS3 Media Queries -->
-  	<script src="assets/js/libs/modernizr.js"></script>
-
+    <!-- Favicon and Touch Icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png">
+	
+	<!-- All JavaScript at the bottom, except Modernizr -->
+  	<script type="text/javascript" src="assets/js/modernizr.js"></script>
 </head>
 
-<body onload="prettyPrint()">
+<body class="noise" id="top" onload="prettyPrint()" data-spy="scroll" data-target=".subnav" data-offset="50">
 
-<!-- Topbar -->
-<div class="topbar">
-	<ul>
-		<li><a href="#scaffold">Scaffolding</a></li>
-		<li><a href="#help">Helpers</a></li>
-		<li><a href="#">Github</a></li>
-	</ul>
-</div>
-<!-- End top bar-->
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6 -->
+<!--[if lt IE 7]>
+	<p>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+<![endif]-->
 
-<!-- container -->
-<div class="container">	
-	
-	<!-- main -->
-	<div id="main">
-		
-		<hr>
-		
-		<header>
-			<div id="logo">
-				<a href="#"><h1>❖ Workless</h1></a>
-			</div>
-		
-			<nav id="primary">
-				<ul>
-					<li>
-						<a href="#">Options</a>
-							<ul>
-								<li><a href="#scaffold">Scaffolding</a></li>
-								<li><a href="#help">Helpers</a></li>
-							</ul>
-					</li>
-					<li><a href="#">Github</a></li>
-				</ul>
-			</nav>
-   		</header>
-
-		<hr>
-
-		<section>
-			<h3>What is Workless?</h3>
-
-			<p>
-				When designing/developing a new application we all have our own way of doing things, using frameworks, grid systems, saved code snippets etc..., but what we usually have in common is the fact that we end up repeating lots of tasks for each project.
-			</p>
-			<p>
-				Workless aims to help you by offering a basic HTML5 base template filled with goodies to get you up and running on every project you do as quickly as possible.
-			</p>
-			<p>
-				At it's core Workless is simply a mashup of all the things I like about <a class="tooltip" title="Visit HTML5 Boilerplate" href="https://github.com/paulirish/html5-boilerplate" title="HTML5 Boilerplate">HTML5 Boilerplate</a> and <a class="tooltip" title="Visit Twitter Bootstrap" href="https://github.com/twitter/bootstrap" title="Twitter Bootstrap">Twitter Bootstrap</a> with some additional stuff which I tend to use on every project such as PrettyPhoto for lightboxes, Tipsy for tooltips, Prettify for styling and colorizing code and various other bits and pieces.
-			</p>
-			<p>
-				Workless comes with responsive media queries setup for <span class="highlight">'Mobile Portrait'</span>, <span class="highlight">'Mobile Landscape'</span>, <span class="highlight">'Tablet Portrait'</span>, <span class="highlight">'Tablet Landscape/Small Browser'</span> and <span class="highlight">'Large Browser'</span>, you can demo the effect right now by simply scaling your browser window. The blue button above the logo will show what query is running.
-			<p>
-				Remember, this isn't a 'Use this, its great!', it's simply a way I found to improve my workflow and cut down on repetitive tasks in every project. Feel free to use/abuse and hack into something that fits your workflow.
-			</p>
-		</section>
-		
-		<hr>
-		
-		<section>
-			<h3>Adaptive Images</h3>
-			<p>
-				Adaptive images is simply a small PHP script that resizes images based on the screen resolution. This prevents users on mobile devices downloading full size images meant for web. I.E: Web image = 500kb, Mobile image = 30kb.
-			</p>
-			<img src="ai-images/workless.jpg" alt="Workless" />
-		</section>
-		
-		<hr>
-		
-		<!-- Scaffolding -->
-		<section id="scaffold">
-    		<h3>Scaffolding</h3>
-
-			<p>
-				Scaffolding simply refers to referencing an available class that helps you build(scaffold) layouts/grids as quickly as possible!
-			</p>
+	<!-- navbar -->
+    <div class="navbar navbar-fixed-top">
+		<div class="wrapper">
+			<a class="logo" href="./index.html">Workless v2.0</a>
 			
-			<hr>
-
-            <div>
-      			<div class="one_third">
-          			<h4>Default grid system</h4>
-          			<p>
-    					Although I'm not a fan of grid systems and prefer to hand code elements, I have included a basic grid system with Workless to create columns. I'm also not a fan of the naming conventions in most grid systems: 'grid_12 row_6 pull_7'
-    				</p> 
-    				<p>
-    					WTF!?!
-    				</p>
-    				<p>
-    					I prefer a cleaner, semantic, logical naming system for classes, such as 'one_half' or 'one_third' etc...
-    				</p>
-        		</div>
-        			
-    			<div class="two_third">
-          			<h4>Example markup</h4>
-
-          			<p>Creating layouts with grids is easy, simply add the relevant class to the div and away you go!</p>
-
-<pre class="prettyprint linenums">
-&lt;div class="one_third"&gt;
-	...
-&lt;/div&gt;
-                        					
-&lt;div class="two_third"&gt;
-	...	
-&lt;/div&gt;
-</pre>
-        		</div>
-            </div>
-
-			<hr>
-
-			<div class="one_full">
-      			<h4>1 Grid</h4>
-      			<p>
-					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.		</p>
-    		</div>
-
-			<hr>
-
-            <div>
-    			<div class="one_half">
-          			<h4>&frac12; Grid</h4>
-          			<p>
-    					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
-        		</div>
-
-    			<div class="one_half">
-          			<h4>&frac12; Grid</h4>
-          			<p>
-    					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
-        		</div>
-            </div>
-
-			<hr>
-
-            <div>
-    			<div class="one_third">
-          			<h4>&frac13; Grid</h4>
-          			<p>
-    					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
-        		</div>
-
-    			<div class="one_third">
-          			<h4>&frac13; Grid</h4>
-          			<p>
-    					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
-        		</div>
-
-    			<div class="one_third">
-          			<h4>&frac13; Grid</h4>
-          			<p>
-    					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
-        		</div>
-            </div>
-
-			<hr>
-
-            <div>
-    			<div class="one_third">
-          			<h4>&frac13; Grid</h4>
-          			<p>
-    					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
-        		</div>
-
-    			<div class="two_third">
-          			<h4>&frac23; Grid</h4>
-          			<p>
-    					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
-        		</div>
-            </div>
-
-			<hr>
-
-            <div>
-    			<div class="one_quarter">
-          			<h4>&frac14; Grid</h4>
-          			<p>
-    					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
-        		</div>
-
-    			<div class="one_quarter">
-          			<h4>&frac14; Grid</h4>
-          			<p>
-    					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
-        		</div>
-    			
-    			<div class="one_quarter">
-          			<h4>&frac14; Grid</h4>
-          			<p>
-    					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
-        		</div>
-
-    			<div class="one_quarter">
-          			<h4>&frac14; Grid</h4>
-          			<p>
-    					Donec congue lacinia dui, a porttitor lectus condimentum laoreet. Nunc eu ullamcorper orci. Quisque eget odio ac lectus vestibulum faucibus eget in metus. In pellentesque faucibus vestibulum.</p>
-        		</div>
-            </div>
-
-		</section>
-		
-		<div class="hr top"><a href="#">&uarr; top</a></div>
-		
-		<section id="help">
-			<h3>Helpers</h3>
-			
-			<p>
-				Again, helpers simply reference available classes that help you to create things such as CSS3 buttons, tabs, alerts, pagination etc... Simply reference the class and away you go!
-			</p>
-			
-			<hr>
-			
-			<div class="one_full">
-				<h4>Alerts</h4>
-				<div class="one_half">
-					<div class="alert error"><a class="close" href="#">&times;</a>This is an error alert!</div>
-					<div class="alert warning"><a class="close" href="#">&times;</a>This is a warning alert!</div>
-					<div class="alert success"><a class="close" href="#">&times;</a>This is a success alert!</div>
-					<div class="alert info"><a class="close" href="#">&times;</a>This is an info alert!</div>
-				</div>
-			
-				<div class="one_half">
-					<div class="block-message error"><a class="close" href="#">&times;</a>This is a block-message error alert!</div>
-					<div class="block-message warning"><a class="close" href="#">&times;</a>This is a block-message warning alert!</div>
-					<div class="block-message success"><a class="close" href="#">&times;</a>This is a block-message success alert!</div>
-					<div class="block-message info"><a class="close" href="#">&times;</a>This is a block-message info alert!</div>
-				</div>
-			</div>
-
-			<hr>
-			
-			<div class="one_full">	
-				<div class="one_half">
-					<h4>CSS3 Buttons</h4>
-				
-					<ul>
-						<li class="btn red inline"><a href="#">Red</a></li>
-						<li class="btn orange inline"><a href="#">Orange</a></li>
-						<li class="btn green inline"><a href="#">Green</a></li>
-						<li class="btn blue inline"><a href="#">Blue</a></li>
-					</ul>
-				</div>
-			
-				<div class="one_half">
-					<h4>Pill Buttons</h4>
-				
-					<ul class="pill">
-    					<li class="active inline"><a href="#">Home</a></li>
-    					<li class="inline"><a href="#">Profile</a></li>
-    					<li class="inline"><a href="#">Messages</a></li>
-    				</ul>
-				</div>
-			</div>
-			
-			<hr>
-			
-			<div class="one_full">
-				<div class="one_half">
-					<h4>Tabs</h4>
-
-			   		<ul class="tabs">
-    					<li class="active"><a href="#">Home</a></li>
-    					<li><a href="#">Profile</a></li>
-    					<li><a href="#">Messages</a></li>
-    				</ul>
-				</div>
-			
-		    	<div class="one_half pagination">
-					<h4>Pagination</h4>
-				
-    				<ul>
-    					<li class="prev disabled"><a href="#">&larr; Prev</a></li>
-    					<li class="active"><a href="#">1</a></li>
-    					<li><a href="#">2</a></li>
-    					<li><a href="#">3</a></li>
-    					<li class="next"><a href="#">Next &rarr;</a></li>
-    				</ul>
-    			</div>
-			</div>
-			
-			<hr>
-			
-			<div class="one_full">
-    			<h4>Forms</h4>
-
-      			<p>
-					All forms are given default styles to present them in a readable and scalable way. Styles are provided for text inputs, select lists, textareas, radio buttons and checkboxes, and buttons. We also use jQuery Uniform to give selects and checkboxes some nice styling.
-				</p>
-      			
-				<form>
-					<fieldset>
-          				<legend>Example form legend</legend>
-
-             			<input name="" size="30" type="text" placeholder="Text Input" />
-						
-						<br>
-
-              			<select class="chzn" name="">
-                			<option>1</option>
-                			<option>2</option>
-                			<option>3</option>
-                			<option>4</option>
-                			<option>5</option>
-              			</select>
-
-						<br>
-
-            			<select class="chzn" name="">
-                			<option>1</option>
-                			<option>2</option>
-                			<option>3</option>
-                			<option>4</option>
-                			<option>5</option>
-              			</select>
-						
-						<br>
-
-            			<input class="disabled" name="" size="30" type="text" placeholder="Disabled input here… carry on." disabled />
-						
-						<br>
-
-              			<input class="error" name="" size="30" type="text" placeholder="Error Text Input" />
-              			<span class="help-inline">Small snippet of help text</span>
-
-        			</fieldset>
-        
-					<fieldset>
-          				<legend>Example form legend</legend>
-              			<div class="input-prepend">
-                			<span class="">@</span>
-                			<input name="" size="16" type="text" placeholder="Text Input" />
-              			</div>
-
-              			<div class="input-prepend">
-                			<input type="checkbox" name="" value="" />
-                			<input name="" size="16" type="text" placeholder="Text Input" />
-              			</div>
-
-              			<div class="input-append">
-                			<input class="" name="" size="16" type="text" placeholder="Text Input" />
-                			<input type="checkbox" name="" checked="checked" />
-              			</div>
-    
-              			<input class="input-file" name="fileInput" type="file" />
-        			</fieldset>
-
-        			<fieldset>
-          				<legend>Example form legend</legend>
-            			<label>List of Options</label>
-              			<ul class="inputs-list">
-                			<li>
-                  				<label>
-                    				<input type="checkbox" name="" value="" />
-                    				<span>Option one is this and that&mdash;be sure to include why it’s great</span>
-                  				</label>
-                			</li>
-
-                			<li>
-                  				<label>
-                    				<input type="checkbox" name="" value="" />
-                    				<span>Option two can also be checked and included in form results</span>
-                  				</label>
-                			</li>
-                			
-							<li>
-                  				<label>
-                    				<input type="checkbox" name="" value="" />
-                    				<span>Option three can&mdash;yes, you guessed it&mdash;also be checked and included in form results</span>
-                  				</label>
-                			</li>
-                				
-							<li>
-                  				<label class="disabled">
-                    				<input type="checkbox" name="" value="" disabled />
-                    				<span>Option four cannot be checked as it is disabled.</span>
-                  				</label>
-                			</li>
-              			</ul>
-
-            			<label>Date Range</label>
-              			<div class="inline-inputs">
-                			<input type="text" placeholder="May 1, 2011" />
-                			<input type="text" placeholder="12:00am" />
-                			to
-                			<input type="text" placeholder="May 8, 2011" />
-                			<input type="text" placeholder="11:59pm" />
-                			<span class="help-inline">All times are shown as GMT.</span>
-              			</div>
-
-            			<label for="textarea">Textarea</label>
-            			<div class="input">
-              				<textarea class="" id="textarea" name="textarea"></textarea>
-            			</div>
-
-            			<label>List of Options</label>
-              			<ul class="inputs-list">
-                			<li>
-                  				<label>
-                    				<input type="checkbox" name="optionsCheckboxes" value="option1" />
-                    				<span>Option one is this and that&mdash;be sure to include why it’s great</span>
-                  				</label>
-                			</li>
-
-                			<li>
-                  				<label>
-                    				<input type="checkbox" name="optionsCheckboxes" value="option2" />
-                    				<span>Option two can also be checked and included in form results</span>
-                  				</label>
-                			</li>
-              			</ul>
-
-						<p>
-      						<input type="submit" value="Submit" />
-      						&nbsp;
-      						<input type="button" value="Button" />
-      						&nbsp;
-      						<input type="reset" value="Reset" />
-      						&nbsp;
-      						<button>Button</button>
-    					</p>
-
-
-          				<div class="actions">
-            				<button type="submit" class="btn blue">Save Changes</button>&nbsp;<button type="reset" class="btn gray">Cancel</button>
-          				</div>
-        			</fieldset>
-      			</form>
-    		</div>
-			
-		</section>
-		
-		<footer>
-			<p>Copyright &copy; 2011. All Rights Reserved.</p>
-    	</footer>
-		
+			<nav id="mainnav">
+            	<ul class="nav">
+              		<li><a href="./index.html">Overview</a></li>
+              		<li><a href="./scaffold.html">Scaffolding</a></li>
+					<li><a href="./helpers.html">Helpers</a></li>
+              		<li><a href="./plugins.html">Plugins</a></li>
+            	</ul>
+      		</nav>
+		</div>
     </div>
-	<!-- /main -->
+	<!-- /navbar -->
 
+	<!-- wrapper -->
+	<div class="wrapper">
+		
+		<!-- content -->
+		<section id="content">
+			
+			<header>
+				<div class="subnav">
+					<div class="wrapper">
+    					<ul class="nav">
+      						<li><a href="#about">About</a></li>
+      						<li><a href="#structure">Structure</a></li>
+      						<li><a href="#usage">Usage</a></li>
+    					</ul>
+					</div>
+  				</div>
+			</header>
+			
+			<!-- about -->
+			<section id="about">
+				<h4>What is Workless?</h4>
+	
+				<p>When designing/developing a new application we all have our own way of doing things. We all use certain frameworks, grid systems, plugins, code snippets etc...but what we do have in common is the fact that 99% of the time we encounter repetitive tasks that are the same on every project, enter Workless.</p>
+
+				<p>Workless aims to help you by offering a basic static HTML5 / CSS3 / Responsive base template filled with goodies to get you up and running on every project you do as quickly as possible.</p>
+
+				<p>At it's core Workless is simply a mashup of all the things I like about H5BP and Twitter Bootstrap with some additional extras which I tend to use on every project such as PrettyPhoto for lightboxes, Tipsy for tooltips, Prettify for syntax highlighting and various other bits and pieces.</p> <p>I've removed a lot of stuff from both Bootstrap and H5BP to keep Workless lightweight and easy-to-use and also because it was stuff that I simply don't use/need.</p>
+
+				<p>Workless comes with responsive media queries setup for 'Mobile Portrait', 'Mobile Landscape', 'Tablet Portrait', 'Tablet Landscape/Small Browser' and 'Large Browser', you can demo the effect right now by simply scaling your browser window.</p>
+				<p>Remember, this isn't a 'Use this, its great!', it's simply a way I found to improve my workflow and cut down on repetitive tasks in every project. Feel free to use/abuse and hack into something that fits your workflow.</p>
+	 		</section>
+			<!-- /about -->
+
+			<hr>
+			
+			<!-- stucture -->
+			<section id="structure">
+				<div class="wrapper">
+					<h4>File Structure</h4>
+			
+					<p>Workless' file structure is very simple, checkout below:<p>
+			
+<pre>
+workless
+	index.html // this file
+	assets/
+		css/
+			application.css // application specific styling
+			plugins.css // styles for any plugins used
+			workless.css // presets such as scaffolding and helpers
+			responsive.css // responsive media queries
+		img/ 
+		js/
+			application.js // application specific javascript
+			jquery.js // jquery
+			plugins.js // javascript for any plugins used
+</pre>
+
+				</div>
+			</section>
+			<!-- /structure -->
+
+			<hr>
+			
+			<!-- usage -->
+			<section id="usage">
+				<div class="wrapper">
+					<h4>Usage</h4>
+				
+				<p>Using Workless is simple. You can either use the default index.html that ships with it as a template, or you can just include the CSS and JS in your own application:</p>
+
+<pre>
+CSS
+
+&lt;link href="assets/css/plugins.css" rel="stylesheet"&gt;
+&lt;link href="assets/css/workless.css" rel="stylesheet"&gt;
+&lt;link href="assets/css/application.css" rel="stylesheet"&gt;
+</pre>
+
+<pre>
+Javascript
+
+&lt;!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline --&gt;
+&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"&gt;&lt;/script&gt;
+&lt;script&gt;window.jQuery || document.write('&lt;script src="assets/js/jquery.js"&gt;&lt;\/script>')&lt;/script&gt;
+
+&lt;!-- scripts concatenated and minified via build script --&gt;
+&lt;script src="assets/js/plugins.js"&gt;&lt;/script&gt;
+&lt;script src="assets/js/application.js"&gt;&lt;/script&gt;
+&lt;!-- end scripts --&gt;
+</pre>
+
+				</div>
+			</section>
+			<!-- /usage -->
+			
+			<hr>
+			
+			<!-- credits -->
+			<section id="credits">
+				<h4>Credits</h4>
+				
+				<p>H5BP <a href="http://paulirish.com/" target="_blank">Paul Irish</a>, <a href="http://nimbupani.com/" target="_blank">Divya Manian</a>, <a href="http://www.blog.highub.com/" target="_blank">Shichuan</a>, <a href="http://mathiasbynens.be/" target="_blank">Mathias Bynens</a>, <a href="http://nicolasgallagher.com/" target="_blank">Nicolas Gallagher</a>.</p>
+				<p>Twitter Bootstrap <a href="http://twitter.com/twitter" target="_blank">@twitter</a>, <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p> 
+				<p>PrettyPhoto <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/documentation/" target="_blank">No Margin for Errors</a>.</p>
+				<p>Tipsy <a href="http://onehackoranother.com/projects/jquery/tipsy/" target="_blank">One Hack or Another</a>.</p>
+				<p>Icons from <a href="http://glyphicons.com" target="_blank">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>.</p>
+			</section>
+			<!-- /credits -->
+			
+			<hr>
+			
+			<!-- license -->
+			<section id="license">
+				<h4>License</h4>
+				
+				<p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>.</p>
+			</section>
+			<!-- /license -->
+			
+	</section>
+	<!-- /content -->
+	
 </div>
-<!-- /container -->
+<!-- /wrapper -->
 
-  <!-- JavaScript at the bottom for fast page loading -->
+<!-- footer -->
+<footer class="footer noisedark">
+	<div class="wrapper">
+		<a class="btn primary alignright" href="#top"><i class="icon-arrow-up icon-white"></i> Back to top</a>
+	</div>
+</footer>
+<!-- /footer -->
 
-  <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
-  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.6.2/jquery.min.js"></script>
-  <script>window.jQuery || document.write('<script src="js/libs/jquery.js"><\/script>')</script>
+<!-- JavaScript at the bottom for fast page loading -->
 
-  <!-- Scripts -->
-  <script defer src="assets/js/plugins.js"></script>
-  <script defer src="assets/js/script.js"></script>
-  <!-- End Scripts -->
+<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/jquery.js"><\/script>')</script>
 
-  <!-- Change UA-XXXXX-X to be your site's ID -->
-  <script>
-    window._gaq = [['_setAccount','UAXXXXXXXX1'],['_trackPageview'],['_trackPageLoadTime']];
-    Modernizr.load({
-      load: ('https:' == location.protocol ? '//ssl' : '//www') + '.google-analytics.com/ga.js'
-    });
-  </script>
+<!-- scripts  -->
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/application.js"></script>
+<!-- /scripts -->
 
-  <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you want to support IE 6. chromium.org/developers/how-tos/chrome-frame-getting-started -->
-  <!--[if lt IE 7 ]>
-    <script src="//ajax.googleapis.com/ajax/libs/chrome-frame/1.0.3/CFInstall.min.js"></script>
-    <script>window.attachEvent('onload',function(){CFInstall.check({mode:'overlay'})})</script>
-  <![endif]-->
-  
+<!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID -->
+<script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){
+		var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    	s.parentNode.insertBefore(g,s)
+	}(document,'script'));
+</script>
+
 </body>
 </html>

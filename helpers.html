@@ -1,0 +1,517 @@
+<!doctype html>
+
+<!--[if lt IE 7]> 
+	<html class="nojs ms lt_ie7" lang="en"> 
+<![endif]-->
+
+<!--[if IE 7]>    
+	<html class="nojs ms ie7" lang="en"> 
+<![endif]-->
+
+<!--[if IE 8]>    
+	<html class="nojs ms ie8" lang="en"> 
+<![endif]-->
+
+<!--[if gt IE 8]> 
+	<html class="nojs ms" lang="en"> 
+<![endif]-->
+
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="description" content="">
+    <meta name="author" content="">
+	
+	<!-- Mobile Viewport -->
+    <meta name="viewport" content="width=device-width">
+
+	<title>Workless v2.0</title>
+
+    <!-- styles -->
+    <link href="assets/css/plugins.css" rel="stylesheet">
+	<link href="assets/css/workless.css" rel="stylesheet">
+	<link href="assets/css/application.css" rel="stylesheet">
+	<link href="assets/css/responsive.css" rel="stylesheet">
+
+    <!-- Favicon and Touch Icons -->
+    <link rel="shortcut icon" href="assets/ico/favicon.ico">
+    <link rel="apple-touch-icon" href="assets/ico/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="assets/ico/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="assets/ico/apple-touch-icon-114x114.png">
+	
+	<!-- All JavaScript at the bottom, except Modernizr -->
+  	<script type="text/javascript" src="assets/js/modernizr.js"></script>
+</head>
+
+<body class="noise" id="top" onload="prettyPrint()" data-spy="scroll" data-target=".subnav" data-offset="50">
+
+<!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6 -->
+<!--[if lt IE 7]>
+	<p>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
+<![endif]-->
+
+	<!-- navbar -->
+    <div class="navbar navbar-fixed-top">
+		<div class="wrapper">
+			<a class="logo" href="./index.html">Workless v2.0</a>
+			
+			<nav id="mainnav">
+            	<ul class="nav">
+              		<li><a href="./index.html">Overview</a></li>
+              		<li><a href="./scaffold.html">Scaffolding</a></li>
+					<li><a href="./helpers.html">Helpers</a></li>
+              		<li><a href="./plugins.html">Plugins</a></li>
+            	</ul>
+      		</nav>
+		</div>
+    </div>
+	<!-- /navbar -->
+
+	<!-- wrapper -->
+	<div class="wrapper">
+		
+		<!-- content -->
+		<section id="content">
+			
+			<header>
+				<div class="subnav">
+					<div class="wrapper">
+    					<ul class="nav">
+							<li><a href="#backgrounds">Backgrounds</a></li>
+      						<li><a href="#buttons">Buttons</a></li>
+      						<li><a href="#tabs">Tabs</a></li>
+      						<li><a href="#pills">Pills</a></li>
+							<li><a href="#pagination">Pagination</a></li>
+							<li><a href="#alerts">Alerts</a></li>
+							<li><a href="#breadcrumbs">Breadcrumbs</a></li>
+							<li><a href="#images">Images</a></li>
+							<li><a href="#icons">Icons</a></li>
+    					</ul>
+					</div>
+  				</div>
+			</header>
+			
+			<div class="one_full">
+				<h4>Elements</h4>
+				
+				<p>These are some of the built-in classes that you can use in your <span class="highlight">applications</span>. Buttons, alerts, pagination, breadcrumbs, icons and more. Some items are automatic, such as syntax highlighting, just wrap your code in pre tags and it will be automatically formatted!</p>
+				<p>The best way to find out all of the available helpers is to take a look at the source and play with the <span class="highlight">framework</span>, trying to list every possible option would be endless. You can mix and match items as well, such as adding an icon inside a button etc... This text also contains <span class="highlight">highlights</span> and <span class="highlight tooltip-s" title="This is a tooltip">tooltips</span>...give 'em a go!</p>
+			</div>
+			
+			<hr>
+			
+			<!-- backgrounds -->
+			<section id="backgrounds">
+				<div class="one_half">
+					<h4>Backgrounds</h4>
+					<p>I've also decided to add a few repeatable background patterns in this version of Workless as I've been using them lots lately. so yeah. You can use them anywhere! I'm using them here is this demo for the body and footer.</p>
+				</div>
+				
+				<div class="one_half last">
+					<h4>Usage</h4>
+<pre>
+&lt;body class="blueish"&gt;
+&lt;body class="noise"&gt;
+&lt;footer class="noisedark"&gt;
+&lt;footer class="classydark"&gt;
+</pre>
+				</div>
+			</section>
+			<!-- /backgrounds -->
+			
+			<hr>
+			
+			<!-- buttons -->
+			<section id="buttons">
+				<div class="one_half">
+					<h4>Buttons</h4>
+					
+					<a href="#" class="btn default">Default</a>
+					<a href="#" class="btn primary">Primary</a>
+					<a href="#" class="btn warning">Warning</a>
+					<a href="#" class="btn danger">Danger</a>
+					<a href="#" class="btn success">Success</a>
+					<a href="#" class="btn info">Info</a>
+				</div>
+				<div class="one_half last">
+					<h4>Usage</h4>
+<pre>
+&lt;a href="#" class="btn default"&gt;Default&lt;/a&gt;
+&lt;a href="#" class="btn primary"&gt;Primary&lt;/a&gt;
+&lt;a href="#" class="btn warning"&gt;Warning&lt;/a&gt;
+&lt;a href="#" class="btn danger"&gt;Danger&lt;/a&gt;
+&lt;a href="#" class="btn success"&gt;Success&lt;/a&gt;
+&lt;a href="#" class="btn info"&gt;Info&lt;/a&gt;
+</pre>
+				</div>
+	 		</section>
+			<!-- /buttons -->
+			
+			<hr>
+			
+			<!-- tabs -->
+			<section id="tabs">
+				<div class="one_half">
+					<h4>Tabs</h4>
+
+			   		<ul class="tabs">
+    					<li class="active"><a href="#">Active</a></li>
+    					<li><a href="#">Tab</a></li>
+    					<li><a href="#">Tab</a></li>
+						<li><a href="#">Tab</a></li>
+    					<li><a href="#">Tab</a></li>
+    				</ul>
+				</div>
+				<div class="one_half last">
+					<h4>Usage</h4>
+<pre>
+&lt;li class="active"&gt;&lt;a href="#"&gt;Active&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;Tab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;Tab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;Tab&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;&lt;a href="#"&gt;Tab&lt;/a&gt;&lt;/li&gt;
+</pre>
+				</div>
+			</section>
+			<!-- /tabs -->
+			
+			<hr>
+			
+			<!-- pills -->
+			<section id="pills">
+				<div class="one_half">
+					<h4>Pills</h4>
+
+			   		<ul>
+    					<li class="pill"><a href="#">Pill Button</a></li>
+    					<li class="pill"><a href="#">Pill Button</a></li>
+						<li class="pill"><a href="#">Pill Button</a></li>
+    				</ul>
+				</div>
+				<div class="one_half last">
+					<h4>Usage</h4>
+<pre>
+&lt;li class="pill"&gt;&lt;a href="#"&gt;Pill Button&lt;/a&gt;&lt;/li&gt;
+&lt;li class="pill"&gt;&lt;a href="#"&gt;Pill Button&lt;/a&gt;&lt;/li&gt;
+&lt;li class="pill"&gt;&lt;a href="#"&gt;Pill Button&lt;/a&gt;&lt;/li&gt;
+</pre>
+				</div>
+			</section>
+			<!-- /pills -->
+			
+			<hr>
+			
+			<!-- pagination -->
+			<section id="pagination">
+				<div class="one_half">
+					<h4>Pagination</h4>
+					
+			   		<div class="pagination">
+						<ul>
+							<li><a href="#">&laquo;</a></li>
+    						<li><a href="#">1</a></li>
+    						<li><a href="#">2</a></li>
+							<li><a href="#">3</a></li>
+							<li><a href="#">4</a></li>
+							<li><a href="#">5</a></li>
+							<li><a href="#">6</a></li>
+							<li><a href="#">7</a></li>
+							<li><a href="#">...</a></li>
+							<li><a href="#">&raquo;</a></li>
+    					</ul>
+					</div>
+				</div>
+				<div class="one_half last">
+					<h4>Usage</h4>
+<pre>
+&lt;div class="pagination"&gt;
+  &lt;ul&gt;
+    &lt;li&gt;&lt;a href="#"&gt;1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;3&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+</pre>
+				</div>
+			</section>
+			<!-- /pagination -->
+			
+			<hr>
+			
+			<!-- alerts -->
+			<section id="alerts">
+				<div class="one_half">
+					<h4>Alerts</h4>
+					
+					<div class="alert alert-error">Oh noes! Error.</div>
+					<div class="alert alert-warning">I'm warning you...</div>
+					<div class="alert alert-success">Yay! You did it!</div>
+					<div class="alert alert-info">Just to let you know...</div>
+					
+					<div class="block-message block-message-error">Oh noes! Error.</div>
+					<div class="block-message block-message-warning">I'm warning you...</div>
+					<div class="block-message block-message-success">Yay! You did it!</div>
+					<div class="block-message block-message-info">Just to let you know...</div>
+				</div>
+				<div class="one_half last">
+					<h4>Usage</h4>
+<pre>
+&lt;div class="alert alert-error"&gt;Oh noes! Error.&lt;/div&gt;
+&lt;div class="alert alert-warning"&gt;I'm warning you...&lt;/div&gt;
+&lt;div class="alert alert-success"&gt;Yay! You did it!&lt;/div&gt;
+&lt;div class="alert alert-info"&gt;Just to let you know...&lt;/div&gt;
+					
+&lt;div class="block-message block-message-error"&gt;Oh noes! Error.&lt;/div&gt;
+&lt;div class="block-message block-message-warning"&gt;I'm warning you...&lt;/div&gt;
+&lt;div class="block-message block-message-success"&gt;Yay! You did it!&lt;/div&gt;
+&lt;div class="block-message block-message-info"&gt;Just to let you know...&lt;/div&gt;
+</pre>
+				</div>
+			</section>
+			<!-- /alerts -->
+			
+			<hr>
+			
+			<!-- breadcrumbs -->
+			<section id="breadcrumbs">
+				<div class="one_half">
+					<h4>Breadcrumbs</h4>
+					
+					<ul class="breadcrumbs">
+    					<li><a href="#">Site</a> /</li>
+    					<li><a href="#">Page</a> /</li>
+						<li>Section</li>
+    				</ul>
+				</div>
+				<div class="one_half last">
+					<h4>Usage</h4>
+<pre>
+&lt;ul class="breadcrumbs"&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Site&lt;/a&gt; /&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Page&lt;/a&gt; /&lt;/li&gt;
+    &lt;li&gt;Section&lt;/li&gt;
+&lt;/ul&gt;
+</pre>
+				</div>
+			</section>
+			<!-- /breadcrumbs -->
+			
+			<hr>
+			
+			<!-- images -->
+			<section id="images">
+				<div class="one_full">
+					<h4>Images</h4>
+					
+					<p>These images are simply wrapped with scaffolding classes and are set to take up 100% of the div, thus making them scale down accordingly with each media query.</p>
+					
+					<div class="one_full" style="margin-bottom: 25px;">
+						<img src="assets/img/workless.jpg" alt="Workless">
+					</div>
+					
+					<div class="one_half">
+						<img src="assets/img/workless.jpg" alt="Workless">
+					</div>
+					
+					<div class="one_half last">
+						<ul class="nolist">
+							<li style="margin-bottom: 18px;" class="one_quarter"><img src="assets/img/workless.jpg" alt="Workless"></li>
+							<li style="margin-bottom: 18px;" class="one_quarter last"><img src="assets/img/workless.jpg" alt="Workless"></li>
+							<li class="one_quarter"><img src="assets/img/workless.jpg" alt="Workless"></li>
+							<li class="one_quarter last"><img src="assets/img/workless.jpg" alt="Workless"></li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			<!-- /images -->
+			
+			<hr>
+			
+			<!-- icons -->
+			<section id="icons">
+    			<h4>Icons</h4>
+
+      			<ul class="one_quarter">
+        			<li><i class="icon-glass"></i> icon-glass</li>
+        			<li><i class="icon-music"></i> icon-music</li>
+        			<li><i class="icon-search"></i> icon-search</li>
+        			<li><i class="icon-envelope"></i> icon-envelope</li>
+        			<li><i class="icon-heart"></i> icon-heart</li>
+        			<li><i class="icon-star"></i> icon-star</li>
+        			<li><i class="icon-star-empty"></i> icon-star-empty</li>
+        			<li><i class="icon-user"></i> icon-user</li>
+        			<li><i class="icon-film"></i> icon-film</li>
+        			<li><i class="icon-th-large"></i> icon-th-large</li>
+        			<li><i class="icon-th"></i> icon-th</li>
+        			<li><i class="icon-th-list"></i> icon-th-list</li>
+        			<li><i class="icon-ok"></i> icon-ok</li>
+        			<li><i class="icon-remove"></i> icon-remove</li>
+        			<li><i class="icon-zoom-in"></i> icon-zoom-in</li>
+       				<li><i class="icon-zoom-out"></i> icon-zoom-out</li>
+        			<li><i class="icon-off"></i> icon-off</li>
+        			<li><i class="icon-signal"></i> icon-signal</li>
+        			<li><i class="icon-cog"></i> icon-cog</li>
+        			<li><i class="icon-trash"></i> icon-trash</li>
+        			<li><i class="icon-home"></i> icon-home</li>
+        			<li><i class="icon-file"></i> icon-file</li>
+        			<li><i class="icon-time"></i> icon-time</li>
+        			<li><i class="icon-road"></i> icon-road</li>
+        			<li><i class="icon-download-alt"></i> icon-download-alt</li>
+        			<li><i class="icon-download"></i> icon-download</li>
+        			<li><i class="icon-upload"></i> icon-upload</li>
+        			<li><i class="icon-inbox"></i> icon-inbox</li>
+        			<li><i class="icon-play-circle"></i> icon-play-circle</li>
+        			<li><i class="icon-repeat"></i> icon-repeat</li>
+      			</ul>
+
+      			<ul class="one_quarter">
+        			<li><i class="icon-refresh"></i> icon-refresh</li>
+        			<li><i class="icon-list-alt"></i> icon-list-alt</li>
+        			<li><i class="icon-lock"></i> icon-lock</li>
+        			<li><i class="icon-flag"></i> icon-flag</li>
+        			<li><i class="icon-headphones"></i> icon-headphones</li>
+        			<li><i class="icon-volume-off"></i> icon-volume-off</li>
+        			<li><i class="icon-volume-down"></i> icon-volume-down</li>
+        			<li><i class="icon-volume-up"></i> icon-volume-up</li>
+        			<li><i class="icon-qrcode"></i> icon-qrcode</li>
+        			<li><i class="icon-barcode"></i> icon-barcode</li>
+        			<li><i class="icon-tag"></i> icon-tag</li>
+        			<li><i class="icon-tags"></i> icon-tags</li>
+        			<li><i class="icon-book"></i> icon-book</li>
+        			<li><i class="icon-bookmark"></i> icon-bookmark</li>
+        			<li><i class="icon-print"></i> icon-print</li>
+        			<li><i class="icon-camera"></i> icon-camera</li>
+        			<li><i class="icon-font"></i> icon-font</li>
+        			<li><i class="icon-bold"></i> icon-bold</li>
+        			<li><i class="icon-italic"></i> icon-italic</li>
+        			<li><i class="icon-text-height"></i> icon-text-height</li>
+        			<li><i class="icon-text-width"></i> icon-text-width</li>
+        			<li><i class="icon-align-left"></i> icon-align-left</li>
+        			<li><i class="icon-align-center"></i> icon-align-center</li>
+        			<li><i class="icon-align-right"></i> icon-align-right</li>
+        			<li><i class="icon-align-justify"></i> icon-align-justify</li>
+        			<li><i class="icon-list"></i> icon-list</li>
+        			<li><i class="icon-indent-left"></i> icon-indent-left</li>
+        			<li><i class="icon-indent-right"></i> icon-indent-right</li>
+        			<li><i class="icon-facetime-video"></i> icon-facetime-video</li>
+        			<li><i class="icon-picture"></i> icon-picture</li>
+      			</ul>
+
+    			<ul class="one_quarter">
+        			<li><i class="icon-pencil"></i> icon-pencil</li>
+        			<li><i class="icon-map-marker"></i> icon-map-marker</li>
+        			<li><i class="icon-adjust"></i> icon-adjust</li>
+        			<li><i class="icon-tint"></i> icon-tint</li>
+        			<li><i class="icon-edit"></i> icon-edit</li>
+        			<li><i class="icon-share"></i> icon-share</li>
+        			<li><i class="icon-check"></i> icon-check</li>
+        			<li><i class="icon-move"></i> icon-move</li>
+        			<li><i class="icon-step-backward"></i> icon-step-backward</li>
+        			<li><i class="icon-fast-backward"></i> icon-fast-backward</li>
+        			<li><i class="icon-backward"></i> icon-backward</li>
+        			<li><i class="icon-play"></i> icon-play</li>
+        			<li><i class="icon-pause"></i> icon-pause</li>
+        			<li><i class="icon-stop"></i> icon-stop</li>
+        			<li><i class="icon-forward"></i> icon-forward</li>
+        			<li><i class="icon-fast-forward"></i> icon-fast-forward</li>
+        			<li><i class="icon-step-forward"></i> icon-step-forward</li>
+        			<li><i class="icon-eject"></i> icon-eject</li>
+        			<li><i class="icon-chevron-left"></i> icon-chevron-left</li>
+        			<li><i class="icon-chevron-right"></i> icon-chevron-right</li>
+        			<li><i class="icon-plus-sign"></i> icon-plus-sign</li>
+        			<li><i class="icon-minus-sign"></i> icon-minus-sign</li>
+        			<li><i class="icon-remove-sign"></i> icon-remove-sign</li>
+        			<li><i class="icon-ok-sign"></i> icon-ok-sign</li>
+        			<li><i class="icon-question-sign"></i> icon-question-sign</li>
+        			<li><i class="icon-info-sign"></i> icon-info-sign</li>
+        			<li><i class="icon-screenshot"></i> icon-screenshot</li>
+        			<li><i class="icon-remove-circle"></i> icon-remove-circle</li>
+        			<li><i class="icon-ok-circle"></i> icon-ok-circle</li>
+        			<li><i class="icon-ban-circle"></i> icon-ban-circle</li>
+      			</ul>
+
+    			<ul class="one_quarter last">
+        			<li><i class="icon-arrow-left"></i> icon-arrow-left</li>
+        			<li><i class="icon-arrow-right"></i> icon-arrow-right</li>
+        			<li><i class="icon-arrow-up"></i> icon-arrow-up</li>
+        			<li><i class="icon-arrow-down"></i> icon-arrow-down</li>
+        			<li><i class="icon-share-alt"></i> icon-share-alt</li>
+        			<li><i class="icon-resize-full"></i> icon-resize-full</li>
+        			<li><i class="icon-resize-small"></i> icon-resize-small</li>
+        			<li><i class="icon-plus"></i> icon-plus</li>
+        			<li><i class="icon-minus"></i> icon-minus</li>
+        			<li><i class="icon-asterisk"></i> icon-asterisk</li>
+        			<li><i class="icon-exclamation-sign"></i> icon-exclamation-sign</li>
+        			<li><i class="icon-gift"></i> icon-gift</li>
+        			<li><i class="icon-leaf"></i> icon-leaf</li>
+        			<li><i class="icon-fire"></i> icon-fire</li>
+        			<li><i class="icon-eye-open"></i> icon-eye-open</li>
+        			<li><i class="icon-eye-close"></i> icon-eye-close</li>
+        			<li><i class="icon-warning-sign"></i> icon-warning-sign</li>
+        			<li><i class="icon-plane"></i> icon-plane</li>
+        			<li><i class="icon-calendar"></i> icon-calendar</li>
+        			<li><i class="icon-random"></i> icon-random</li>
+        			<li><i class="icon-comment"></i> icon-comment</li>
+        			<li><i class="icon-magnet"></i> icon-magnet</li>
+        			<li><i class="icon-chevron-up"></i> icon-chevron-up</li>
+        			<li><i class="icon-chevron-down"></i> icon-chevron-down</li>
+        			<li><i class="icon-retweet"></i> icon-retweet</li>
+        			<li><i class="icon-shopping-cart"></i> icon-shopping-cart</li>
+        			<li><i class="icon-folder-close"></i> icon-folder-close</li>
+        			<li><i class="icon-folder-open"></i> icon-folder-open</li>
+        			<li><i class="icon-resize-vertical"></i> icon-resize-vertical</li>
+        			<li><i class="icon-resize-horizontal"></i> icon-resize-horizontal</li>
+      			</ul>
+				
+				<div class="one_full">
+					<h4>Usage</h4>
+<pre>
+&lt;li&gt;&lt;i class="icon-glass"&gt;&lt;/i&gt; icon-glass&lt;/li&gt;
+&lt;li&gt;&lt;i class="icon-music"&gt;&lt;/i&gt; icon-music&lt;/li&gt;
+&lt;li&gt;&lt;i class="icon-search"&gt;&lt;/i&gt; icon-search&lt;/li&gt;
+&lt;li&gt;&lt;i class="icon-envelope"&gt;&lt;/i&gt; icon-envelope&lt;/li&gt;
+&lt;li&gt;&lt;i class="icon-heart"&gt;&lt;/i&gt; icon-heart&lt;/li&gt;
+</pre>
+				</div>
+			</section>
+			<!-- /icons -->
+			
+	</section>
+	<!-- /content -->
+	
+</div>
+<!-- /wrapper -->
+
+<!-- footer -->
+<footer class="footer noisedark">
+	<div class="wrapper">
+		<a class="btn primary alignright" href="#top"><i class="icon-arrow-up icon-white"></i> Back to top</a>
+	</div>
+</footer>
+<!-- /footer -->
+
+<!-- JavaScript at the bottom for fast page loading -->
+
+<!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
+<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/jquery.js"><\/script>')</script>
+
+<!-- scripts  -->
+<script src="assets/js/plugins.js"></script>
+<script src="assets/js/application.js"></script>
+<!-- /scripts -->
+
+<!-- Asynchronous Google Analytics snippet. Change UA-XXXXX-X to be your site's ID -->
+<script>
+    var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
+    (function(d,t){
+		var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
+    	g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
+    	s.parentNode.insertBefore(g,s)
+	}(document,'script'));
+</script>
+
+</body>
+</html>
