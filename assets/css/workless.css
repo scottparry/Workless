@@ -5,8 +5,8 @@
  * It is split into a number of seperate CSS files which allows
  * you to use as much, or as little as you please.
  *
- * You'll notice that this file contains the Base styles and 
- * then loads all other styles via @import. This is not 
+ * You'll notice that this file contains the Base styles only 
+ * then all other CSS is loaded seperately. This is not 
  * recommended. Once you've decided which parts of Workless you 
  * are going to use, then simply copy/paste them all into a 
  * single CSS file to reduce HTTP requests!
@@ -117,21 +117,3 @@ svg:not(:root)
 	overflow: hidden; 
 }
 /* @end Embedded content */
-
-
-
-/** 
- * @import ALL Workless styles
- */
-@import url("typography.css");
-@import url("forms.css");
-@import url("tables.css");
-@import url("buttons.css");
-@import url("alerts.css");
-@import url("tabs.css");
-@import url("pagination.css");
-@import url("breadcrumbs.css");
-@import url("icons.css");
-@import url("helpers.css");
-@import url("print.css");
-/* @end import */
