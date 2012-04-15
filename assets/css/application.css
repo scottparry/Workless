@@ -1,51 +1,7 @@
-/*
--------------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------
-
-Primary application styles. (Mobile first, everything else is overridden with @media queries in responsive.css)
-
-@Version:
-@Author:
-
--------------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------
-*/
-
-h1, h2, h3, h4, h5, h5 { text-transform: uppercase; }
-
-.wrapper {
-	margin: 0 auto;
-}
-
-.logo {
-	color: rgba(0, 0, 0, 0.7);
-	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.1);
-	float: left;
-}
-
-.logo:hover {
-	color: #ffffff;
-	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
-}
-
-#content {
-	margin: 75px 0 75px 0;
-	float: left;
-}
-
-#mainnav {
-	float: right;
-}
-
-#icons ul li {
-	list-style: none;
-	font-size: 12px;
-	color: #555555;
-	margin-bottom: 5px;
-}
-
-footer {
-	width: 100%;
-	background: #eeeeee;
-	padding: 25px 0;	
-}
+/**
+ * All APP specific CSS goes in here.
+ *
+ * @Version:
+ * @Author:
+ * @URL:
+ */

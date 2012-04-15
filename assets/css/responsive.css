@@ -1,246 +1,331 @@
-/*
--------------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------
+/** Responsive @media queries for responsive design.
+ * Ensure this is included after all your other CSS.
+ */
 
-@Media Queries for responsive design. These override the primary('mobile first') styles.
 
-Ensure your main styling comes before this!
 
--------------------------------------------------------------------------------------------------------
--------------------------------------------------------------------------------------------------------
-*/
-
-/* Mobile queries. */
-nav select, .selector {
+/** 
+ * Mobile
+ */
+nav select, 
+.selector 
+{
 	display: inherit;
 }
 
-nav#mainnav ul { display: none; }
+nav#mainnav ul 
+{ 
+	display: none; 
+}
 
-.one_full { 
+.one_full 
+{ 
 	width: 280px; 
 }
 
-.one_half { 
+.one_half 
+{ 
 	width: 280px; 
 }
 
-.one_third { 
+.one_third 
+{ 
 	width: 280px; 
 }
 
-.two_third { 
+.two_third 
+{ 
 	width: 280px; 
 }
 
-.one_quarter { 
+.one_quarter 
+{ 
 	width: 280px; 
 }
 	
-.wrapper {
+.wrapper 
+{
 	width: 280px;
 }
 
-/* iPhone landscape */
+/** 
+ * iPhone landscape 
+ */
 @media only screen and (min-width: 480px) {
 	
-	nav select, .selector {
+	nav select, 
+	.selector 
+	{
 		display: inherit;
 	}
 	
-	nav#mainnav ul { display: none; }
+	nav#mainnav ul 
+	{ 
+		display: none; 
+	}
 	
-	.one_full { 
+	.one_full 
+	{ 
 		width: 420px; 
 	}
 
-	.one_half { 
+	.one_half 
+	{ 
 		width: 190px; 
 	}
 
-	.one_third { 
+	.one_third 
+	{ 
 		width: 110px; 
 	}
 
-	.two_third { 
+	.two_third 
+	{ 
 		width: 250px; 
 	}
 
-	.one_quarter { 
+	.one_quarter 
+	{ 
 		width: 185px; 
 	}
 	
-	.wrapper {
+	.wrapper 
+	{
 		width: 420px;
 	}
 }
 
-/* Small tablet portrait */
+/** 
+ * Small tablet portrait 
+ */
 @media only screen and (min-width: 640px) {
 	
-	nav select, .selector {
+	nav select, 
+	.selector 
+	{
 		display: inherit;
 	}
 	
-	nav#mainnav ul { display: none; }
+	nav#mainnav ul 
+	{ 
+		display: none; 
+	}
 	
-	.one_full { 
+	.one_full 
+	{ 
 		width: 650px; 
 	}
 
-	.one_half { 
+	.one_half 
+	{ 
 		width: 310px; 
 	}
 
-	.one_third { 
+	.one_third 
+	{ 
 		width: 200px; 
 	}
 
-	.two_third { 
+	.two_third 
+	{ 
 		width: 425px; 
 	}
 
-	.one_quarter { 
+	.one_quarter 
+	{ 
 		width: 140px; 
 	}
 	
-	.wrapper {
+	.wrapper 
+	{
 		width: 650px;
 	}
 }
 
-/* iPad portrait */
+/** 
+ * iPad portrait 
+ */
 @media only screen and (min-width: 768px) {
 	
-	#nav select, .selector {
+	#nav select, 
+	.selector 
+	{
 		display: none;
 	}
 	
-	nav#mainnav ul { display: inherit; }
+	nav#mainnav ul 
+	{ 
+		display: inherit; 
+	}
 	
-	.one_full { 
+	.one_full 
+	{ 
 		width: 750px; 
 	}
 
-	.one_half { 
+	.one_half 
+	{ 
 		width: 360px; 
 	}
 
-	.one_third { 
+	.one_third 
+	{ 
 		width: 230px; 
 	}
 
-	.two_third { 
+	.two_third 
+	{ 
 		width: 490px; 
 	}
 
-	.one_quarter { 
+	.one_quarter 
+	{ 
 		width: 160px; 
 	}
 	
-	.wrapper {
+	.wrapper 
+	{
 		width: 750px;
 	}
 }
 
-/* Small browser / iPad landscape */
+/**
+ * Small browser / iPad landscape 
+ */
 @media only screen and (min-width: 1024px) {
 	
-	nav select, .selector {
+	nav select, 
+	.selector 
+	{
 		display: none;
 	}
 	
-	nav#mainnav ul { display: inherit; }
+	nav#mainnav ul 
+	{ 
+		display: inherit; 
+	}
 	
-	.one_full { 
+	.one_full 
+	{ 
 		width: 800px; 
 	}
 
-	.one_half { 
+	.one_half 
+	{ 
 		width: 385px; 
 	}
 
-	.one_third { 
+	.one_third 
+	{ 
 		width: 250px; 
 	}
 
-	.two_third { 
+	.two_third 
+	{ 
 		width: 525px; 
 	}
 
-	.one_quarter { 
+	.one_quarter 
+	{ 
 		width: 180px; 
 	}
 	
-	.wrapper {
+	.wrapper 
+	{
 		width: 800px;
 	}
 }
 
-/* Generic browser */
+/** 
+ * Generic browser 
+ */
 @media only screen and (min-width: 1280px) {
 	
-	nav select, .selector {
+	nav select, 
+	.selector 
+	{
 		display: none;
 	}
 	
-	nav#mainnav ul { display: inherit; }
+	nav#mainnav ul 
+	{ 
+		display: inherit; 
+	}
 	
-	.one_full { 
+	.one_full 
+	{ 
 		width: 850px; 
 	}
 
-	.one_half { 
+	.one_half 
+	{ 
 		width: 400px; 
 	}
 
-	.one_third { 
+	.one_third 
+	{ 
 		width: 265px; 
 	}
 
-	.two_third { 
+	.two_third 
+	{ 
 		width: 555px; 
 	}
 
-	.one_quarter { 
+	.one_quarter 
+	{ 
 		width: 185px; 
 	}
 	
-	.wrapper {
+	.wrapper 
+	{
 		width: 850px;
 	}
 }
 
-/* Large browser */
+/** 
+ * Large browser 
+ */
 @media only screen and (min-width: 1600px) {
 	
-	nav select, .selector {
+	nav select, 
+	.selector 
+	{
 		display: none;
 	}
 	
-	nav#mainnav ul { display: inherit; }
+	nav#mainnav ul 
+	{ 
+		display: inherit; 
+	}
 	
-	.one_full { 
+	.one_full 
+	{ 
 		width: 1000px; 
 	}
 
-	.one_half { 
+	.one_half 
+	{ 
 		width: 487px; 
 	}
 
-	.one_third { 
+	.one_third 
+	{ 
 		width: 315px; 
 	}
 
-	.two_third { 
+	.two_third 
+	{ 
 		width: 655px; 
 	}
 
-	.one_quarter { 
+	.one_quarter 
+	{ 
 		width: 230px; 
 	}
 	
-	.wrapper {
+	.wrapper 
+	{
 		width: 1000px;
 	}
 }
