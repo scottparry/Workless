@@ -1,0 +1,226 @@
+/**
+ * Backgrounds
+ */
+.blueish 
+{ 
+	background: url(../img/bg_blueish.jpg) repeat !important; 
+}
+.noise 
+{ 
+	background: url(../img/bg_noise.jpg) repeat !important; 
+}
+.noisedark 
+{ 
+	background: url(../img/bg_noisedark.jpg) repeat !important; 
+}
+.classydark 
+{ 
+	background: url(../img/bg_classydark.jpg) repeat !important; 
+}
+/* @end Backgrounds */
+
+
+
+/**
+ * Non-semantic helpers
+ */
+.small_splitter 
+{
+	background: #eeeeee;
+	width: 25px;
+	height: 1px;
+	margin-top: 25px;
+	margin-bottom: 25px;
+	padding: 0;
+}
+.box_shadow 
+{
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	border-radius: 3px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+}
+/* Cancel list styles */
+.nolist 
+{ 
+	list-style: none; 
+	margin: 0; 
+	padding: 0; 
+}
+/* Cancel margins */
+.ntm 
+{ 
+	margin-top: 0; 
+}
+.nbm 
+{ 
+	margin-bottom: 0; 
+}
+.nlm 
+{ 
+	margin-left: 0; 
+}
+.nrm 
+{ 
+	margin-right: 0; 
+}
+/* Last class */
+.last 
+{ 
+	margin-right: 0; 
+}
+.muted 
+{ 
+	color: #e6e6e6; 
+}
+.highlight 
+{ 
+	background: #ffffe0; 
+	color: #555555; 
+	font-weight: normal; 
+}
+.inline 
+{ 
+	display: inline; 
+}
+/* Hide from screenreaders and browsers. */
+.hidden 
+{ 
+	display: none !important; 
+	visibility: hidden; 
+}
+/* Hide only visually, but have it available for screenreaders. */
+.visuallyhidden 
+{ 
+	border: 0; 
+	clip: rect(0 0 0 0); 
+	height: 1px; 
+	margin: -1px; 
+	overflow: hidden; 
+	padding: 0; 
+	position: absolute; 
+	width: 1px; 
+}
+/* Extends the .visuallyhidden class to allow the element to be focusable when navigated to via the keyboard. */
+.visuallyhidden.focusable:active, 
+.visuallyhidden.focusable:focus 
+{ 
+	clip: auto; 
+	height: auto; 
+	margin: 0; 
+	overflow: visible; 
+	position: static; 
+	width: auto; 
+}
+/* Hide visually and from screenreaders, but maintain layout */
+.invisible 
+{ 
+	visibility: hidden; 
+}
+/* Contain floats. */ 
+.clearfix:before, 
+.clearfix:after 
+{ 
+	content: ""; 
+	display: table; 
+}
+.clearfix:after 
+{ 
+	clear: both; 
+}
+.clearfix 
+{ 
+	zoom: 1; 
+}
+/* Position */
+.alignleft 
+{ 
+	float: left; 
+}
+.alignright 
+{ 
+	float: right; 
+}
+.aligncenter
+{
+	float: none;
+	margin: 0 auto;
+	text-align: center;
+}
+.textleft 
+{ 
+	text-align: left; 
+}
+.textright 
+{ 
+	text-align: right; 
+}
+.textcenter 
+{ 
+	text-align: center;
+}
+/* @end Non-semantic helpers */
+
+
+
+/**
+ * Prettyprint 
+ */
+.com 
+{ 
+	color: #aaaaaa; 
+}
+.lit 
+{ 
+	color: #195f91; 
+}
+.pun, 
+.opn, 
+.clo 
+{ 
+	color: #34ade8; 
+}
+.fun 
+{ 
+	color: #4F6677; 
+}
+.str, 
+.atv 
+{ 
+	color: #268bd2; 
+}
+.kwd, 
+.tag 
+{ 
+	color: #195f91; 
+}
+.typ, 
+.atn, 
+.dec, 
+.var 
+{ 
+	color: #CB4B16; 
+}
+.pln 
+{ 
+	color: #4F6677; 
+}
+
+pre.prettyprint 
+{
+  background: #fefefe;
+  padding: 9px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+ol.linenums 
+{ 
+	margin: 0; 
+	padding: 0; 
+}
+ol.linenums li 
+{ 
+	line-height: 20px; 
+}
+/* @end Prettyprint */

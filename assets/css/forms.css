@@ -1,0 +1,161 @@
+/**
+ * Forms
+ */
+form 
+{ 
+	margin: 0; 
+}
+form ul 
+{ 
+	margin: 5px 0 5px 0; 
+	padding: 0; 
+}
+form ul li 
+{ 
+	list-style: none; 
+}
+fieldset 
+{ 
+	border: 1px solid rgba(0, 0, 0, 0.2); 
+	margin: 5px 0 15px 0; 
+	padding: 25px; 
+}
+fieldset ul 
+{ 
+	margin: 0; 
+	padding: 0;
+}
+fieldset ul li 
+{ 
+	list-style: none; 
+}
+/**
+ * Indicate that 'label' will shift focus 
+ * to the associated form element 
+ */
+label 
+{ 
+	cursor: pointer; 
+	font-size: 12px; 
+	font-weight: bold; 
+}
+legend 
+{ 
+	border: 0; 
+	padding: 0; 
+	margin-left: 5px; 
+	font-size: 18px; 
+	font-weight: bold; 
+}
+button, 
+input, 
+select, 
+textarea 
+{ 
+	font-size: 13px; 
+	margin: 5px 0; 
+	vertical-align: baseline; 
+	*vertical-align: middle;
+}
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] 
+{
+  	-webkit-appearance: none;
+  	-moz-border-radius: 4px;
+  	-webkit-border-radius: 4px;
+  	border-radius: 4px;
+  	-moz-background-clip: padding;
+  	-webkit-background-clip: padding;
+  	background-clip: padding-box;
+  	background: #dddddd;
+  	background-image: -khtml-gradient(linear, left top, left bottom, from(#ffffff), to(#dddddd));
+  	background-image: -moz-linear-gradient(#ffffff, #dddddd);
+  	background-image: -ms-linear-gradient(#ffffff, #dddddd);
+  	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffffff), color-stop(100%, #dddddd));
+  	background-image: -webkit-linear-gradient(#ffffff, #dddddd);
+  	background-image: -o-linear-gradient(#ffffff, #dddddd);
+  	background-image: linear-gradient(#ffffff, #dddddd);
+  	border: 1px solid;
+  	border-color: #dddddd #bbbbbb #999999;
+  	cursor: pointer;
+  	color: #333333;
+  	font-weight: bold;
+  	outline: 0;
+  	overflow: visible;
+  	padding: 3px 10px;
+  	text-shadow: #ffffff 0 1px 1px;
+  	width: auto;
+  	font-size: 12px;
+}
+button:hover,
+input[type="reset"]:hover,
+input[type="submit"]:hover,
+input[type="button"]:hover 
+{
+  	background: #ffffff;
+  	background-image: -khtml-gradient(linear, left top, left bottom, from(#dddddd), to(#ffffff));
+  	background-image: -moz-linear-gradient(#dddddd, #ffffff);
+  	background-image: -ms-linear-gradient(#dddddd, #ffffff);
+  	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(100%, #ffffff));
+  	background-image: -webkit-linear-gradient(#dddddd, #ffffff);
+  	background-image: -o-linear-gradient(#dddddd, #ffffff);
+  	background-image: linear-gradient(#dddddd, #ffffff);
+  	border: 1px solid;
+  	border-color: #999999 #bbbbbb #dddddd;
+  	-webkit-transition: 250ms linear all;
+  	-moz-transition: 250ms linear all;
+  	transition: 250ms linear all;
+}
+input[type="text"], 
+input[type="password"], 
+textarea 
+{
+	width: 98%;
+	padding: 5px;
+	outline: 3px solid rgba(0, 0, 0, 0.03);
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin-bottom: 10px;
+	border-radius: 2px;
+	-moz-border-radius: 2px;
+	-webkit-border-radius: 2px;
+}
+input[type="file"] 
+{
+	width: 98%;
+	padding: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+}
+textarea 
+{
+	width: 98%;
+	min-height: 100px;
+}
+input.error, 
+textarea.error 
+{ 
+	border: 1px solid #ff0000;
+}
+label.error 
+{
+	width: 100%;
+	font-size: 12px;
+	font-weight: normal;
+	color: #ff0000;
+	float: left;
+	margin-top: -5px;
+}
+/** 
+ * Colors for form validity 
+ */
+input:valid, 
+textarea:valid 
+{  
+}
+input:invalid, 
+textarea:invalid 
+{ 
+	background-color: #f0dddd; 
+}
+/* @end Forms */

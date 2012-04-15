@@ -1,0 +1,29 @@
+/**
+ * Scaffolding
+ */
+.one_full 
+{ 
+	margin: 0; 
+	float: left; 
+}
+.one_half 
+{  
+	margin-right: 25px; 
+	float: left; 
+}
+.one_third 
+{ 
+	margin-right: 25px; 
+	float: left; 
+}
+.two_third 
+{ 
+	margin-right: 25px; 
+	float: left; 
+}
+.one_quarter 
+{  
+	margin-right: 25px; 
+	float: left; 
+}
+/* @end Scaffolding */
