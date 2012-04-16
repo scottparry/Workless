@@ -10,6 +10,7 @@
   	background-image: url(../img/glyphicons-halflings.png);
   	background-position: 14px 14px;
   	background-repeat: no-repeat;
+	margin-top: 2px;
   	*margin-right: .3em;
 }
 [class^="icon-"]:last-child 

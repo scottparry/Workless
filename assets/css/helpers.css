@@ -20,18 +20,30 @@
 /* @end Backgrounds */
 
 
+/** 
+ * Intro Blocks
+ */
+.intro
+{
+	font-size: 24px!important;
+	color: #333333;
+	margin-bottom: 25px;
+}
+.sub_intro
+{
+	font-size: 20px!important;
+	color: #333333;
+	margin-bottom: 25px;
+}
+
+
 
 /**
  * Non-semantic helpers
  */
-.small_splitter 
+.small
 {
-	background: #eeeeee;
-	width: 25px;
-	height: 1px;
-	margin-top: 25px;
-	margin-bottom: 25px;
-	padding: 0;
+	font-size: smaller;
 }
 .box_shadow 
 {
@@ -73,7 +85,7 @@
 }
 .muted 
 { 
-	color: #e6e6e6; 
+	color: #666666; 
 }
 .highlight 
 { 
@@ -210,16 +222,19 @@
 
 pre.prettyprint 
 {
-  background: #fefefe;
-  padding: 9px;
-  border: 1px solid rgba(0, 0, 0, 0.2);
+  	background: #fefefe;
+  	padding: 9px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+	font-size: 14px;
 }
-ol.linenums 
+.linenums 
 { 
 	margin: 0; 
 	padding: 0; 
 }
-ol.linenums li 
+.linenums li 
 { 
 	line-height: 20px; 
 }

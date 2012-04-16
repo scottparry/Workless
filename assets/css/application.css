@@ -5,3 +5,32 @@
  * @Author:
  * @URL:
  */
+
+
+
+/**
+ * Header
+ */
+header 
+{
+	border-bottom: 5px solid #eeeeee;
+}
+header h1 
+{
+	font-size: 3em;
+	font-weight: bold;
+	line-height: 18px;
+}
+/* @end Header */
+
+
+
+/**
+ * Footer
+ */
+footer
+{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+/* @end Header */

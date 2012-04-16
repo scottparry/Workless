@@ -1,6 +1,11 @@
 /**
  * Scaffolding
  */
+.wrapper 
+{
+	margin: 0 auto;
+	padding: 0;
+}
 .one_full 
 { 
 	margin: 0; 

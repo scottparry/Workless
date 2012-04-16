@@ -21,19 +21,20 @@
 <head>
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-	<meta name="description" content="">
-    <meta name="author" content="">
+    <meta name="author" content="iKreativ">
+	<meta name="description" content="Workless - A classy HTML5, CSS3 framework">
+	<meta name="keywords" content="workless, classy, css, framework, jquery, bootstrap, h5bp, twitter, bolierplate, jquery, html5, ikreativ">
 	
 	<!-- Mobile Viewport -->
     <meta name="viewport" content="width=device-width">
 
-	<title>Workless v2.0</title>
+	<title>Workless - A classy HTML5, CSS3 framework</title>
 
     <!-- 
 		You'll notice that we're loading all CSS seperately. This is 
 		not recommended. Once you've decided which parts of Workless you 
  		are going to use, then simply copy/paste them all into a 
- 		single CSS file to reduce HTTP requests
+ 		single CSS file to reduce HTTP requests.
 	-->
     <link href="assets/css/plugins.css" rel="stylesheet">
 	<link href="assets/css/workless.css" rel="stylesheet">
@@ -51,167 +52,78 @@
 	<link href="assets/css/application.css" rel="stylesheet">
 	<link href="assets/css/responsive.css" rel="stylesheet">
 	
-	<!-- All JavaScript at the bottom, except Modernizr -->
-  	<script type="text/javascript" src="assets/js/modernizr.js"></script>
+	<!-- All JavaScript at the bottom, except classyizr -->
+  	<script type="text/javascript" src="assets/js/classyizr.js"></script>
 </head>
 
-<body class="noise" id="top" onload="prettyPrint()" data-spy="scroll" data-target=".subnav" data-offset="50">
+<body id="top" onload="prettyPrint()">
 
 <!-- Prompt IE 6 users to install Chrome Frame. Remove this if you support IE 6 -->
 <!--[if lt IE 7]>
 	<p>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
 <![endif]-->
 
-	<!-- navbar -->
-    <div class="navbar navbar-fixed-top">
-		<div class="wrapper">
-			<a class="logo" href="./index.html">Workless v2.0</a>
-			
-			<nav id="mainnav">
-            	<ul class="nav">
-              		<li><a href="./index.html">Overview</a></li>
-              		<li><a href="./scaffold.html">Scaffolding</a></li>
-					<li><a href="./helpers.html">Helpers</a></li>
-              		<li><a href="./plugins.html">Plugins</a></li>
-            	</ul>
-      		</nav>
-		</div>
-    </div>
-	<!-- /navbar -->
-
-	<!-- wrapper -->
-	<div class="wrapper">
+	<section class="wrapper">
+		<header>
+        	<h1 class="logo">
+				<a href="//github.com/iKreativ/workless">
+					workless.css
+				</a>
+            	<small>A classy HTML5, CSS3 framework.</small>
+			</h1>
 		
-		<!-- content -->
-		<section id="content">
-			
-			<header>
-				<div class="subnav">
-					<div class="wrapper">
-    					<ul class="nav">
-      						<li><a href="#about">About</a></li>
-      						<li><a href="#structure">Structure</a></li>
-      						<li><a href="#usage">Usage</a></li>
-    					</ul>
-					</div>
-  				</div>
-			</header>
-			
-			<!-- about -->
-			<section id="about">
-				<h4>What is Workless?</h4>
-	
-				<p>When designing/developing a new application we all have our own way of doing things. We all use certain frameworks, grid systems, plugins, code snippets etc...but what we do have in common is the fact that 99% of the time we encounter repetitive tasks that are the same on every project, enter Workless.</p>
-
-				<p>Workless aims to help you by offering a basic static HTML5 / CSS3 / Responsive base template filled with goodies to get you up and running on every project you do as quickly as possible.</p>
-
-				<p>At it's core Workless is simply a mashup of all the things I like about H5BP and Twitter Bootstrap with some additional extras which I tend to use on every project such as PrettyPhoto for lightboxes, Tipsy for tooltips, Prettify for syntax highlighting and various other bits and pieces.</p> <p>I've removed a lot of stuff from both Bootstrap and H5BP to keep Workless lightweight and easy-to-use and also because it was stuff that I simply don't use/need.</p>
-
-				<p>Workless comes with responsive media queries setup for 'Mobile Portrait', 'Mobile Landscape', 'Tablet Portrait', 'Tablet Landscape/Small Browser' and 'Large Browser', you can demo the effect right now by simply scaling your browser window.</p>
-				<p>Remember, this isn't a 'Use this, its great!', it's simply a way I found to improve my workflow and cut down on repetitive tasks in every project. Feel free to use/abuse and hack into something that fits your workflow.</p>
-	 		</section>
-			<!-- /about -->
-
-			<hr>
-			
-			<!-- stucture -->
-			<section id="structure">
-				<div class="wrapper">
-					<h4>File Structure</h4>
-			
-					<p>Workless' file structure is very simple, checkout below:<p>
-			
+			<div class="intro">
+        		Workless is a classy HTML5, CSS3 framework that helps you to get your project up and running as fast as possible and tries to prevent repetitive tasks.
+			</div>
+			<div class="sub_intro">
+				Workless is split into seperate files to allow partial usage, include them all, or just a few, the choice is yours.
+			</div>
+		</header>
+		
+		<h2>What does it do?</h2>
+       	<ul>
+           	<li><strong>Standardizes CSS</strong> for a wide range of HTML elements.</li>
+           	<li><strong>Improves usability and interaction</strong> with subtle improvements.</li>
+           	<li><strong>Sets typography</strong> to help vertical rhythm and readability.</li>
+			<li><strong>Adds helper classes</strong> to style elements easily.</li>
+        </ul>
+		
+		<hr>
+		
+      	<h2>How do I use it?</h2>
+       	<p>Drop the files into your project and then reference the CSS and Javascript files in your source. Once you've done this you can then begin adding your own application specific CSS.</p>
+		<p><strong>Don't forget!</strong> If you intend to use the entire framework ensure that you combine all the CSS stylesheets into one or two files to reduce HTTP requests. The typical file structure would look like:</p>
+		
 <pre>
-workless
-	index.html // this file
-	assets/
-		css/
-			application.css // application specific styling
-			plugins.css // styles for any plugins used
-			workless.css // presets such as scaffolding and helpers
-			responsive.css // responsive media queries
-		img/ 
-		js/
-			application.js // application specific javascript
-			jquery.js // jquery
-			plugins.js // javascript for any plugins used
+&lt;link href="assets/css/plugins.css" rel="stylesheet"&gt; // all javascript plugins css
+&lt;link href="assets/css/workless.css" rel="stylesheet"&gt; // main framework css
+&lt;link href="assets/css/application.css" rel="stylesheet"&gt; // app specific css (your code)
+&lt;link href="assets/css/responsive.css" rel="stylesheet"&gt; // media queries
 </pre>
 
-				</div>
-			</section>
-			<!-- /structure -->
+		<p>This is just a suggested way to use the framework, feel free to use however you want!</p>
+		
+		<hr>
+		
+		<h2>Get your hands on it!</h2>
+        <ul class="nolist">
+        	<li><a class="alignleft large button" href="//github.com/iKreativ/Workless"><i class="icon-inbox icon-white"></i> Workless on GitHub</a></li>
+            <li><a class="alignleft button pink large" href="//github.com/iKreativ/Workless/zipball/master"><i class="icon-download-alt icon-white"></i> Download .ZIP</a></li>
+			<li><a class="button blue large twitter-share-button" href="http://twitter.com/share" data-count="vertical" data-text="Workless.css A classy HTML5, CSS3 framework." data-via="iKreativ" data-related="iKreativ"><i class="icon-share icon-white"></i> Share on Twitter</a></li>
+        </ul>
 
-			<hr>
-			
-			<!-- usage -->
-			<section id="usage">
-				<div class="wrapper">
-					<h4>Usage</h4>
-				
-				<p>Using Workless is simple. You can either use the default index.html that ships with it as a template, or you can just include the CSS and JS in your own application:</p>
-
-<pre>
-CSS
-
-&lt;link href="assets/css/plugins.css" rel="stylesheet"&gt;
-&lt;link href="assets/css/workless.css" rel="stylesheet"&gt;
-&lt;link href="assets/css/application.css" rel="stylesheet"&gt;
-</pre>
-
-<pre>
-Javascript
-
-&lt;!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline --&gt;
-&lt;script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"&gt;&lt;/script&gt;
-&lt;script&gt;window.jQuery || document.write('&lt;script src="assets/js/jquery.js"&gt;&lt;\/script>')&lt;/script&gt;
-
-&lt;!-- scripts concatenated and minified via build script --&gt;
-&lt;script src="assets/js/plugins.js"&gt;&lt;/script&gt;
-&lt;script src="assets/js/application.js"&gt;&lt;/script&gt;
-&lt;!-- end scripts --&gt;
-</pre>
-
-				</div>
-			</section>
-			<!-- /usage -->
-			
-			<hr>
-			
-			<!-- credits -->
-			<section id="credits">
-				<h4>Credits</h4>
-				
-				<p>H5BP <a href="http://paulirish.com/" target="_blank">Paul Irish</a>, <a href="http://nimbupani.com/" target="_blank">Divya Manian</a>, <a href="http://www.blog.highub.com/" target="_blank">Shichuan</a>, <a href="http://mathiasbynens.be/" target="_blank">Mathias Bynens</a>, <a href="http://nicolasgallagher.com/" target="_blank">Nicolas Gallagher</a>.</p>
-				<p>Twitter Bootstrap <a href="http://twitter.com/twitter" target="_blank">@twitter</a>, <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p> 
-				<p>PrettyPhoto <a href="http://www.no-margin-for-errors.com/projects/prettyphoto-jquery-lightbox-clone/documentation/" target="_blank">No Margin for Errors</a>.</p>
-				<p>Tipsy <a href="http://onehackoranother.com/projects/jquery/tipsy/" target="_blank">One Hack or Another</a>.</p>
-				<p>Icons from <a href="http://glyphicons.com" target="_blank">Glyphicons Free</a>, licensed under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>.</p>
-			</section>
-			<!-- /credits -->
-			
-			<hr>
-			
-			<!-- license -->
-			<section id="license">
-				<h4>License</h4>
-				
-				<p>Code licensed under the <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>. Documentation licensed under <a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC BY 3.0</a>.</p>
-			</section>
-			<!-- /license -->
-			
+		<p>You can also clone the repo on GitHub</p>
+		
+<pre>$ git clone git@github.com:iKreativ/Workless.git</pre>
+		
+		<p>Feel free to fork, use, abuse and modify to suit your project. Found a bug? <a href="//github.com/iKreativ/Workless">Submit a pull request!</a></p>
+		
+		<hr>
+		
+		<footer>
+        	<p class="small muted">A project by <a href="//ikreativ.com">Scott Parry</a> (<a href="//twitter.com/iKreativ">@iKreativ</a>). Originally based off <a href="//html5boilerplate.com/">H5BP</a> and <a href="//twitter.github.com/bootstrap/">Bootstrap</a>. Released under the <a href="//philsturgeon.co.uk/code/dbad-license/">DBAD License</a>.</p>
+		</footer>
 	</section>
-	<!-- /content -->
-	
-</div>
-<!-- /wrapper -->
-
-<!-- footer -->
-<footer class="footer noisedark">
-	<div class="wrapper">
-		<a class="btn primary alignright" href="#top"><i class="icon-arrow-up icon-white"></i> Back to top</a>
-	</div>
-</footer>
-<!-- /footer -->
 
 <!-- JavaScript at the bottom for fast page loading -->
 

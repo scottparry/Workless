@@ -29,6 +29,7 @@ nav,
 section 
 { 
 	display: block; 
+	margin: 0 auto;
 }
 audio, 
 canvas, 
@@ -94,9 +95,6 @@ img
 	vertical-align: middle; 
 	border: 0; 
 	outline: 0; 
-}
-img 
-{ 
 	background: #ffffff; 
 	padding: 3px; 
 	border: 1px solid #cccccc; 
