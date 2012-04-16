@@ -170,16 +170,15 @@ sub
  */
 p 
 { 
-	font-size: 13px; 
-	color: #444444; 
-	font-weight: normal; 
-	line-height: 18px; 
-	margin: 0 3px 15px 3px; 
+	color: #333333;
+	font-size: 1em; /* 16px */ 
+	line-height: 1.125em; /* 18px */ 
+	margin: 0 0 1.125em 0;
 }
 p small 
 { 
-	font-size: 11px; 
-	color: #444444; 
+	color: #666666;
+	font-size: 12px; 
 }
 
 /** 
@@ -190,16 +189,9 @@ h2,
 h3, 
 h4, 
 h5, 
-h6, 
-h1 a, 
-h2 a, 
-h3 a, 
-h4 a, 
-h5 a, 
-h6 a 
+h6
 { 
 	color: #333333; 
-	margin-bottom: 25px; 
 }
 h1 small, 
 h2 small, 
@@ -208,64 +200,76 @@ h4 small,
 h5 small, 
 h6 small 
 { 
-	color: #333333; 
+	color: #666666; 
 }
 /** 
  * Set individual heading styles 
 */
-h1 
+h1
 { 
-	font-size: 24px; 
-	line-height: 24px; 
+	font-size: 1.5em; /* 24px */ 
+	line-height: 1.5em; /* 36px */ 
+	margin-top: 0.75em; 
+	margin-bottom: 0em; 
 }
-h1 small 
-{ 
-	font-size: 20px; 
+h1 small
+{
+	font-size: 1.25em; /* 20px */ 
 }
-h2 
+h2
 { 
-	font-size: 20px; 
-	line-height: 22px; 
+	font-size: 1.375em; /* 22px */ 
+	line-height: 1.6364em; /* 36px */ 
+	margin-top: 0.8182em; 
+	margin-bottom: 0em; 
 }
-h2 small 
-{ 
-	font-size: 18px; 
+h2 small
+{
+	font-size: 1.125em; /* 18px */ 
 }
-h3 
+h3
 { 
-	font-size: 16px; 
-	line-height: 18px; 
+	font-size: 1.25em; /* 20px */ 
+	line-height: 1.8em; /* 36px */ 
+	margin-top: 0.9em; 
+	margin-bottom: 0em; 
 }
-h3 small 
-{ 
-	font-size: 14px; 
+h3 small
+{
+	font-size: 1em; /* 16px */ 
 }
-h4 
+h4
 { 
-	font-size: 14px; 
-	line-height: 16px; 
+	font-size: 1.125em; /* 18px */ 
+	line-height: 1em; /* 18px */ 
+	margin-top: 1em; 
+	margin-bottom: 0em; 
 }
 h4 small 
-{ 
-	font-size: 12px; 
+{
+	font-size: 0.875em; /* 14px */ 
 }
-h5 
+h5
 { 
-	font-size: 12px; 
-	line-height: 12px; 
+	font-size: 1em; /* 16px */ 
+	line-height: 1.125em; /* 18px */ 
+	margin-top: 1.125em; 
+	margin-bottom: 0em; 
 }
 h5 small 
-{ 
-	font-size: 10px; 
+{
+	font-size: 0.75em; /* 12px */ 
 }
-h6 
+h6
 { 
-	font-size: 10px; 
-	line-height: 11px; 
+	font-size: 0.875em; /* 14px */ 
+	line-height: 1.2857em; /* 18px */ 
+	margin-top: 1.2857em; 
+	margin-bottom: 0em; 
 }
-h6 small 
-{ 
-	font-size: 10px; 
+h6 small
+{
+	font-size: 0.75em; /* 12px */ 
 }
 
 /**
@@ -294,8 +298,7 @@ ol
 }
 li 
 { 
-	line-height: 15px; 
-	color: #808080; 
+	line-height: 15px;  
 }
 dl 
 { 
@@ -339,5 +342,4 @@ nav ol,
 	margin: 0; 
 	padding: 0; 
 }
-
 /* @end Typography */
