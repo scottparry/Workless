@@ -35,22 +35,39 @@
 		not recommended. Once you've decided which parts of Workless you 
  		are going to use, then simply copy/paste them all into a 
  		single CSS file to reduce HTTP requests.
+ 		
+ 		We've also included a PHP minification script which automatically
+ 		combines and compresses your CSS.
+ 		
+ 		If you'd like to use this script simply comment/remove the style 
+ 		links below, uncomment the minified statement and ensure this
+ 		is a .php file. i.e: rename index.html to index.php
 	-->
-    <link href="assets/css/plugins.css" rel="stylesheet">
-	<link href="assets/css/workless.css" rel="stylesheet">
-	<link href="assets/css/typography.css" rel="stylesheet">
-	<link href="assets/css/forms.css" rel="stylesheet">
-	<link href="assets/css/tables.css" rel="stylesheet">
-	<link href="assets/css/buttons.css" rel="stylesheet">
-	<link href="assets/css/alerts.css" rel="stylesheet">
-	<link href="assets/css/tabs.css" rel="stylesheet">
-	<link href="assets/css/pagination.css" rel="stylesheet">
-	<link href="assets/css/breadcrumbs.css" rel="stylesheet">
-	<link href="assets/css/icons.css" rel="stylesheet">
-	<link href="assets/css/helpers.css" rel="stylesheet">
-	<link href="assets/css/print.css" rel="stylesheet">
-	<link href="assets/css/application.css" rel="stylesheet">
-	<link href="assets/css/responsive.css" rel="stylesheet">
+	
+	<!-- 
+		Comment for minification script
+	-->
+	
+    	<link href="assets/css/plugins.css" rel="stylesheet">
+		<link href="assets/css/workless.css" rel="stylesheet">
+		<link href="assets/css/typography.css" rel="stylesheet">
+		<link href="assets/css/forms.css" rel="stylesheet">
+		<link href="assets/css/tables.css" rel="stylesheet">
+		<link href="assets/css/buttons.css" rel="stylesheet">
+		<link href="assets/css/alerts.css" rel="stylesheet">
+		<link href="assets/css/tabs.css" rel="stylesheet">
+		<link href="assets/css/pagination.css" rel="stylesheet">
+		<link href="assets/css/breadcrumbs.css" rel="stylesheet">
+		<link href="assets/css/icons.css" rel="stylesheet">
+		<link href="assets/css/helpers.css" rel="stylesheet">
+		<link href="assets/css/print.css" rel="stylesheet">
+		<link href="assets/css/application.css" rel="stylesheet">
+		<link href="assets/css/responsive.css" rel="stylesheet">
+	
+	<!-- 
+		We're minifying and combining all the CSS
+		<link href="minified.css.php" rel="stylesheet">
+	-->
 	
 	<!-- All JavaScript at the bottom, except modernizr -->
   	<script type="text/javascript" src="assets/js/modernizr.js"></script>
