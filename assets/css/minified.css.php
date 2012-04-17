@@ -26,6 +26,7 @@ ob_start("compress");
   	include('icons.css');
   	include('helpers.css');
   	include('print.css');
+	include('scaffolding.css');
   	include('application.css');
   	include('responsive.css');
 
