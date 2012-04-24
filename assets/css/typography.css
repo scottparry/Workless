@@ -3,17 +3,18 @@
  */
 
 * { 
-	font-family: "Open Sans", Helvetica, Arial, sans-serif; 
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
 	font-weight: normal;
 	line-height: 1.231; 
 	text-rendering: optimizeLegibility; 
 	font-size: 100%; 
 	-webkit-text-size-adjust: 100%; 
 	-ms-text-size-adjust: 100%; 
+	-webkit-font-smoothing: antialiased;
 }
 a 
 { 
-	color: #EF3C94; 
+	color: #379ad3; 
 	font-weight: inherit; 
 	font-size: inherit; 
 	text-decoration: none; 
@@ -23,7 +24,7 @@ a
 }
 a:hover 
 { 
-	color: #555555; 
+	color: #333333; 
 }
 a:active 
 { 
@@ -171,7 +172,7 @@ sub
  */
 p 
 { 
-	color: #333333;
+	color: #555555;
 	font-size: 16px;
 	line-height: 1.125em;
 	margin: 0 0 1.125em 0;
@@ -192,7 +193,8 @@ h4,
 h5, 
 h6
 { 
-	color: #333333; 
+	color: #555555; 
+	font-weight: normal;
 }
 h1 small, 
 h2 small, 
@@ -201,7 +203,8 @@ h4 small,
 h5 small, 
 h6 small 
 { 
-	color: #888888; 
+	color: #888888;
+	font-weight: normal; 
 }
 /** 
  * Set individual heading styles 
