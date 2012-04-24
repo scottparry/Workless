@@ -116,20 +116,15 @@ pre
 {
 	display: block;
 	overflow: hidden;
-	background: #f8f8f8;
-	color: #333333;
+	background: #111111;
+	color: #f8f8f8;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	-webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
+	padding: 10px;
 	border-radius: 2px;
-	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
-	-moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
-	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
 	white-space: pre; 
 	white-space: pre-wrap; 
 	word-wrap: break-word;
-	font-family: monospace; 
 }
 q 
 { 
