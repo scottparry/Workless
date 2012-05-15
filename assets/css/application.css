@@ -45,8 +45,7 @@ footer
 /** 
  * Mobile
  */
-nav select, 
-.selector 
+nav .selector 
 {
 	display: inherit;
 }
@@ -91,8 +90,7 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 480px) {
 	
-	nav select, 
-	.selector 
+	nav .selector  
 	{
 		display: inherit;
 	}
@@ -138,8 +136,7 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 640px) {
 	
-	nav select, 
-	.selector 
+	nav .selector  
 	{
 		display: inherit;
 	}
@@ -185,8 +182,7 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 768px) {
 	
-	#nav select, 
-	.selector 
+	nav .selector 
 	{
 		display: none;
 	}
@@ -232,8 +228,7 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 1024px) {
 	
-	nav select, 
-	.selector 
+	nav .selector 
 	{
 		display: none;
 	}
@@ -279,8 +274,7 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 1280px) {
 	
-	nav select, 
-	.selector 
+	nav .selector 
 	{
 		display: none;
 	}
@@ -326,8 +320,7 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 1600px) {
 	
-	nav select, 
-	.selector 
+	nav .selector 
 	{
 		display: none;
 	}
