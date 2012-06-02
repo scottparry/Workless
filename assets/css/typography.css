@@ -10,11 +10,10 @@
 	font-size: 100%; 
 	-webkit-text-size-adjust: 100%; 
 	-ms-text-size-adjust: 100%; 
-	-webkit-font-smoothing: antialiased;
 }
 a 
 { 
-	color: #379ad3; 
+	color: #EF3C94; 
 	font-weight: inherit; 
 	font-size: inherit; 
 	text-decoration: none; 
@@ -24,7 +23,7 @@ a
 }
 a:hover 
 { 
-	color: #333333; 
+	color: #555555; 
 }
 a:active 
 { 
@@ -116,15 +115,20 @@ pre
 {
 	display: block;
 	overflow: hidden;
-	background: #111111;
-	color: #f8f8f8;
+	background: #fefefe;
+	color: #333333;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	padding: 10px;
+	-webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
 	border-radius: 2px;
+	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
 	white-space: pre; 
 	white-space: pre-wrap; 
 	word-wrap: break-word;
+	font-family: monospace; 
 }
 q 
 { 
@@ -167,7 +171,7 @@ sub
  */
 p 
 { 
-	color: #555555;
+	color: #333333;
 	font-size: 16px;
 	line-height: 1.125em;
 	margin: 0 0 1.125em 0;
@@ -188,8 +192,7 @@ h4,
 h5, 
 h6
 { 
-	color: #555555; 
-	font-weight: normal;
+	color: #333333; 
 }
 h1 small, 
 h2 small, 
@@ -198,8 +201,7 @@ h4 small,
 h5 small, 
 h6 small 
 { 
-	color: #888888;
-	font-weight: normal; 
+	color: #666666; 
 }
 /** 
  * Set individual heading styles 
