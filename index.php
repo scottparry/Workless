@@ -85,10 +85,6 @@
 			{workless.css}
 		</a>
         <small>A clean & classy HTML5, CSS3 framework.</small>
-        <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-		<a class="alignright twitter-share-button" href="http://twitter.com/share" data-count="horizontal" data-size="small" data-text="Workless.css A classy HTML5, CSS3 framework." data-via="iKreativ" data-related="iKreativ">
-			<i class="icon-share icon-white"></i> Share on Twitter
-		</a>
 	</div>
 </div>
 <!-- /topbar -->
