@@ -172,7 +172,7 @@ sub
 p 
 { 
 	color: #333333;
-	font-size: 16px;
+	font-size: 14px;
 	line-height: 1.125em;
 	margin: 0 0 1.125em 0;
 }
@@ -237,13 +237,13 @@ h3
 }
 h3 small
 {
-	font-size: 1em; 
+	font-size: 14px; 
 }
 h4
 { 
 	font-size: 1.125em; 
-	line-height: 1em; 
-	margin-top: 1em; 
+	line-height: 14px; 
+	margin-top: 14px; 
 	margin-bottom: 0.6em; 
 }
 h4 small 
@@ -252,7 +252,7 @@ h4 small
 }
 h5
 { 
-	font-size: 1em; 
+	font-size: 14px; 
 	line-height: 1.125em; 
 	margin-top: 1.125em; 
 	margin-bottom: 0.6em; 
@@ -299,7 +299,7 @@ ol
 }
 li 
 { 
-	font-size: 1em;
+	font-size: 14px;
 	line-height: 1.4em;
 }
 dl 
@@ -309,7 +309,7 @@ dl
 dl dt, 
 dl dd 
 { 
-	font-size: 1em;
+	font-size: 14px;
 }
 dl dt 
 { 

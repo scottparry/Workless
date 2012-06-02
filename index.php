@@ -31,17 +31,14 @@
 	<title>Workless - A classy HTML5, CSS3 framework</title>
 
     <!-- 
-		You'll notice that we're loading all CSS seperately. This is 
-		not recommended. Once you've decided which parts of Workless you 
- 		are going to use, then simply copy/paste them all into a 
- 		single CSS file to reduce HTTP requests.
- 		
- 		We've also included a PHP minification script which automatically
- 		combines and compresses your CSS.
- 		
- 		If you'd like to use this script simply comment/remove the style 
- 		links below, uncomment the minified statement and ensure this
- 		is a .php file. i.e: rename index.html to index.php
+		You'll notice that we're loading all the CSS via a minification script. 
+		This script joins all the CSS files referenced and minifies them to
+		reduce HTTP requests and speed up the site.
+
+		This also allow you to work with each individual file for development
+		and only serve the minified version for production.
+
+		The CSS files served are added inside minified.css.php
 	-->
 	
 	<!-- 
@@ -66,6 +63,9 @@
 	
 	<!-- We're minifying and combining all the CSS -->
 	<link href="assets/css/minified.css.php" rel="stylesheet">
+
+	<!-- Googlelicious -->
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open Sans:regular,bold" type="text/css" />
 	
 	<!-- All JavaScript at the bottom, except modernizr -->
   	<script type="text/javascript" src="assets/js/modernizr.js"></script>
@@ -78,15 +78,19 @@
 	<p>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
 <![endif]-->
 
+<!-- topbar -->
+<div id="topbar">
+	<div class="wrapper logo">
+		<a href="//github.com/iKreativ/workless">
+			{workless.css}
+		</a>
+        <small>A clean & classy HTML5, CSS3 framework.</small>
+	</div>
+</div>
+<!-- /topbar -->
+
 	<section class="wrapper">
 		<header>
-        	<h1 class="logo">
-				<a href="//github.com/iKreativ/workless">
-					{workless.css}
-				</a>
-            	<small>A classy HTML5, CSS3 framework.</small>
-			</h1>
-		
 			<div class="intro">
         		Workless is a classy HTML5, CSS3 framework that helps you to get your project up and running as fast as possible and tries to prevent repetitive tasks.
 			</div>
@@ -99,7 +103,7 @@
        	<ul>
            	<li><strong>Standardizes CSS</strong> for a wide range of HTML elements.</li>
            	<li><strong>Improves usability and interaction</strong> with subtle improvements.</li>
-           	<li><strong>Sets typography</strong> to help vertical rhythm and readability.</li>
+           	<li><strong>Sets base typography</strong> to help vertical rhythm and readability.</li>
 			<li><strong>Adds helper classes</strong> to style elements easily.</li>
 			<li><strong>Combines and compresses CSS</strong> if you want it to!</li>
         </ul>

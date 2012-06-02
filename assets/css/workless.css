@@ -63,11 +63,12 @@ body
 { 
 	background: transparent; 
 	height: 100%; 
+	margin: 0; 
+	padding: 0;
+	float: left;
 }
 body 
-{  
-	margin: 0; 
-	padding: 0; 
+{   
 	width: 100%; 
 	overflow-x: hidden; 
 }
@@ -95,17 +96,6 @@ img
 	vertical-align: middle; 
 	border: 0; 
 	outline: 0; 
-	background: #ffffff; 
-	padding: 3px; 
-	border: 1px solid #cccccc; 
-	max-width: 99%; 
-	min-width: 99%; 
-	-webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-	border-radius: 2px;
-	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
-	-moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
-	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
 }
 /** 
  * Correct overflow not hidden in IE9 

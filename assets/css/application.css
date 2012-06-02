@@ -9,9 +9,48 @@
 
 
 /**
+ * Google fonts
+ */
+ *
+ {
+ 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ }
+
+
+
+/**
+ * Topbar
+ */
+#topbar
+{
+	background: #2daebf;
+	width: 100%;
+	height: 25px;
+	margin: 0 0 50px 0;
+	padding: 8px 0;
+}
+
+#topbar .logo
+{
+	margin: 0 auto;
+	padding: 0;
+	color: #ffffff;
+	font-size: 16px;
+}
+
+#topbar .logo a
+{
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 18px;
+}
+
+
+
+/**
  * Header
  */
-header 
+header
 {
 	border-bottom: 5px solid #eeeeee;
 }

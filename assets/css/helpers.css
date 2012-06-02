@@ -25,15 +25,26 @@
  */
 .intro
 {
-	font-size: 24px!important;
+	font-size: 20px!important;
 	color: #333333;
 	margin-bottom: 25px;
 }
 .sub_intro
 {
-	font-size: 20px!important;
+	font-size: 16px!important;
 	color: #333333;
 	margin-bottom: 25px;
+}
+
+
+
+/**
+ * Wrapper
+ */
+.wrapper
+{
+	margin: 0 auto;
+	float: none;
 }
 
 
