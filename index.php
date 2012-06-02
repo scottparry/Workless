@@ -29,9 +29,6 @@
     <meta name="viewport" content="width=device-width">
 
 	<title>Workless - A classy HTML5, CSS3 framework</title>
-	
-	<!-- Googlelicious -->
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,400italic,600,700,600italic,700italic,300italic' rel='stylesheet' type='text/css'>
 
     <!-- 
 		You'll notice that we're loading all CSS seperately. This is 
@@ -48,29 +45,27 @@
 	-->
 	
 	<!-- 
-		Comment for minification script
+		Commented for minification script
+	
+    	<link href="assets/css/plugins.css" rel="stylesheet">
+		<link href="assets/css/workless.css" rel="stylesheet">
+		<link href="assets/css/typography.css" rel="stylesheet">
+		<link href="assets/css/forms.css" rel="stylesheet">
+		<link href="assets/css/tables.css" rel="stylesheet">
+		<link href="assets/css/buttons.css" rel="stylesheet">
+		<link href="assets/css/alerts.css" rel="stylesheet">
+		<link href="assets/css/tabs.css" rel="stylesheet">
+		<link href="assets/css/pagination.css" rel="stylesheet">
+		<link href="assets/css/breadcrumbs.css" rel="stylesheet">
+		<link href="assets/css/icons.css" rel="stylesheet">
+		<link href="assets/css/helpers.css" rel="stylesheet">
+		<link href="assets/css/print.css" rel="stylesheet">
+		<link href="assets/css/application.css" rel="stylesheet">
+		<link href="assets/css/responsive.css" rel="stylesheet">
 	-->
 	
-	<link href="assets/css/plugins.css" rel="stylesheet">
-	<link href="assets/css/workless.css" rel="stylesheet">
-	<link href="assets/css/typography.css" rel="stylesheet">
-	<link href="assets/css/forms.css" rel="stylesheet">
-	<link href="assets/css/tables.css" rel="stylesheet">
-	<link href="assets/css/buttons.css" rel="stylesheet">
-	<link href="assets/css/alerts.css" rel="stylesheet">
-	<link href="assets/css/tabs.css" rel="stylesheet">
-	<link href="assets/css/pagination.css" rel="stylesheet">
-	<link href="assets/css/breadcrumbs.css" rel="stylesheet">
-	<link href="assets/css/icons.css" rel="stylesheet">
-	<link href="assets/css/helpers.css" rel="stylesheet">
-	<link href="assets/css/print.css" rel="stylesheet">
-	<link href="assets/css/scaffolding.css" rel="stylesheet">
-	<link href="assets/css/application.css" rel="stylesheet">
-	
-	<!-- 
-		We're minifying and combining all the CSS
-		<link href="assets/css/minified.css.php" rel="stylesheet">
-	-->
+	<!-- We're minifying and combining all the CSS -->
+	<link href="assets/css/minified.css.php" rel="stylesheet">
 	
 	<!-- All JavaScript at the bottom, except modernizr -->
   	<script type="text/javascript" src="assets/js/modernizr.js"></script>
@@ -106,6 +101,7 @@
            	<li><strong>Improves usability and interaction</strong> with subtle improvements.</li>
            	<li><strong>Sets typography</strong> to help vertical rhythm and readability.</li>
 			<li><strong>Adds helper classes</strong> to style elements easily.</li>
+			<li><strong>Combines and compresses CSS</strong> if you want it to!</li>
         </ul>
 		
 		<hr>
@@ -114,7 +110,7 @@
        	<p>Drop the files into your project and then reference the CSS and Javascript files in your source. Once you've done this you can then begin adding your own application specific CSS.</p>
 		<p><strong>Don't forget!</strong> If you intend to use the entire framework ensure that you combine all the CSS stylesheets into one or two files to reduce HTTP requests. The typical file structure would look like:</p>
 		
-<pre class="zoomTarget">
+<pre>
 &lt;link href="assets/css/plugins.css" rel="stylesheet"&gt; // all javascript plugins css
 &lt;link href="assets/css/workless.css" rel="stylesheet"&gt; // main framework css
 &lt;link href="assets/css/application.css" rel="stylesheet"&gt; // app specific css (your code)
@@ -127,14 +123,17 @@
 		
 		<h2>Get your hands on it!</h2>
         <ul class="nolist">
-        	<li><a class="alignleft large button" href="//github.com/iKreativ/Workless"><i class="icon-inbox icon-white"></i> Workless on GitHub</a></li>
-            <li><a class="alignleft button pink large" href="//github.com/iKreativ/Workless/zipball/master"><i class="icon-download-alt icon-white"></i> Download .ZIP</a></li>
-			<li><a class="button blue large twitter-share-button" href="http://twitter.com/share" data-count="vertical" data-text="Workless.css A classy HTML5, CSS3 framework." data-via="iKreativ" data-related="iKreativ"><i class="icon-share icon-white"></i> Share on Twitter</a></li>
+        	<li><a class="alignleft large button blue flat" href="//github.com/iKreativ/Workless"><i class="icon-inbox icon-white"></i> Workless on GitHub</a></li>
+            <li><a class="alignleft large button pink flat" href="//github.com/iKreativ/Workless/zipball/master"><i class="icon-download-alt icon-white"></i> Download .ZIP</a></li>
+            
+            <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+			<li><a class="twitter-share-button" href="http://twitter.com/share" data-count="horizontal" data-size="large" data-text="Workless.css A classy HTML5, CSS3 framework." data-via="iKreativ" data-related="iKreativ"><i class="icon-share icon-white"></i> Share on Twitter</a></li>
+			<li>&nbsp;</li>
         </ul>
 
 		<p>You can also clone the repo on GitHub</p>
 		
-<pre class="zoomTarget">$ git clone git@github.com:iKreativ/Workless.git</pre>
+<pre>$ git clone git@github.com:iKreativ/Workless.git</pre>
 		
 		<p>Feel free to fork, use, abuse and modify to suit your project. Found a bug? <a href="//github.com/iKreativ/Workless">Submit a pull request!</a></p>
 		

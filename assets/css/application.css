@@ -36,6 +36,7 @@ footer
 /* @end Header */
 
 
+
 /** Responsive @media queries for responsive design.
  * Ensure this is included after all your other CSS.
  */
@@ -45,7 +46,8 @@ footer
 /** 
  * Mobile
  */
-nav .selector 
+nav select, 
+.selector 
 {
 	display: inherit;
 }
@@ -90,7 +92,8 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 480px) {
 	
-	nav .selector  
+	nav select, 
+	.selector 
 	{
 		display: inherit;
 	}
@@ -136,7 +139,8 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 640px) {
 	
-	nav .selector  
+	nav select, 
+	.selector 
 	{
 		display: inherit;
 	}
@@ -148,7 +152,7 @@ nav#mainnav ul
 	
 	.one_full 
 	{ 
-		width: 650px; 
+		width: 550px; 
 	}
 
 	.one_half 
@@ -173,7 +177,7 @@ nav#mainnav ul
 	
 	.wrapper 
 	{
-		width: 650px;
+		width: 550px;
 	}
 }
 
@@ -182,7 +186,8 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 768px) {
 	
-	nav .selector 
+	#nav select, 
+	.selector 
 	{
 		display: none;
 	}
@@ -194,7 +199,7 @@ nav#mainnav ul
 	
 	.one_full 
 	{ 
-		width: 700px; 
+		width: 600px; 
 	}
 
 	.one_half 
@@ -219,7 +224,7 @@ nav#mainnav ul
 	
 	.wrapper 
 	{
-		width: 700px;
+		width: 600px;
 	}
 }
 
@@ -228,7 +233,8 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 1024px) {
 	
-	nav .selector 
+	nav select, 
+	.selector 
 	{
 		display: none;
 	}
@@ -240,7 +246,7 @@ nav#mainnav ul
 	
 	.one_full 
 	{ 
-		width: 700px; 
+		width: 600px; 
 	}
 
 	.one_half 
@@ -265,7 +271,7 @@ nav#mainnav ul
 	
 	.wrapper 
 	{
-		width: 700px;
+		width: 600px;
 	}
 }
 
@@ -274,7 +280,8 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 1280px) {
 	
-	nav .selector 
+	nav select, 
+	.selector 
 	{
 		display: none;
 	}
@@ -286,7 +293,7 @@ nav#mainnav ul
 	
 	.one_full 
 	{ 
-		width: 700px; 
+		width: 600px; 
 	}
 
 	.one_half 
@@ -311,7 +318,7 @@ nav#mainnav ul
 	
 	.wrapper 
 	{
-		width: 700px;
+		width: 600px;
 	}
 }
 
@@ -320,7 +327,8 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 1600px) {
 	
-	nav .selector 
+	nav select, 
+	.selector 
 	{
 		display: none;
 	}
@@ -332,7 +340,7 @@ nav#mainnav ul
 	
 	.one_full 
 	{ 
-		width: 700px; 
+		width: 600px; 
 	}
 
 	.one_half 
@@ -357,6 +365,6 @@ nav#mainnav ul
 	
 	.wrapper 
 	{
-		width: 700px;
+		width: 600px;
 	}
 }

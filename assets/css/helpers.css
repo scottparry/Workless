@@ -13,21 +13,9 @@
 { 
 	background: url(../img/bg_noisedark.jpg) repeat !important; 
 }
-.classy
+.classydark 
 { 
 	background: url(../img/bg_classydark.jpg) repeat !important; 
-}
-.texture 
-{ 
-	background: url(../img/bg_texture.jpg) repeat !important; 
-}
-.check 
-{ 
-	background: url(../img/bg_check.png) repeat !important; 
-}
-.lux
-{ 
-	background: url(../img/bg_lux.jpg) repeat !important; 
 }
 /* @end Backgrounds */
 
@@ -37,13 +25,13 @@
  */
 .intro
 {
-	font-size: 20px!important;
+	font-size: 24px!important;
 	color: #333333;
 	margin-bottom: 25px;
 }
 .sub_intro
 {
-	font-size: 18px!important;
+	font-size: 20px!important;
 	color: #333333;
 	margin-bottom: 25px;
 }
@@ -53,15 +41,6 @@
 /**
  * Non-semantic helpers
  */
-.small_splitter 
-{
-	background: #dddddd;
-	width: 25px;
-	height: 1px;
-	margin: 25px 0 25px 15px;
-	padding: 0;
-	float: left;
-}
 .small
 {
 	font-size: smaller;
@@ -106,7 +85,7 @@
 }
 .muted 
 { 
-	color: #888888; 
+	color: #666666; 
 }
 .highlight 
 { 
@@ -195,3 +174,68 @@
 	text-align: center;
 }
 /* @end Non-semantic helpers */
+
+
+
+/**
+ * Prettyprint 
+ */
+.com 
+{ 
+	color: #aaaaaa; 
+}
+.lit 
+{ 
+	color: #195f91; 
+}
+.pun, 
+.opn, 
+.clo 
+{ 
+	color: #34ade8; 
+}
+.fun 
+{ 
+	color: #4F6677; 
+}
+.str, 
+.atv 
+{ 
+	color: #268bd2; 
+}
+.kwd, 
+.tag 
+{ 
+	color: #195f91; 
+}
+.typ, 
+.atn, 
+.dec, 
+.var 
+{ 
+	color: #CB4B16; 
+}
+.pln 
+{ 
+	color: #4F6677; 
+}
+
+pre.prettyprint 
+{
+  	background: #fefefe;
+  	padding: 9px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+  	border: 1px solid rgba(0, 0, 0, 0.2);
+	font-size: 14px;
+}
+.linenums 
+{ 
+	margin: 0; 
+	padding: 0; 
+}
+.linenums li 
+{ 
+	line-height: 20px; 
+}
+/* @end Prettyprint */

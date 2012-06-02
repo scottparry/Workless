@@ -55,6 +55,9 @@ $('.tooltip-w').tipsy({
 // Scroll
 jQuery.localScroll();
 
+// Prettyprint
+$('pre').addClass('prettyprint linenums');
+
 // Uniform
 $("select, input:checkbox, input:radio, input:file").uniform();
 	
