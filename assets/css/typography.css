@@ -86,13 +86,13 @@ hr
 ins 
 { 
 	background: #ff9; 
-	color: #333333; 
+	color: #222222; 
 	text-decoration: none; 
 }
 mark 
 { 
 	background: #ff0; 
-	color: #333333; 
+	color: #222222; 
 	font-style: italic; 
 	font-weight: bold; 
 }
@@ -115,7 +115,7 @@ pre
 	display: block;
 	overflow: hidden;
 	background: #fefefe;
-	color: #333333;
+	color: #222222;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	-webkit-border-radius: 2px;
@@ -170,7 +170,7 @@ sub
  */
 p 
 { 
-	color: #333333;
+	color: #222222;
 	font-size: 14px;
 	line-height: 1.125em;
 	margin: 0 0 1.125em 0;
@@ -191,7 +191,7 @@ h4,
 h5, 
 h6
 { 
-	color: #333333; 
+	color: #222222; 
 }
 h1 small, 
 h2 small, 
