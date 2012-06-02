@@ -85,6 +85,10 @@
 			{workless.css}
 		</a>
         <small>A clean & classy HTML5, CSS3 framework.</small>
+        <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+		<a class="alignright twitter-share-button" href="http://twitter.com/share" data-count="horizontal" data-size="small" data-text="Workless.css A classy HTML5, CSS3 framework." data-via="iKreativ" data-related="iKreativ">
+			<i class="icon-share icon-white"></i> Share on Twitter
+		</a>
 	</div>
 </div>
 <!-- /topbar -->
@@ -99,7 +103,7 @@
 			</div>
 		</header>
 		
-		<h2>What does it do?</h2>
+		<h3>What does it do?</h3>
        	<ul>
            	<li><strong>Standardizes CSS</strong> for a wide range of HTML elements.</li>
            	<li><strong>Improves usability and interaction</strong> with subtle improvements.</li>
@@ -110,7 +114,7 @@
 		
 		<hr>
 		
-      	<h2>How do I use it?</h2>
+      	<h3>How do I use it?</h3>
        	<p>Drop the files into your project and then reference the CSS and Javascript files in your source. Once you've done this you can then begin adding your own application specific CSS.</p>
 		<p><strong>Don't forget!</strong> If you intend to use the entire framework ensure that you combine all the CSS stylesheets into one or two files to reduce HTTP requests. The typical file structure would look like:</p>
 		
@@ -125,14 +129,10 @@
 		
 		<hr>
 		
-		<h2>Get your hands on it!</h2>
+		<h3>Get your hands on it!</h3>
         <ul class="nolist">
         	<li><a class="alignleft large button blue flat" href="//github.com/iKreativ/Workless"><i class="icon-inbox icon-white"></i> Workless on GitHub</a></li>
-            <li><a class="alignleft large button pink flat" href="//github.com/iKreativ/Workless/zipball/master"><i class="icon-download-alt icon-white"></i> Download .ZIP</a></li>
-            
-            <script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
-			<li><a class="twitter-share-button" href="http://twitter.com/share" data-count="horizontal" data-size="large" data-text="Workless.css A classy HTML5, CSS3 framework." data-via="iKreativ" data-related="iKreativ"><i class="icon-share icon-white"></i> Share on Twitter</a></li>
-			<li>&nbsp;</li>
+            <li><a class="large button pink flat" href="//github.com/iKreativ/Workless/zipball/master"><i class="icon-download-alt icon-white"></i> Download .ZIP</a></li>
         </ul>
 
 		<p>You can also clone the repo on GitHub</p>

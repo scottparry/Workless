@@ -184,6 +184,10 @@
 { 
 	text-align: center;
 }
+.inline
+{
+	display: inline;
+}
 /* @end Non-semantic helpers */
 
 
