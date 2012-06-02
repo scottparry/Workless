@@ -82,9 +82,15 @@
 <div id="topbar">
 	<div class="wrapper logo">
 		<a href="//github.com/iKreativ/workless">
-			{workless.css}
+			{ workless.css }
 		</a>
-        <small>A clean & classy HTML5, CSS3 framework.</small>
+        <small> A clean & classy HTML5, CSS3 framework.</small>
+	
+		<div id="docs" class="alignright">
+			<a href="/docs" class="button flat pink">
+				docs
+			</a>
+		</div>
 	</div>
 </div>
 <!-- /topbar -->
@@ -131,9 +137,11 @@
             <li><a class="large button pink flat" href="//github.com/iKreativ/Workless/zipball/master"><i class="icon-download-alt icon-white"></i> Download .ZIP</a></li>
         </ul>
 
-		<p>You can also clone the repo on GitHub</p>
+		<p>You can also clone the repo on GitHub.</p>
 		
-<pre>$ git clone git@github.com:iKreativ/Workless.git</pre>
+<pre>
+$ git clone git@github.com:iKreativ/Workless.git
+</pre>
 		
 		<p>Feel free to fork, use, abuse and modify to suit your project. Found a bug? <a href="//github.com/iKreativ/Workless">Submit a pull request!</a></p>
 		
