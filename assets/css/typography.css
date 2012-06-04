@@ -81,7 +81,7 @@ hr
 	width: 100%; 
 	border: 0; 
 	border-bottom: 1px solid #eeeeee; 
-	margin: 25px 0 25px 0; 
+	margin: 25px 0; 
 	padding: 0; 
 	float: left; 
 }
@@ -175,7 +175,7 @@ p
 }
 p small 
 { 
-	font-size: 13px; 
+	font-size: 12px; 
 }
 
 /** 
@@ -188,7 +188,7 @@ h4,
 h5, 
 h6
 { 
-	font-weight: normal;
+	font-weight: 400;
 }
 /** 
  * Set individual heading styles 

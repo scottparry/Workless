@@ -26,12 +26,12 @@
 
  a
  {
-
+ 	color: #2D9CCE;
  }
 
 a:hover
 {
-	color: #2D9CCE;
+	color: #666666;
 }
 
 a:active
@@ -50,9 +50,11 @@ a:active
 	min-height: 100%;
 	padding: 50px;
 	margin-top: 25px;
+	margin-bottom: 15px;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-	border-radius: 5px;
 	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 5px;
+	float: left;
 }
 
 
@@ -65,28 +67,22 @@ a:active
 	font-weight: bold;
 }
 
+#logo a
+{
+	color: #333333;
+}
+
+#logo a:hover
+{
+	color: #2D9CCE;
+}
+
 #logo small
 {
 	font-size: 12px;
 	color: #666666;
 }
 
-
-/**
- * Header
- */
-header
-{
-	padding: 50px 0;
-	margin-bottom: 25px;
-}
-
-header h1
-{
-	text-align: center;
-	font-weight: normal;
-}
-/* @end Header */
 
 
 
@@ -102,7 +98,7 @@ nav#primary
 nav#primary ul,
 nav#primary .selector
 {
-	margin-top: -22px;
+	margin-top: -21px;
 	float: right;
 }
 
@@ -121,7 +117,7 @@ nav#primary ul li a
 
 nav#primary ul li a:hover
 {
-	color: #2D9CCE;;
+	color: #2D9CCE;
 	font-size: 14px;
 	font-weight: bold;
 }
@@ -135,8 +131,41 @@ nav#primary ul li a:hover
 header
 {
 	border-bottom: 1px solid #eeeeee;
+	padding: 50px 0 35px 0;
+	margin-bottom: 25px;
+}
+
+header h1
+{
+	font-weight: 200;
+	text-align: center;
+	font-weight: normal;
 }
 /* @end Header */
+
+
+
+/**
+ * Get
+ */
+#getit
+{
+	width: 400px;
+	margin: 0 auto;
+	padding-top: 10px;
+	text-align: center;
+}
+
+#getit h3,
+#getit p
+{
+	color: #666666;
+}
+
+#getit p
+{
+	font-size: 12px;
+}
 
 
 
@@ -145,9 +174,7 @@ header
  */
 footer
 {
-	padding-top: 15px;
-	padding-bottom: 15px;
-	margin-top: 25px;
+	text-align: center;
 }
 /* @end Header */
 
@@ -485,7 +512,7 @@ nav#primary ul
 
 	.one_third
 	{
-		width: 350px;
+		width: 340px;
 	}
 
 	.one_quarter
