@@ -81,16 +81,22 @@
 <!-- topbar -->
 <div id="topbar">
 	<div class="wrapper logo">
-		<a href="//github.com/iKreativ/workless">
+		<a href="//workless.ikreativ.com">
 			{ workless.css }
 		</a>
-        <small> A clean & classy HTML5, CSS3 framework.</small>
-	
-		<div id="docs" class="alignright">
-			<a href="/docs" class="button flat pink">
-				docs
-			</a>
-		</div>
+        <small> A clean <span class="fancyamp">&amp;</span> classy HTML5, CSS3 framework.</small>
+
+        <nav id="primary">
+			<ul>
+				<li><a href="#">Base CSS</a></li>
+				<li><a href="#">Scaffold</a></li>
+				<li><a href="#">Forms</a></li>
+				<li><a href="#">Tables</a></li>
+				<li><a href="#">Helpers</a></li>
+				<li><a href="#">Responsive</a></li>
+				<li><a href="#">Plugins</a></li>
+			</ul>
+		</nav>
 	</div>
 </div>
 <!-- /topbar -->
@@ -98,10 +104,7 @@
 	<section class="wrapper">
 		<header>
 			<div class="intro">
-        		Workless is a classy HTML5, CSS3 framework that helps you to get your project up and running as fast as possible and tries to prevent repetitive tasks.
-			</div>
-			<div class="sub_intro">
-				Workless is split into seperate files to allow partial usage, include them all, or just a few, the choice is yours.
+        		Workless is a clean <span class="fancyamp">&amp;</span> classy HTML5, CSS3 framework that helps you to get your project up and running as fast as possible and tries to prevent repetitive tasks.
 			</div>
 		</header>
 		

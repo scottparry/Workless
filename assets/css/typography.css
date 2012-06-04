@@ -3,7 +3,7 @@
  */
 
 * { 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; 
+	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	line-height: 1.231; 
 	text-rendering: optimizeLegibility; 
@@ -66,6 +66,13 @@ blockquote:before
 	font-size: 76px; 
 	position: absolute; 
 	color: #c7c7c7; 
+}
+span.fancyamp
+{
+	font-family: Baskerville, Palatino, "Book Antiqua", serif;
+  	font-style: italic;
+  	color: inherit;
+  	font-size: inherit;
 }
 dfn 
 { 

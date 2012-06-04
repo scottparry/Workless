@@ -25,15 +25,15 @@
  */
 .intro
 {
-	font-size: 20px!important;
+	font-size: 32px!important;
 	color: #333333;
 	margin-bottom: 25px;
+	padding-bottom: 25px;
 }
-.sub_intro
+
+.intro
 {
-	font-size: 16px!important;
-	color: #333333;
-	margin-bottom: 25px;
+	text-align: center;
 }
 
 

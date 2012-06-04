@@ -8,12 +8,12 @@
 
 
 
-/**
- * Google fonts
- */
- *
+ /**
+  * Override fixed topbar
+  */
+ .intro 
  {
- 	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+ 	padding-top: 100px;
  }
 
 
@@ -39,23 +39,57 @@
 	font-size: 16px;
 }
 
-#topbar .logo a
+#topbar .logo > a
 {
 	color: #ffffff;
 	font-weight: bold;
 	font-size: 18px;
+}
+
+#topbar .logo > small
+{
+	color: rgba(255, 255, 255, 0.8);
 }
 /* @end Topbar */
 
 
 
 /**
-  * Override the topbar fixed position
-  */
-.intro
- {
- 	padding-top: 100px;
- }
+ * Nav
+ */
+nav#primary
+{
+	width: 100%;
+}
+
+nav#primary ul,
+nav#primary .selector
+{
+	margin-top: -21px;
+	float: right;
+}
+
+nav#primary ul li
+{
+	margin-left: 15px;
+	display: inline;
+}
+
+nav#primary ul li a
+{
+	color: rgba(255, 255, 255, 1);
+	font-size: 14px;
+	font-weight: bold;
+	text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+nav#primary ul li a:hover
+{
+	color: rgba(255, 255, 255, 0.6);
+	font-size: 14px;
+	font-weight: bold;
+}
+/* @end Nav */
 
 
 
@@ -97,36 +131,25 @@ footer
 /** 
  * Mobile
  */
-nav select
+nav#primary .selector
 {
 	display: inherit;
 }
 
-nav#mainnav ul 
+nav#primary ul 
 { 
 	display: none; 
 }
 
-.one_full 
-{ 
-	width: 280px; 
+#topbar .logo > small
+{
+	display: none;
 }
 
-.one_half 
-{ 
-	width: 280px; 
-}
-
-.one_third 
-{ 
-	width: 280px; 
-}
-
-.two_third 
-{ 
-	width: 280px; 
-}
-
+.one_full,
+.one_half,
+.one_third,
+.two_third,
 .one_quarter 
 { 
 	width: 280px; 
@@ -142,39 +165,19 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 480px) {
 	
-	nav select
+	nav#primary .selector
 	{
 		display: inherit;
 	}
 	
-	nav#mainnav ul 
+	nav#primary ul 
 	{ 
 		display: none; 
 	}
-	
-	.one_full 
-	{ 
-		width: 420px; 
-	}
 
-	.one_half 
-	{ 
-		width: 190px; 
-	}
-
-	.one_third 
-	{ 
-		width: 110px; 
-	}
-
-	.two_third 
-	{ 
-		width: 250px; 
-	}
-
-	.one_quarter 
-	{ 
-		width: 185px; 
+	#topbar .logo > small
+	{
+		display: none;
 	}
 	
 	.wrapper 
@@ -188,41 +191,21 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 640px) {
 	
-	nav select
+	nav#primary .selector
 	{
 		display: inherit;
 	}
 	
-	nav#mainnav ul 
+	nav#primary ul 
 	{ 
 		display: none; 
 	}
-	
-	.one_full 
-	{ 
-		width: 550px; 
+
+	#topbar .logo > small
+	{
+		display: none;
 	}
 
-	.one_half 
-	{ 
-		width: 310px; 
-	}
-
-	.one_third 
-	{ 
-		width: 200px; 
-	}
-
-	.two_third 
-	{ 
-		width: 425px; 
-	}
-
-	.one_quarter 
-	{ 
-		width: 140px; 
-	}
-	
 	.wrapper 
 	{
 		width: 550px;
@@ -234,44 +217,24 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 768px) {
 	
-	#nav select
+	nav#primary .selector
 	{
 		display: none;
 	}
 	
-	nav#mainnav ul 
+	nav#primary ul 
 	{ 
 		display: inherit; 
 	}
 	
-	.one_full 
-	{ 
-		width: 600px; 
+	#topbar .logo > small
+	{
+		display: none;
 	}
 
-	.one_half 
-	{ 
-		width: 360px; 
-	}
-
-	.one_third 
-	{ 
-		width: 230px; 
-	}
-
-	.two_third 
-	{ 
-		width: 490px; 
-	}
-
-	.one_quarter 
-	{ 
-		width: 160px; 
-	}
-	
 	.wrapper 
 	{
-		width: 600px;
+		width: 700px;
 	}
 }
 
@@ -280,44 +243,24 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 1024px) {
 	
-	nav select
+	nav#primary .selector
 	{
 		display: none;
 	}
 	
-	nav#mainnav ul 
+	nav#primary ul 
 	{ 
 		display: inherit; 
 	}
-	
-	.one_full 
-	{ 
-		width: 600px; 
-	}
 
-	.one_half 
-	{ 
-		width: 385px; 
-	}
-
-	.one_third 
-	{ 
-		width: 250px; 
-	}
-
-	.two_third 
-	{ 
-		width: 525px; 
-	}
-
-	.one_quarter 
-	{ 
-		width: 180px; 
+	#topbar .logo > small
+	{
+		display: inline;
 	}
 	
 	.wrapper 
 	{
-		width: 600px;
+		width: 960px;
 	}
 }
 
@@ -326,44 +269,24 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 1280px) {
 	
-	nav select
+	nav#primary .selector
 	{
 		display: none;
 	}
 	
-	nav#mainnav ul 
+	nav#primary ul 
 	{ 
 		display: inherit; 
 	}
 	
-	.one_full 
-	{ 
-		width: 600px; 
+	#topbar .logo > small
+	{
+		display: inline;
 	}
 
-	.one_half 
-	{ 
-		width: 400px; 
-	}
-
-	.one_third 
-	{ 
-		width: 265px; 
-	}
-
-	.two_third 
-	{ 
-		width: 555px; 
-	}
-
-	.one_quarter 
-	{ 
-		width: 185px; 
-	}
-	
 	.wrapper 
 	{
-		width: 600px;
+		width: 1100px;
 	}
 }
 
@@ -372,43 +295,23 @@ nav#mainnav ul
  */
 @media only screen and (min-width: 1600px) {
 	
-	nav select
+	nav#primary .selector
 	{
 		display: none;
 	}
 	
-	nav#mainnav ul 
+	nav#primary ul,
 	{ 
 		display: inherit; 
 	}
-	
-	.one_full 
-	{ 
-		width: 600px; 
-	}
 
-	.one_half 
-	{ 
-		width: 487px; 
-	}
-
-	.one_third 
-	{ 
-		width: 315px; 
-	}
-
-	.two_third 
-	{ 
-		width: 655px; 
-	}
-
-	.one_quarter 
-	{ 
-		width: 230px; 
+	#topbar .logo > small
+	{
+		display: inline;
 	}
 	
 	.wrapper 
 	{
-		width: 600px;
+		width: 1200px;
 	}
 }
