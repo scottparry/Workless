@@ -63,9 +63,6 @@
 	
 	<!-- We're minifying and combining all the CSS -->
 	<link href="assets/css/minified.css.php" rel="stylesheet">
-
-	<!-- Googlelicious -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT Sans:regular,bold" type="text/css" />
 	
 	<!-- All JavaScript at the bottom, except modernizr -->
   	<script type="text/javascript" src="assets/js/modernizr.js"></script>
@@ -78,50 +75,54 @@
 	<p>Your browser is <em>ancient!</em> <a href="http://browsehappy.com/">Upgrade to a different browser</a> or <a href="http://www.google.com/chromeframe/?redirect=true">install Google Chrome Frame</a> to experience this site.</p>
 <![endif]-->
 
-<!-- topbar -->
-<div id="topbar">
-	<div class="wrapper logo">
-		<a href="//workless.ikreativ.com">
-			{ workless.css }
-		</a>
-        <small> A clean <span class="fancyamp">&amp;</span> classy HTML5, CSS3 framework.</small>
+<!-- main -->
+<section id="main">
 
-        <nav id="primary">
-			<ul>
-				<li><a href="#">Base CSS</a></li>
-				<li><a href="#">Scaffold</a></li>
-				<li><a href="#">Forms</a></li>
-				<li><a href="#">Tables</a></li>
-				<li><a href="#">Helpers</a></li>
-				<li><a href="#">Responsive</a></li>
-				<li><a href="#">Plugins</a></li>
-			</ul>
-		</nav>
-	</div>
-</div>
-<!-- /topbar -->
+		<div id="logo" class="wrapper">
+			<a href="//workless.ikreativ.com">
+				{ workless.css }
+			</a>
+        	<small> A clean <span class="fancyamp">&amp;</span> classy HTML5, CSS3 framework.</small>
 
-	<section class="wrapper">
-		<header>
-			<div class="intro">
-        		<h1>Workless is a clean <span class="fancyamp">&amp;</span> classy HTML5, CSS3 framework that helps you to get your project up and running as fast as possible and tries to prevent repetitive tasks.</h1>
-			</div>
-		</header>
-		
-		<h3>What does it do?</h3>
-       	<ul>
-           	<li><strong>Standardizes CSS</strong> for a wide range of HTML elements.</li>
-           	<li><strong>Improves usability and interaction</strong> with subtle improvements.</li>
-           	<li><strong>Sets base typography</strong> to help vertical rhythm and readability.</li>
-			<li><strong>Adds helper classes</strong> to style elements easily.</li>
-			<li><strong>Combines and compresses CSS</strong> if you want it to!</li>
-        </ul>
-		
+        	<nav id="primary">
+				<ul>
+					<li><a href="#">Base CSS</a></li>
+					<li><a href="#">Scaffold</a></li>
+					<li><a href="#">Forms</a></li>
+					<li><a href="#">Tables</a></li>
+					<li><a href="#">Helpers</a></li>
+					<li><a href="#">Responsive</a></li>
+					<li><a href="#">Plugins</a></li>
+				</ul>
+			</nav>
+		</div>
+
 		<hr>
+
+		<section class="wrapper">
+			<header>
+        		<h1>Workless is a clean <span class="fancyamp">&amp;</span> classy HTML5, CSS3 framework that helps you to get your project up and running as fast as possible and tries to prevent repetitive tasks.</h1>
+			</header>
+			
+			<div class="one_half">
+				<h4>What does it do?</h4>
+    	   		<ul>
+        	   		<li><strong>Standardizes CSS</strong> for a wide range of HTML elements.</li>
+           			<li><strong>Improves usability and interaction</strong> with subtle improvements.</li>
+           			<li><strong>Sets base typography</strong> to help vertical rhythm and readability.</li>
+					<li><strong>Adds helper classes</strong> to style elements easily.</li>
+					<li><strong>Combines and compresses CSS</strong> if you want it to!</li>
+        		</ul>
+			</div>
 		
-      	<h3>How do I use it?</h3>
-       	<p>Drop the files into your project and then reference the CSS and Javascript files in your source. Once you've done this you can then begin adding your own application specific CSS.</p>
-		<p><strong>Don't forget!</strong> If you intend to use the entire framework ensure that you combine all the CSS stylesheets into one or two files to reduce HTTP requests. The typical file structure would look like:</p>
+			<div class="one_half last">
+	      		<h4>How do I use it?</h4>
+    	   		<p>Drop the files into your project and then reference the CSS and Javascript files in your source. Once you've done this you can then begin adding your own application specific CSS.</p>
+			</div>
+
+			<hr>
+			
+			<p><strong>Don't forget!</strong> If you intend to use the entire framework ensure that you combine all the CSS stylesheets into one or two files to reduce HTTP requests. The typical file structure would look like:</p>
 		
 <pre>
 &lt;link href="assets/css/plugins.css" rel="stylesheet"&gt; // all javascript plugins css
@@ -130,30 +131,31 @@
 &lt;link href="assets/css/responsive.css" rel="stylesheet"&gt; // media queries
 </pre>
 
-		<p>This is just a suggested way to use the framework, feel free to use however you want!</p>
+			<p>This is just a suggested way to use the framework, feel free to use however you want!</p>
 		
-		<hr>
+			<hr>
 		
-		<h3>Get your hands on it!</h3>
-        <ul class="nolist">
-        	<li><a class="alignleft large button blue flat" href="//github.com/iKreativ/Workless"><i class="icon-inbox icon-white"></i> Workless on GitHub</a></li>
-            <li><a class="large button pink flat" href="//github.com/iKreativ/Workless/zipball/master"><i class="icon-download-alt icon-white"></i> Download .ZIP</a></li>
-        </ul>
+			<h3>Get your hands on it!</h3>
+        	<ul class="nolist">
+        		<li><a class="alignleft large button blue flat" href="//github.com/iKreativ/Workless"><i class="icon-inbox icon-white"></i> Workless on GitHub</a></li>
+            	<li><a class="large button pink flat" href="//github.com/iKreativ/Workless/zipball/master"><i class="icon-download-alt icon-white"></i> Download .ZIP</a></li>
+        	</ul>
 
-		<p>You can also clone the repo on GitHub.</p>
+			<p>You can also clone the repo on GitHub.</p>
 		
 <pre>
 $ git clone git@github.com:iKreativ/Workless.git
 </pre>
 		
-		<p>Feel free to fork, use, abuse and modify to suit your project. Found a bug? <a href="//github.com/iKreativ/Workless">Submit a pull request!</a></p>
-		
-		<hr>
-		
-		<footer>
-        	<p class="small muted">A project by <a href="//ikreativ.com">Scott Parry</a> (<a href="//twitter.com/iKreativ">@iKreativ</a>). Originally based off <a href="//html5boilerplate.com/">H5BP</a> and <a href="//twitter.github.com/bootstrap/">Bootstrap</a>. Released under the <a href="//philsturgeon.co.uk/code/dbad-license/">DBAD License</a>.</p>
-		</footer>
+			<p>Feel free to fork, use, abuse and modify to suit your project. Found a bug? <a href="//github.com/iKreativ/Workless">Submit a pull request!</a></p>
+		</section>
+
 	</section>
+	<!-- /main -->
+
+	<footer>
+        <p class="small muted">A project by <a href="//ikreativ.com">Scott Parry</a> (<a href="//twitter.com/iKreativ">@iKreativ</a>). Originally based off <a href="//html5boilerplate.com/">H5BP</a> and <a href="//twitter.github.com/bootstrap/">Bootstrap</a>. Released under the <a href="//philsturgeon.co.uk/code/dbad-license/">DBAD License</a>.</p>
+	</footer>
 
 <!-- JavaScript at the bottom for fast page loading -->
 

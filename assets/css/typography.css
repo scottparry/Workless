@@ -3,7 +3,7 @@
  */
 
 * { 
-	font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	line-height: 1.231; 
 	text-rendering: optimizeLegibility; 
@@ -169,13 +169,13 @@ sub
  */
 p 
 { 
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.125em;
 	margin: 0 0 1.125em 0;
 }
 p small 
 { 
-	font-size: 12px; 
+	font-size: 13px; 
 }
 
 /** 
@@ -188,65 +188,45 @@ h4,
 h5, 
 h6
 { 
-	font-weight: bold;
+	font-weight: normal;
 }
 /** 
  * Set individual heading styles 
 */
 h1
 { 
-	font-size: 2em;
-	line-height: 1em;
+	font-size: 2.5em;
+	line-height: 1.2em;
 	margin-top: 0.75em; 
 	margin-bottom: 0.7em; 
 }
-h1 small
-{
-	font-size: 0.5em;
-}
 h2
 { 
-	font-size: 1.375em;
-	line-height: 1.6364em;
-	margin-top: 0.8182em; 
+	font-size: 2em;
+	line-height: 1.2em;
+	margin-top: 0.75em; 
 	margin-bottom: 0.7em; 
-}
-h2 small
-{
-	font-size: 1.125em;
 }
 h3
 { 
-	font-size: 1.25em; 
-	line-height: 1.8em; 
-	margin-top: 0.9em; 
+	font-size: 1.5em; 
+	line-height: 1.2em; 
+	margin-top: 0.75em; 
 	margin-bottom: 0.7em; 
-}
-h3 small
-{
-	font-size: 14px; 
 }
 h4
 { 
-	font-size: 1.125em; 
-	line-height: 14px; 
-	margin-top: 14px; 
-	margin-bottom: 0.6em; 
-}
-h4 small 
-{
-	font-size: 0.875em; 
+	font-size: 1.25em; 
+	line-height: 1.2em; 
+	margin-top: 0.75em; 
+	margin-bottom: 0.7em; 
 }
 h5
 { 
-	font-size: 14px; 
+	font-size: 1em; 
 	line-height: 1.125em; 
 	margin-top: 1.125em; 
 	margin-bottom: 0.6em; 
-}
-h5 small 
-{
-	font-size: 0.75em; 
 }
 h6
 { 
@@ -255,10 +235,9 @@ h6
 	margin-top: 1.2857em; 
 	margin-bottom: 0.5em; 
 }
-h6 small
-{
-	font-size: 0.75em; 
-}
+
+
+
 
 /**
  * Lists
@@ -286,7 +265,7 @@ ol
 }
 li 
 { 
-	font-size: 14px;
+	font-size: 16px;
 	line-height: 1.4em;
 }
 dl 
@@ -296,7 +275,7 @@ dl
 dl dt, 
 dl dd 
 { 
-	font-size: 14px;
+	font-size: 16px;
 }
 dl dt 
 { 

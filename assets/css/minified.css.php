@@ -20,11 +20,12 @@ ob_start("compress");
   	include('tables.css');
   	include('buttons.css');
   	include('alerts.css');
- 	include('tabs.css');
+  	include('tabs.css');
   	include('pagination.css');
   	include('breadcrumbs.css');
   	include('icons.css');
   	include('helpers.css');
+    include('scaffolding.css');
   	include('print.css');
   	include('application.css');
 
