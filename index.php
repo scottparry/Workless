@@ -92,7 +92,6 @@
         <!-- nav -->
         <nav id="primary">
 			<ul>
-				<li><a href="#">Base CSS</a></li>
 				<li><a href="#">Scaffold</a></li>
 				<li><a href="#">Forms</a></li>
 				<li><a href="#">Tables</a></li>
