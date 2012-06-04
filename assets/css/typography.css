@@ -3,7 +3,7 @@
  */
 
 * { 
-	font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: "PT Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-weight: normal;
 	line-height: 1.231; 
 	text-rendering: optimizeLegibility; 
@@ -13,7 +13,6 @@
 }
 a 
 { 
-	color: #EF3C94; 
 	font-weight: inherit; 
 	font-size: inherit; 
 	text-decoration: none; 
@@ -23,11 +22,9 @@ a
 }
 a:hover 
 { 
-	color: #555555; 
 }
 a:active 
 { 
-	color: #000000;
 }
 a:focus 
 { 
@@ -65,7 +62,6 @@ blockquote:before
 	content: '\201C'; 
 	font-size: 76px; 
 	position: absolute; 
-	color: #c7c7c7; 
 }
 span.fancyamp
 {
@@ -92,13 +88,11 @@ hr
 ins 
 { 
 	background: #ff9; 
-	color: #333333; 
 	text-decoration: none; 
 }
 mark 
 { 
 	background: #ff0; 
-	color: #333333; 
 	font-style: italic; 
 	font-weight: bold; 
 }
@@ -121,7 +115,6 @@ pre
 	display: block;
 	overflow: hidden;
 	background: #fefefe;
-	color: #333333;
 	margin-top: 15px;
 	margin-bottom: 15px;
 	-webkit-border-radius: 2px;
@@ -176,14 +169,12 @@ sub
  */
 p 
 { 
-	color: #333333;
 	font-size: 14px;
 	line-height: 1.125em;
 	margin: 0 0 1.125em 0;
 }
 p small 
 { 
-	color: #666666;
 	font-size: 12px; 
 }
 
@@ -197,17 +188,7 @@ h4,
 h5, 
 h6
 { 
-	color: #333333; 
 	font-weight: bold;
-}
-h1 small, 
-h2 small, 
-h3 small, 
-h4 small, 
-h5 small, 
-h6 small 
-{ 
-	color: #666666; 
 }
 /** 
  * Set individual heading styles 
@@ -215,7 +196,7 @@ h6 small
 h1
 { 
 	font-size: 2em;
-	line-height: 1.5em;
+	line-height: 1em;
 	margin-top: 0.75em; 
 	margin-bottom: 0.7em; 
 }

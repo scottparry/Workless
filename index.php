@@ -65,7 +65,7 @@
 	<link href="assets/css/minified.css.php" rel="stylesheet">
 
 	<!-- Googlelicious -->
-	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open Sans:regular,bold" type="text/css" />
+	<link rel="stylesheet" href="http://fonts.googleapis.com/css?family=PT Sans:regular,bold" type="text/css" />
 	
 	<!-- All JavaScript at the bottom, except modernizr -->
   	<script type="text/javascript" src="assets/js/modernizr.js"></script>
@@ -104,7 +104,7 @@
 	<section class="wrapper">
 		<header>
 			<div class="intro">
-        		Workless is a clean <span class="fancyamp">&amp;</span> classy HTML5, CSS3 framework that helps you to get your project up and running as fast as possible and tries to prevent repetitive tasks.
+        		<h1>Workless is a clean <span class="fancyamp">&amp;</span> classy HTML5, CSS3 framework that helps you to get your project up and running as fast as possible and tries to prevent repetitive tasks.</h1>
 			</div>
 		</header>
 		
