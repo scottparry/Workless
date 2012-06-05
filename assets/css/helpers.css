@@ -80,6 +80,31 @@
 	margin-right: 0; 
 }
 
+/**
+ * Cancel borders
+ */
+.nb
+{
+	border: none;
+}
+.ntb
+{
+	border: none;
+}
+.nbb
+{
+	border: none;
+}
+.nlb
+{
+	border: none;
+}
+.nrb
+{
+	border: none;
+}
+
+
 /* 
  * Last class 
  */

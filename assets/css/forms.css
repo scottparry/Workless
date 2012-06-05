@@ -83,21 +83,6 @@ input[type="button"]
   	-moz-transition: 250ms linear all;
   	transition: 250ms linear all;
 }
-button:hover,
-input[type="reset"]:hover,
-input[type="submit"]:hover,
-input[type="button"]:hover 
-{
-  	background: #ffffff;
-  	background-image: -khtml-gradient(linear, left top, left bottom, from(#dddddd), to(#ffffff));
-  	background-image: -moz-linear-gradient(#dddddd, #ffffff);
-  	background-image: -ms-linear-gradient(#dddddd, #ffffff);
-  	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #dddddd), color-stop(100%, #ffffff));
-  	background-image: -webkit-linear-gradient(#dddddd, #ffffff);
-  	background-image: -o-linear-gradient(#dddddd, #ffffff);
-  	background-image: linear-gradient(#dddddd, #ffffff);
-  	border: none;
-}
 input[type="text"], 
 input[type="password"], 
 textarea 
@@ -159,8 +144,8 @@ textarea.error
 input.success,
 textarea.success
 { 
-	border: 1px solid #bada55;
-	box-shadow: 0 0 5px #bada55;
+	border: 1px solid #91bd09;
+	box-shadow: 0 0 5px #91bd09;
 }
 label.info,
 label.warning,
@@ -187,7 +172,7 @@ label.error
 }
 label.success
 {
-	color: #bada55;
+	color: #91bd09;
 }
 /** 
  * Colors for form validity 

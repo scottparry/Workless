@@ -109,7 +109,14 @@ samp
 { 
 	font-family: monospace; 
 }
-code, 
+code
+{
+	background: #eeeeee;
+	color: #2daebf;
+	padding: 3px 5px;
+	border: 1px solid #dddddd;
+	border-radius: 3px;
+}
 pre 
 {
 	display: block;
