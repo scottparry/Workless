@@ -93,12 +93,12 @@ a:active
 
 #logo a
 {
-	color: #333333;
+	color: #2daebf;
 }
 
 #logo a:hover
 {
-	color: #2daebf;
+	color: #555555;
 }
 
 #logo small
