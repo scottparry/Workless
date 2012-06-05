@@ -88,7 +88,7 @@ a:active
 {
 	font-weight: 200;
 	font-size: 24px;
-	margin-top: -5px;
+	margin-top: -3px;
 }
 
 #logo a
@@ -130,6 +130,11 @@ nav#primary ul li
 {
 	margin-left: 15px;
 	display: inline;
+}
+
+nav#primary ul li.current a
+{
+	color: #333333;
 }
 
 nav#primary ul li a
@@ -529,12 +534,17 @@ nav#primary ul
 
 	.one_half
 	{
-		width: 500px;
+		width: 450px;
 	}
 
 	.one_third
 	{
 		width: 280px;
+	}
+
+	.two_third
+	{
+		width: 610px;
 	}
 
 	.one_quarter
