@@ -88,17 +88,25 @@ a:active
 {
 	font-weight: 200;
 	font-size: 24px;
-	margin-top: -3px;
 }
 
 #logo a
 {
-	color: #2daebf;
+	filter: alpha(opacity=100);
+  	-khtml-opacity: 1;
+  	-moz-opacity: 1;
+  	opacity: 1;
+  	-webkit-transition: 250ms linear all; 
+	-moz-transition: 250ms linear all; 
+	transition: 250ms linear all; 
 }
 
 #logo a:hover
 {
-	color: #555555;
+	filter: alpha(opacity=80);
+  	-khtml-opacity: 0.8;
+  	-moz-opacity: 0.8;
+  	opacity: 0.8;
 }
 
 #logo small
@@ -122,7 +130,7 @@ nav#primary
 nav#primary ul,
 nav#primary .selector
 {
-	margin-top: -25px;
+	margin-top: -35px;
 	float: right;
 }
 
