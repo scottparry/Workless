@@ -36,8 +36,8 @@ fieldset ul li
 label 
 { 
 	cursor: pointer; 
-	font-size: 12px; 
-	font-weight: bold; 
+	font-size: 18px; 
+	font-weight: 200; 
 }
 legend 
 { 
@@ -63,12 +63,7 @@ input[type="submit"],
 input[type="button"] 
 {
   	-webkit-appearance: none;
-  	-moz-border-radius: 4px;
-  	-webkit-border-radius: 4px;
-  	border-radius: 4px;
-  	-moz-background-clip: padding;
-  	-webkit-background-clip: padding;
-  	background-clip: padding-box;
+  	border-radius: 3px;
   	background: #dddddd;
   	background-image: -khtml-gradient(linear, left top, left bottom, from(#ffffff), to(#dddddd));
   	background-image: -moz-linear-gradient(#ffffff, #dddddd);
@@ -77,17 +72,16 @@ input[type="button"]
   	background-image: -webkit-linear-gradient(#ffffff, #dddddd);
   	background-image: -o-linear-gradient(#ffffff, #dddddd);
   	background-image: linear-gradient(#ffffff, #dddddd);
-  	border: 1px solid;
-  	border-color: #dddddd #bbbbbb #999999;
+  	border: none;
   	cursor: pointer;
-  	color: #333333;
   	font-weight: bold;
   	outline: 0;
   	overflow: visible;
   	padding: 3px 10px;
-  	text-shadow: #ffffff 0 1px 1px;
   	width: auto;
-  	font-size: 12px;
+  	-webkit-transition: 250ms linear all;
+  	-moz-transition: 250ms linear all;
+  	transition: 250ms linear all;
 }
 button:hover,
 input[type="reset"]:hover,
@@ -102,49 +96,98 @@ input[type="button"]:hover
   	background-image: -webkit-linear-gradient(#dddddd, #ffffff);
   	background-image: -o-linear-gradient(#dddddd, #ffffff);
   	background-image: linear-gradient(#dddddd, #ffffff);
-  	border: 1px solid;
-  	border-color: #999999 #bbbbbb #dddddd;
-  	-webkit-transition: 250ms linear all;
-  	-moz-transition: 250ms linear all;
-  	transition: 250ms linear all;
+  	border: none;
 }
 input[type="text"], 
 input[type="password"], 
 textarea 
 {
-	width: 98%;
-	padding: 5px;
-	outline: 3px solid rgba(0, 0, 0, 0.03);
-	border: 1px solid rgba(0, 0, 0, 0.2);
-	margin-bottom: 10px;
+	background: #f9f9f9;
+	margin-bottom: 5px;
+	padding: 8px 5px;
 	border-radius: 2px;
-	-moz-border-radius: 2px;
-	-webkit-border-radius: 2px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
 }
 input[type="file"] 
 {
-	width: 98%;
 	padding: 5px;
 	border: 1px solid rgba(0, 0, 0, 0.2);
+	border-radius: 2px;
+}
+input[type="text"],
+input[type="password"],
+input[type="file"],
+textarea
+{
+	-webkit-transition: 250ms linear all; 
+	-moz-transition: 250ms linear all; 
+	transition: 250ms linear all; 
+}
+input[type="text"]:focus, 
+input[type="password"]:focus, 
+input[type="file"]:focus,
+textarea:focus
+{
+	background: #ffffff;
+	border: 1px solid #2daebf;
+	box-shadow: 0 0 5px #2daebf;
 }
 textarea 
 {
-	width: 98%;
 	min-height: 100px;
+	margin-bottom: 10px;
 }
-input.error, 
-textarea.error 
+input.info,
+textarea.info
+{ 
+	border: 1px solid #2daebf;
+	box-shadow: 0 0 5px #2daebf;
+}
+input.warning,
+textarea.warning
+{ 
+	border: 1px solid #ff6900;
+	box-shadow: 0 0 5px #ff6900;
+}
+input.error,
+textarea.error
 { 
 	border: 1px solid #ff0000;
+	box-shadow: 0 0 5px #ff0000;
 }
-label.error 
+input.success,
+textarea.success
+{ 
+	border: 1px solid #bada55;
+	box-shadow: 0 0 5px #bada55;
+}
+label.info,
+label.warning,
+label.error,
+label.success
 {
 	width: 100%;
 	font-size: 12px;
 	font-weight: normal;
-	color: #ff0000;
 	float: left;
-	margin-top: -5px;
+	margin: 0 0 5px 2px;
+}
+label.info
+{
+	color: #2daebf;
+}
+label.warning
+{
+	color: #ff6900;
+}
+label.error
+{
+	color: #ff0000;
+}
+label.success
+{
+	color: #bada55;
 }
 /** 
  * Colors for form validity 

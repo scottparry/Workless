@@ -117,11 +117,7 @@ pre
 	background: #fefefe;
 	margin-top: 15px;
 	margin-bottom: 15px;
-	-webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
 	border-radius: 2px;
-	-webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
-	-moz-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
 	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
 	white-space: pre; 
 	white-space: pre-wrap; 
@@ -202,7 +198,7 @@ h1
 }
 h2
 { 
-	font-size: 2em;
+	font-size: 1.8em;
 	line-height: 1.2em;
 	margin-top: 0.75em; 
 	margin-bottom: 0.7em; 

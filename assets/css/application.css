@@ -203,6 +203,11 @@ footer
 	margin-top: 35px!important;
 	text-align: center;
 }
+
+footer p
+{
+	font-size: 14px;
+}
 /* @end Header */
 
 

@@ -4,10 +4,10 @@
 .button, 
 .button:visited 
 {
-	background: #222 url(../img/button.png) repeat-x; 
+	background: #bbbbbb url(../img/button.png) repeat-x; 
 	display: inline-block; 
 	padding: 5px 10px 5px 10px; 
-	margin-right: 8px;
+	margin-right: 3px;
 	margin-bottom: 1.5em;
 	color: #ffffff; 
 	font-weight: bold; 
