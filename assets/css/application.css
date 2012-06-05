@@ -15,8 +15,19 @@
  */
  *
  {
- 	color: #333333;
+ 	color: #7F7F8A;
  }
+
+ h1,
+ h2,
+ h3,
+ h4,
+ h5,
+ h6
+ {
+ 	color: #444444;
+ }
+
 
  html,
  body
@@ -26,7 +37,7 @@
 
  a
  {
- 	color: #2D9CCE;
+ 	color: #2daebf;
  }
 
 a:hover
@@ -42,6 +53,17 @@ a:active
 
 
 /**
+ * Background image
+ */
+.bg_shadow
+{
+	background: url(../img/shadow.png) no-repeat;
+	background-position: bottom;
+}
+
+
+
+/**
  * Main
  */
 #main
@@ -50,10 +72,10 @@ a:active
 	min-height: 100%;
 	padding: 50px;
 	margin-top: 25px;
-	margin-bottom: 15px;
+	margin-bottom: 25px;
 	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-	border: 1px solid rgba(0, 0, 0, 0.2);
 	border-radius: 5px;
+	border: 1px solid rgba(0, 0, 0, 0.2);
 	float: left;
 }
 
@@ -64,7 +86,9 @@ a:active
  */
 #logo
 {
-	font-weight: bold;
+	font-weight: 200;
+	font-size: 24px;
+	margin-top: -5px;
 }
 
 #logo a
@@ -74,13 +98,13 @@ a:active
 
 #logo a:hover
 {
-	color: #2D9CCE;
+	color: #2daebf;
 }
 
 #logo small
 {
-	font-size: 12px;
-	color: #666666;
+	color: #7F7F8A;
+	font-weight: 200;
 }
 
 
@@ -98,7 +122,7 @@ nav#primary
 nav#primary ul,
 nav#primary .selector
 {
-	margin-top: -21px;
+	margin-top: -25px;
 	float: right;
 }
 
@@ -110,16 +134,14 @@ nav#primary ul li
 
 nav#primary ul li a
 {
-	color: #666666;
-	font-size: 14px;
-	font-weight: bold;
+	color: #7F7F8A;
+	font-size: 16px;
+	font-weight: 200;
 }
 
 nav#primary ul li a:hover
 {
-	color: #2D9CCE;
-	font-size: 14px;
-	font-weight: bold;
+	color: #2daebf;
 }
 /* @end Nav */
 
@@ -131,13 +153,13 @@ nav#primary ul li a:hover
 header
 {
 	border-bottom: 1px solid #eeeeee;
-	padding: 50px 0 35px 0;
+	padding: 50px 0;
 	margin-bottom: 25px;
 }
 
 header h1
 {
-	font-weight: 200;
+	font-weight: 200!important;
 	text-align: center;
 	font-weight: normal;
 }
@@ -156,10 +178,9 @@ header h1
 	text-align: center;
 }
 
-#getit h3,
-#getit p
+#getit h3
 {
-	color: #666666;
+	color: #7F7F8A;
 }
 
 #getit p
@@ -173,7 +194,8 @@ header h1
  * Footer
  */
 footer
-{
+{	
+	margin-top: 35px!important;
 	text-align: center;
 }
 /* @end Header */
@@ -497,22 +519,22 @@ nav#primary ul
 	.wrapper,
 	#main
 	{
-		width: 1100px;
+		width: 1000px;
 	}
 
 	.one_full
 	{
-		width: 1100px;
+		width: 1000px;
 	}
 
 	.one_half
 	{
-		width: 525px;
+		width: 500px;
 	}
 
 	.one_third
 	{
-		width: 340px;
+		width: 280px;
 	}
 
 	.one_quarter

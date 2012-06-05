@@ -11,24 +11,12 @@
 	margin: 0; 
 	float: left; 
 }
-.one_half 
-{  
-	margin-right: 25px; 
-	float: left; 
-}
-.one_third 
-{ 
-	margin-right: 25px; 
-	float: left; 
-}
-.two_third 
-{ 
-	margin-right: 25px; 
-	float: left; 
-}
+.one_half,
+.one_third, 
+.two_third,
 .one_quarter 
 {  
-	margin-right: 25px; 
+	margin-right: 50px; 
 	float: left; 
 }
 /* @end Scaffolding */

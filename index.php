@@ -78,12 +78,13 @@
 <!-- wrapper -->
 <section class="wrapper">
 
+	<!-- main -->
 	<section id="main">
 
 		<!-- logo -->
 		<div id="logo">
 			<a href="//workless.ikreativ.com">
-				{ workless.css }
+				{ workless }
 			</a>
         	<small> A clean <span class="fancyamp">&amp;</span> classy HTML5, CSS3 framework.</small>
         </div>
@@ -105,23 +106,23 @@
 		<hr>
 
 		<!-- header -->
-		<header>
+		<header class="bg_shadow">
         	<h1>A clean <span class="fancyamp">&amp;</span> classy HTML5, CSS3 framework that helps you to get your project up and running as fast as possible and helps prevent repetitive tasks.</h1>
 
         	<div id="getit">
 				<h3>Get your hands on it!</h3>
     	   		<ul class="nolist">
-        			<li><a class="alignleft large button blue flat" href="//github.com/iKreativ/Workless"><i class="icon-inbox icon-white"></i> Workless on GitHub</a></li>
-            		<li><a class="large button pink flat" href="//github.com/iKreativ/Workless/zipball/master"><i class="icon-download-alt icon-white"></i> Download .ZIP</a></li>
+        			<li><a class="alignleft large button blue" href="//github.com/iKreativ/Workless"><i class="icon-inbox icon-white"></i> Workless on GitHub</a></li>
+            		<li><a class="large button pink" href="//github.com/iKreativ/Workless/zipball/master"><i class="icon-download-alt icon-white"></i> Download .ZIP</a></li>
         		</ul>
 		
-				<p>Feel free to fork, use, abuse and modify to suit your project. Found a bug? <a href="//github.com/iKreativ/Workless">Submit a pull request!</a></p>
+				<p>Feel free to use, abuse and hack into something that will suit your project. Found a bug? <a href="//github.com/iKreativ/Workless">Submit a pull request!</a></p>
 			</div>
 		</header>
 		<!-- /header -->
 		
 		<div class="one_full">
-			<h3>What is it?</h3>
+			<h2>What is it?</h2>
 			<p>Workless started out as a mashup of all the great things I liked about Twitter Bootstrap and HTML5Boilerplate. The more I worked with with it, the more I added in order to make life easier when working on any project.</p>
 			<p>It's now pretty much turned into a framework in it's own right, with all the stuff you need and none of the stuff you don't. It's about saving time and keeping your projects DRY.</p>
 		</div>
@@ -129,7 +130,7 @@
 		<hr>
 
 		<div class="one_third">
-			<h3>What does it do?</h3>
+			<h2>What does it do?</h2>
     	  	<ul class="nolist">
         	   	<li><strong>Standardizes CSS</strong> for a wide range of HTML elements.</li>
            		<li><strong>Improves usability and interaction</strong> with subtle improvements.</li>
@@ -140,30 +141,32 @@
 		</div>
 
 		<div class="one_third">
-			<h3>Who is it for?</h3>
+			<h2>Who is it for?</h2>
 			<p>People like us.</p>
 			<p>People who build websites on a daily basis and get tired of writing the same code over and over for each project.</p>
 			<p>Start each project with Workless and save time by having all the defaults ready to go!</p>
 		</div>
 		
 		<div class="one_third last">
-	      	<h3>How do I use it?</h3>
+	      	<h2>How do I use it?</h2>
     	   	<p>Either start with the base setup, or drop the files and assets into your current project and simply reference the CSS and Javascript files in your source.</p>
     	   	<p>Once you've done this you can then begin adding your own application specific CSS.</p>
     	   	<p>Simples.</p>
 		</div>
+
+		<hr>
+
+		<!-- footer -->
+		<footer class="one_full">
+			<p class="small muted">A project by <a href="//ikreativ.com">Scott Parry</a> (<a href="//twitter.com/iKreativ">@iKreativ</a>). Originally based off <a href="//html5boilerplate.com/">H5BP</a> and <a href="//twitter.github.com/bootstrap/">Bootstrap</a>. Released under the <a href="//philsturgeon.co.uk/code/dbad-license/">DBAD License</a>.</p>
+		</footer>
+		<!-- /footer -->
 
 	</section>
 	<!-- /main -->
 
 </section>
 <!-- /wrapper -->
-
-<!-- footer -->
-<footer class="wrapper">
-	<p class="small muted">A project by <a href="//ikreativ.com">Scott Parry</a> (<a href="//twitter.com/iKreativ">@iKreativ</a>). Originally based off <a href="//html5boilerplate.com/">H5BP</a> and <a href="//twitter.github.com/bootstrap/">Bootstrap</a>. Released under the <a href="//philsturgeon.co.uk/code/dbad-license/">DBAD License</a>.</p>
-</footer>
-<!-- /footer -->
 
 <!-- JavaScript at the bottom for fast page loading -->
 

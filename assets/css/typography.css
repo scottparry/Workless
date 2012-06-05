@@ -140,7 +140,7 @@ q:after
 }
 small 
 { 
-	font-size: 85%;
+	font-size: 60%;
 }
 
 /**
@@ -169,7 +169,7 @@ sub
  */
 p 
 { 
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.125em;
 	margin: 0 0 1.125em 0;
 }
@@ -188,7 +188,7 @@ h4,
 h5, 
 h6
 { 
-	font-weight: 400;
+	font-weight: 200;
 }
 /** 
  * Set individual heading styles 
@@ -265,7 +265,7 @@ ol
 }
 li 
 { 
-	font-size: 16px;
+	font-size: 18px;
 	line-height: 1.4em;
 }
 dl 
@@ -275,7 +275,7 @@ dl
 dl dt, 
 dl dd 
 { 
-	font-size: 16px;
+	font-size: 18px;
 }
 dl dt 
 { 
