@@ -54,7 +54,6 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
 	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
 	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
-	float: left;
 }
 .label.red,
 .notification.red
