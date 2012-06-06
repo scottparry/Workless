@@ -46,22 +46,23 @@ strong
 	color: inherit;
 	font-weight: bold; 
 }
-blockquote { 
-	margin: 0; 
-	padding: 0 0 0 5px; 
-	float: left; 
-}
-blockquote p 
+blockquote
 { 
-	font-size: 16px; 
-	font-weight: 300; 
-	line-height: 18px; 
-	padding: 25px 0 0 45px; 
+	font-size: 24px; 
+	font-weight: 100; 
+	line-height: 28px; 
+	padding: 15px 0 0 75px;
+	margin: 15px 0 25px 0;
+	float: left; 
 }
 blockquote:before 
 { 
 	content: '\201C'; 
-	font-size: 76px; 
+	font-size: 128px; 
+	font-weight: 200;
+	color: #dddddd;
+	margin-left: -25px;
+	margin-bottom: 10px;
 	position: absolute; 
 }
 span.fancyamp
@@ -88,12 +89,12 @@ hr
 }
 ins 
 { 
-	background: #ff9; 
+	background: #ffffe0; 
 	text-decoration: none; 
 }
 mark 
 { 
-	background: #ff0; 
+	background: #ffffe0; 
 	font-style: italic; 
 	font-weight: bold; 
 }
@@ -267,6 +268,10 @@ ul
 ol 
 { 
 	list-style: decimal; 
+}
+ol.roman
+{
+	list-style: upper-roman;
 }
 li 
 { 
