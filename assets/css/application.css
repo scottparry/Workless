@@ -299,7 +299,8 @@ nav#primary ul
 .two_third,
 .one_quarter
 {
-	width: 230px;
+	margin-right: 0px; 
+	width: 280px;
 }
 
 /** 
@@ -380,7 +381,8 @@ nav#primary ul
 	.two_third,
 	.one_quarter
 	{
-		width: 330px;
+		margin-right: 0px; 
+		width: 380px;
 	}
 }
 
@@ -462,7 +464,8 @@ nav#primary ul
 	.two_third,
 	.one_quarter
 	{
-		width: 490px;
+		margin-right: 0px; 	
+		width: 540px;
 	}
 }
 
@@ -546,21 +549,25 @@ nav#primary ul
 	.one_half
 	{
 		width: 280px;
+		margin-right: 50px; 
 	}
 
 	.one_third
 	{
 		width: 170px;
+		margin-right: 50px; 
 	}
 
 	.two_third
 	{
 		width: 390px;
+		margin-right: 50px; 
 	}
 
 	.one_quarter
 	{
 		width: 110px;
+		margin-right: 50px; 
 	}
 }
 
@@ -644,21 +651,25 @@ nav#primary ul
 	.one_half
 	{
 		width: 410px;
+		margin-right: 50px; 
 	}
 
 	.one_third
 	{
 		width: 250px;
+		margin-right: 50px; 
 	}
 
 	.two_third
 	{
 		width: 550px;
+		margin-right: 50px; 
 	}
 
 	.one_quarter
 	{
 		width: 180px;
+		margin-right: 50px; 
 	}
 }
 
@@ -742,21 +753,25 @@ nav#primary ul
 	.one_half
 	{
 		width: 480px;
+		margin-right: 50px; 
 	}
 
 	.one_third
 	{
 		width: 300px;
+		margin-right: 50px; 
 	}
 
 	.two_third
 	{
 		width: 650px;
+		margin-right: 50px; 
 	}
 
 	.one_quarter
 	{
 		width: 210px;
+		margin-right: 50px; 
 	}
 }
 
@@ -840,20 +855,24 @@ nav#primary ul
 	.one_half
 	{
 		width: 530px;
+		margin-right: 50px; 
 	}
 
 	.one_third
 	{
 		width: 340px;
+		margin-right: 50px; 
 	}
 
 	.two_third
 	{
 		width: 730px;
+		margin-right: 50px; 
 	}
 
 	.one_quarter
 	{
 		width: 240px;
+		margin-right: 50px; 
 	}
 }

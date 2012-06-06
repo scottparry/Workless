@@ -22,7 +22,7 @@
 .two_third,
 .one_quarter
 {  
-	margin-right: 50px; 
+	margin: 0;
 	float: left; 
 }
 /* @end Scaffolding */
