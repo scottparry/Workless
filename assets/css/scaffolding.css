@@ -1,8 +1,14 @@
 /**
  * Scaffolding
  */
-.wrapper 
+.boxed 
 {
+	margin: 0 auto;
+	padding: 0;
+}
+.fluid
+{	
+	width: 98%;
 	margin: 0 auto;
 	padding: 0;
 }

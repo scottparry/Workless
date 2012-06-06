@@ -260,8 +260,7 @@ nav#primary ul
 	width: 280px; 
 }
 	
-.wrapper,
-#main
+.boxed
 {
 	width: 280px;
 }
@@ -306,8 +305,7 @@ nav#primary ul
 		display: none;
 	}
 	
-	.wrapper,
-	#main
+	.boxed
 	{
 		width: 420px;
 	}
@@ -353,8 +351,7 @@ nav#primary ul
 		display: none;
 	}
 
-	.wrapper,
-	#main
+	.boxed
 	{
 		width: 550px;
 	}
@@ -400,8 +397,7 @@ nav#primary ul
 		display: none;
 	}
 
-	.wrapper,
-	#main
+	.boxed
 	{
 		width: 700px;
 	}
@@ -447,8 +443,7 @@ nav#primary ul
 		display: inline;
 	}
 	
-	.wrapper,
-	#main
+	.boxed
 	{
 		width: 960px;
 	}
@@ -494,8 +489,7 @@ nav#primary ul
 		display: inline;
 	}
 
-	.wrapper,
-	#main
+	.boxed
 	{
 		width: 1000px;
 	}
@@ -541,8 +535,7 @@ nav#primary ul
 		display: inline;
 	}
 	
-	.wrapper,
-	#main
+	.boxed
 	{
 		width: 1000px;
 	}
