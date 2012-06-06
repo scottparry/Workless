@@ -76,6 +76,21 @@
 {
   	background-color: #2daebf; 
 }
+.label.pink,
+.notification.pink		
+{ 
+	background-color: #fe57a1; 
+}
+.label.magenta,
+.notification.magenta		
+{ 
+	background-color: #a9014b; 
+}
+.label.yellow,
+.notification.yellow	
+{ 
+	background-color: #ffb515; 
+}
 .label.flat,
 .notification.flat 
 {
