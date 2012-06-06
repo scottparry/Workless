@@ -15,7 +15,7 @@
  */
  *
  {
- 	color: #7F7F8A;
+ 	color: #686873;
  }
 
  h1,
@@ -25,7 +25,7 @@
  h5,
  h6
  {
- 	color: #444444;
+ 	color: #555555;
  }
 
 
@@ -130,7 +130,7 @@ nav#primary
 nav#primary ul,
 nav#primary .selector
 {
-	margin-top: -35px;
+	margin-top: -37px;
 	float: right;
 }
 

@@ -32,39 +32,40 @@
 	<title>Workless - A classy HTML5, CSS3 framework</title>
 
     <!-- 
-		You'll notice that we're loading all the CSS via a minification script. 
-		This script joins all the CSS files referenced and minifies them to
-		reduce HTTP requests and speed up the site.
+        You'll notice that we're loading all the CSS via a minification 
+        script. 
 
-		This also allow you to work with each individual file for development
-		and only serve the minified version for production.
+        This script joins all the CSS files referenced and minifies them to
+        reduce HTTP requests and speed up the site.
 
-		The CSS files served are added inside minified.css.php
-	-->
-	
-	<!-- 
-		Commented for minification script
-	
-    	<link href="assets/css/plugins.css" rel="stylesheet">
-		<link href="assets/css/workless.css" rel="stylesheet">
-		<link href="assets/css/typography.css" rel="stylesheet">
-		<link href="assets/css/forms.css" rel="stylesheet">
-		<link href="assets/css/tables.css" rel="stylesheet">
-		<link href="assets/css/buttons.css" rel="stylesheet">
-		<link href="assets/css/alerts.css" rel="stylesheet">
-		<link href="assets/css/tabs.css" rel="stylesheet">
-		<link href="assets/css/pagination.css" rel="stylesheet">
-		<link href="assets/css/breadcrumbs.css" rel="stylesheet">
-		<link href="assets/css/icons.css" rel="stylesheet">
-		<link href="assets/css/helpers.css" rel="stylesheet">
-		<link href="assets/css/print.css" rel="stylesheet">
-		<link href="assets/css/application.css" rel="stylesheet">
-		<link href="assets/css/responsive.css" rel="stylesheet">
-	-->
-	
-	<!-- We're minifying and combining all the CSS -->
-	<link href="assets/css/minified.css.php" rel="stylesheet">
-	
+        This also allows you to work with each individual source file for 
+        development and only serve the minified versions for production.
+
+        The CSS files served are added inside assets/css/minified.css.php
+
+
+        Commented for minification script
+
+        <link href="assets/css/plugins.css" rel="stylesheet">
+        <link href="assets/css/workless.css" rel="stylesheet">
+        <link href="assets/css/scaffolding.css" rel="stylesheet">
+        <link href="assets/css/typography.css" rel="stylesheet">
+        <link href="assets/css/forms.css" rel="stylesheet">
+        <link href="assets/css/tables.css" rel="stylesheet">
+        <link href="assets/css/buttons.css" rel="stylesheet">
+        <link href="assets/css/alerts.css" rel="stylesheet">
+        <link href="assets/css/tabs.css" rel="stylesheet">
+        <link href="assets/css/pagination.css" rel="stylesheet">
+        <link href="assets/css/breadcrumbs.css" rel="stylesheet">
+        <link href="assets/css/icons.css" rel="stylesheet">
+        <link href="assets/css/helpers.css" rel="stylesheet">
+        <link href="assets/css/print.css" rel="stylesheet">
+        <link href="assets/css/application.css" rel="stylesheet">
+    -->
+    
+    <!-- We're minifying and combining all the CSS -->
+    <link href="assets/css/minified.css.php" rel="stylesheet">
+
 	<!-- All JavaScript at the bottom, except modernizr -->
   	<script type="text/javascript" src="assets/js/modernizr.js"></script>
 </head>
@@ -109,6 +110,8 @@
 		<!-- header -->
 		<header class="bg_shadow">
         	<h1>The forms CSS sets all the defaults. Add some of the built-in helper classes and the great forms become awesome forms!</h1>
+            <input id="removecss" type="button" value="Disable CSS" />
+            <input id="addcss" type="button" value="Enable CSS" />
 		</header>
 		<!-- /header -->
 		
