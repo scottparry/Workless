@@ -86,7 +86,6 @@ a:active
  */
 #logo
 {
-	width: 200px;
 	font-weight: 200;
 	font-size: 24px;
 	float: left;
@@ -218,24 +217,64 @@ footer
 	margin-top: 35px!important;
 	text-align: center;
 }
-
-footer p
-{
-	font-size: 14px;
-}
 /* @end Header */
 
 
 
-/** Responsive @media queries for responsive design.
+/**
+ * Responsive @media queries for responsive design.
  * Ensure this is included after all your other CSS.
+ * 
+ * The first section below is the basic mobile first
+ * CSS as the above CSS is just styling.
+ *
+ * Obviously media queries are specific to each 
+ * application and these may need altering for your
+ * own project.
  */
+h1
+{
+	font-size: 2em;
+}
 
+h2
+{
+	font-size: 1.5em;
+}
 
+h3
+{
+	font-size: 1.2em;
+}
 
-/** 
- * Mobile
- */
+h4
+{
+	font-size: 1.25em;
+}
+
+h5
+{
+	font-size: 1em;
+}
+
+h6
+{
+	font-size: 0.875em;
+}
+
+p,
+li,
+dl dd
+{
+	font-size: 14px;
+}
+
+code,
+footer p
+{
+	font-size: 12px;
+}
+
 nav#primary .selector
 {
 	display: inherit;
@@ -246,50 +285,77 @@ nav#primary ul
 	display: none; 
 }
 
-#topbar .logo > small
+#logo
+	{
+		width: 50px;
+	}
+
+#logo > small
 {
 	display: none;
+}
+
+.boxed
+{
+	width: 380px;
 }
 
 .one_full,
 .one_half,
 .one_third,
 .two_third,
-.one_quarter 
-{ 
-	width: 280px; 
-}
-	
-.boxed
-{
-	width: 280px;
-}
-
-.one_full
-{
-	width: 1100px;
-}
-
-.one_half
-{
-	width: 400px;
-}
-
-.one_third
-{
-	width: 350px;
-}
-
 .one_quarter
 {
-	width: 200px;
+	width: 230px;
 }
 
 /** 
  * iPhone landscape 
  */
-@media only screen and (min-width: 480px) {
-	
+@media (min-width: 480px) {
+	h1
+	{
+		font-size: 2em;
+	}
+
+	h2
+	{
+		font-size: 1.5em;
+	}
+
+	h3
+	{
+		font-size: 1.2em;
+	}
+
+	h4
+	{
+		font-size: 1.25em;
+	}
+
+	h5
+	{
+		font-size: 1em;
+	}
+
+	h6
+	{
+		font-size: 0.875em;
+	}
+
+	p,
+	li,
+	dl dd
+	{
+		font-size: 14px;
+	}
+
+	code,
+	footer p
+	{
+		font-size: 12px;
+	}
+
 	nav#primary .selector
 	{
 		display: inherit;
@@ -300,42 +366,78 @@ nav#primary ul
 		display: none; 
 	}
 
-	#topbar .logo > small
+	#logo
+	{
+		width: 50px;
+	}
+
+	#logo > small
 	{
 		display: none;
 	}
-	
+
 	.boxed
 	{
-		width: 420px;
+		width: 480px;
 	}
 
-	.one_full
-	{
-		width: 1100px;
-	}
-
-	.one_half
-	{
-		width: 400px;
-	}
-
-	.one_third
-	{
-		width: 350px;
-	}
-
+	.one_full,
+	.one_half,
+	.one_third,
+	.two_third,
 	.one_quarter
 	{
-		width: 200px;
+		width: 330px;
 	}
 }
 
 /** 
  * Small tablet portrait 
  */
-@media only screen and (min-width: 640px) {
-	
+@media (min-width: 640px) {
+	h1
+	{
+		font-size: 2.2em;
+	}
+
+	h2
+	{
+		font-size: 1.8em;
+	}
+
+	h3
+	{
+		font-size: 1.5em;
+	}
+
+	h4
+	{
+		font-size: 1.25em;
+	}
+
+	h5
+	{
+		font-size: 1em;
+	}
+
+	h6
+	{
+		font-size: 0.875em;
+	}
+
+	p,
+	li,
+	dl dd
+	{
+		font-size: 16px;
+	}
+
+	code,
+	footer p
+	{
+		font-size: 14px;
+	}
+
 	nav#primary .selector
 	{
 		display: inherit;
@@ -346,42 +448,78 @@ nav#primary ul
 		display: none; 
 	}
 
-	#topbar .logo > small
+	#logo
+	{
+		width: 50px;
+	}
+
+	#logo > small
 	{
 		display: none;
 	}
 
 	.boxed
 	{
-		width: 550px;
+		width: 640px;
 	}
 
-	.one_full
-	{
-		width: 1100px;
-	}
-
-	.one_half
-	{
-		width: 400px;
-	}
-
-	.one_third
-	{
-		width: 350px;
-	}
-
+	.one_full,
+	.one_half,
+	.one_third,
+	.two_third,
 	.one_quarter
 	{
-		width: 200px;
+		width: 490px;
 	}
 }
 
 /** 
  * iPad portrait 
  */
-@media only screen and (min-width: 768px) {
-	
+@media (min-width: 768px) {
+	h1
+	{
+		font-size: 2.2em;
+	}
+
+	h2
+	{
+		font-size: 1.8em;
+	}
+
+	h3
+	{
+		font-size: 1.5em;
+	}
+
+	h4
+	{
+		font-size: 1.25em;
+	}
+
+	h5
+	{
+		font-size: 1em;
+	}
+
+	h6
+	{
+		font-size: 0.875em;
+	}
+
+	p,
+	li,
+	dl dd
+	{
+		font-size: 16px;
+	}
+
+	code,
+	footer p
+	{
+		font-size: 14px;
+	}
+
 	nav#primary .selector
 	{
 		display: none;
@@ -391,43 +529,95 @@ nav#primary ul
 	{ 
 		display: inherit; 
 	}
+
+	#logo
+	{
+		width: 50px;
+	}
 	
-	#topbar .logo > small
+	#logo > small
 	{
 		display: none;
 	}
 
 	.boxed
 	{
-		width: 700px;
+		width: 768px;
 	}
 
 	.one_full
 	{
-		width: 1100px;
+		width: 618px;
 	}
 
 	.one_half
 	{
-		width: 400px;
+		width: 280px;
 	}
 
 	.one_third
 	{
-		width: 350px;
+		width: 170px;
+	}
+
+	.two_third
+	{
+		width: 390px;
 	}
 
 	.one_quarter
 	{
-		width: 200px;
+		width: 110px;
 	}
 }
 
 /**
  * Small browser / iPad landscape 
  */
-@media only screen and (min-width: 1024px) {
-	
+@media (min-width: 1024px) {
+	h1
+	{
+		font-size: 2.4em;
+	}
+
+	h2
+	{
+		font-size: 1.8em;
+	}
+
+	h3
+	{
+		font-size: 1.5em;
+	}
+
+	h4
+	{
+		font-size: 1.25em;
+	}
+
+	h5
+	{
+		font-size: 1em;
+	}
+
+	h6
+	{
+		font-size: 0.875em;
+	}
+
+	p,
+	li,
+	dl dd
+	{
+		font-size: 16px;
+	}
+
+	code,
+	footer p
+	{
+		font-size: 14px;
+	}
+
 	nav#primary .selector
 	{
 		display: none;
@@ -438,42 +628,94 @@ nav#primary ul
 		display: inherit; 
 	}
 
-	#topbar .logo > small
+	#logo
+	{
+		width: 200px;
+	}
+
+	#logo > small
 	{
 		display: inline;
 	}
-	
+
 	.boxed
 	{
-		width: 960px;
+		width: 1024px;
 	}
 
 	.one_full
 	{
-		width: 1100px;
+		width: 874px;
 	}
 
 	.one_half
 	{
-		width: 400px;
+		width: 410px;
 	}
 
 	.one_third
 	{
-		width: 350px;
+		width: 250px;
+	}
+
+	.two_third
+	{
+		width: 550px;
 	}
 
 	.one_quarter
 	{
-		width: 200px;
+		width: 180px;
 	}
 }
 
 /** 
  * Generic browser 
  */
-@media only screen and (min-width: 1280px) {
-	
+@media (min-width: 1280px) {
+	h1
+	{
+		font-size: 2.5em;
+	}
+
+	h2
+	{
+		font-size: 1.8em;
+	}
+
+	h3
+	{
+		font-size: 1.5em;
+	}
+
+	h4
+	{
+		font-size: 1.25em;
+	}
+
+	h5
+	{
+		font-size: 1em;
+	}
+
+	h6
+	{
+		font-size: 0.875em;
+	}
+
+	p,
+	li,
+	dl dd
+	{
+		font-size: 16px;
+	}
+
+	code,
+	footer p
+	{
+		font-size: 14px;
+	}
+
 	nav#primary .selector
 	{
 		display: none;
@@ -483,43 +725,95 @@ nav#primary ul
 	{ 
 		display: inherit; 
 	}
+
+	#logo
+	{
+		width: 200px;
+	}
 	
-	#topbar .logo > small
+	#logo > small
 	{
 		display: inline;
 	}
 
 	.boxed
 	{
-		width: 1000px;
+		width: 1180px;
 	}
 
 	.one_full
 	{
-		width: 1100px;
+		width: 1030px;
 	}
 
 	.one_half
 	{
-		width: 400px;
+		width: 480px;
 	}
 
 	.one_third
 	{
-		width: 350px;
+		width: 300px;
+	}
+
+	.two_third
+	{
+		width: 650px;
 	}
 
 	.one_quarter
 	{
-		width: 200px;
+		width: 210px;
 	}
 }
 
 /** 
  * Large browser 
  */
-@media only screen and (min-width: 1600px) {
-	
+@media (min-width: 1600px) {
+	h1
+	{
+		font-size: 2.5em;
+	}
+
+	h2
+	{
+		font-size: 1.8em;
+	}
+
+	h3
+	{
+		font-size: 1.5em;
+	}
+
+	h4
+	{
+		font-size: 1.25em;
+	}
+
+	h5
+	{
+		font-size: 1em;
+	}
+
+	h6
+	{
+		font-size: 0.875em;
+	}
+
+	p,
+	li,
+	dl dd
+	{
+		font-size: 16px;
+	}
+
+	code,
+	footer p
+	{
+		font-size: 14px;
+	}
+
 	nav#primary .selector
 	{
 		display: none;
@@ -530,38 +824,43 @@ nav#primary ul
 		display: inherit; 
 	}
 
-	#topbar .logo > small
+	#logo
+	{
+		width: 200px;
+	}
+
+	#logo > small
 	{
 		display: inline;
 	}
 	
 	.boxed
 	{
-		width: 1000px;
+		width: 1280px;
 	}
 
 	.one_full
 	{
-		width: 1000px;
+		width: 1130px;
 	}
 
 	.one_half
 	{
-		width: 450px;
+		width: 530px;
 	}
 
 	.one_third
 	{
-		width: 280px;
+		width: 340px;
 	}
 
 	.two_third
 	{
-		width: 610px;
+		width: 730px;
 	}
 
 	.one_quarter
 	{
-		width: 200px;
+		width: 240px;
 	}
 }
