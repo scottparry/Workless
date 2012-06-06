@@ -22,6 +22,70 @@
 
 
 /**
+ * Labels
+ */
+.label
+{
+	font-size: 11px;
+  	font-weight: bold;
+  	line-height: 14px;
+  	color: #ffffff;
+  	white-space: nowrap;
+  	vertical-align: baseline;
+  	background-color: #999999;
+  	padding: 2px 6px;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+}
+.notification
+{
+	font-size: 11px;
+  	font-weight: bold;
+  	text-align: center;
+  	line-height: 14px;
+  	color: #ffffff;
+  	white-space: nowrap;
+  	vertical-align: baseline;
+  	background-color: #999999;
+  	padding: 3px 7px 2px 7px;
+    border-radius: 25px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
+	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+	float: left;
+}
+.label.red,
+.notification.red
+{
+ 	 background-color: #ff2b25; 
+}
+.label.orange,
+.notification.orange
+{
+  	background-color: #ff5c00; 
+}
+.label.green,
+.notification.green
+{
+  	background-color: #91bd09; 
+}
+.label.blue,
+.notification.blue
+{
+  	background-color: #2daebf; 
+}
+.label.flat,
+.notification.flat 
+{
+	border-bottom: none;
+	box-shadow: none;
+}
+
+
+
+/**
  * Wrapper
  */
 .wrapper
@@ -37,7 +101,7 @@
  */
 
 
-/* 
+/** 
  * Box shadows 
  */
 .box_shadow 
@@ -50,7 +114,15 @@
 	-webkit-border-radius: 3px;
 }
 
-/* 
+/**
+ * Highlight
+ */
+ .highlight
+ {
+ 	background: #fff2a8;
+ }
+
+/** 
  * Cancel list styles
  */
 .nolist 
@@ -60,7 +132,7 @@
 	padding: 0; 
 }
 
-/* 
+/** 
  * Cancel margins 
  */
 .ntm 
@@ -105,7 +177,7 @@
 }
 
 
-/* 
+/** 
  * Last class 
  */
 .last 
@@ -113,7 +185,7 @@
 	margin-right: 0; 
 }
 
-/* 
+/** 
  * Colors 
  */
 .muted 
@@ -127,7 +199,7 @@
 	font-weight: normal; 
 }
 
-/* 
+/** 
  * Display 
  */
 .inline 
@@ -135,7 +207,7 @@
 	display: inline; 
 }
 
-/* 
+/** 
  * Positioning 
  */
 .alignleft 
@@ -169,7 +241,7 @@
 	display: inline;
 }
 
-/* 
+/** 
  * Sizes 
  */
 .twentyfive
@@ -189,7 +261,7 @@
 	width: 100%;
 }
 
-/* 
+/** 
  * Hide from screenreaders and browsers. 
  */
 .hidden 
@@ -197,7 +269,7 @@
 	display: none !important; 
 	visibility: hidden; 
 }
-/* 
+/** 
  * Hide only visually, but have it available 
  * for screenreaders. 
  */
@@ -212,7 +284,8 @@
 	position: absolute; 
 	width: 1px; 
 }
-/* Extends the .visuallyhidden class to allow 
+/**
+ * Extends the .visuallyhidden class to allow 
  * the element to be focusable when navigated 
  * to via the keyboard. 
  */
@@ -226,7 +299,7 @@
 	position: static; 
 	width: auto; 
 }
-/* 
+/** 
  * Hide visually and from screenreaders, but 
  * maintain layout 
  */
@@ -236,7 +309,7 @@
 }
 
 
-/* 
+/** 
  * Floats
  */ 
 .clearfix:before, 
@@ -254,7 +327,7 @@
 	zoom: 1; 
 }
 
-/*
+/**
  * Misc
  */
 .help-text
