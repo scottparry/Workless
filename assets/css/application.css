@@ -86,8 +86,12 @@ a:active
  */
 #logo
 {
+	width: 250px;
 	font-weight: 200;
 	font-size: 24px;
+	float: left;
+	margin-top: -8px;
+	margin-bottom: 8px;
 }
 
 #logo a
@@ -111,8 +115,12 @@ a:active
 
 #logo small
 {
+	width: 200px;
 	color: #7F7F8A;
 	font-weight: 200;
+	display: block;
+	float: right;
+	margin-top: 5px;
 }
 
 
@@ -130,7 +138,6 @@ nav#primary
 nav#primary ul,
 nav#primary .selector
 {
-	margin-top: -37px;
 	float: right;
 }
 
