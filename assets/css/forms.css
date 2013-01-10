@@ -85,6 +85,7 @@ input[type="button"]
 }
 input[type="text"], 
 input[type="password"], 
+input[type="email"],
 textarea 
 {
 	background: #f9f9f9;
@@ -103,6 +104,7 @@ input[type="file"]
 input[type="text"],
 input[type="password"],
 input[type="file"],
+input[type="email"],
 textarea
 {
 	-webkit-transition: 250ms linear all; 
@@ -112,6 +114,7 @@ textarea
 input[type="text"]:focus, 
 input[type="password"]:focus, 
 input[type="file"]:focus,
+input[type="email"]:focus,
 textarea:focus
 {
 	background: #ffffff;
