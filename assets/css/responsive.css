@@ -121,14 +121,14 @@ h6
  */
 @media only screen and (min-width: 1023px) {    
 	nav#primary ul
-	{
-	    display: inline;
-	}
+    {
+        display: none;
+    }
 
-	.open 
-	{ 
-	    display: none; 
-	}
+    .open 
+    { 
+        display: block; 
+    }
 
     h1
     {
