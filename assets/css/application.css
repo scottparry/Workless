@@ -16,7 +16,6 @@ body
 {
 	height: 100%;
     background: #f5f5f5;
-    color: #5A6C7F;
 }
 
 #main
@@ -134,24 +133,7 @@ a:active
   	-moz-opacity: 0.8;
   	opacity: 0.8;
 }
-
-#logo small
-{
-	width: 150px;
-	color: #7F7F8A;
-	font-weight: 200;
-	display: block;
-	float: right;
-	margin-top: 6px;
-}
-
-@media (-webkit-min-device-pixel-ratio:0)
-{ 
-	#logo small
-	{
-		margin-top: -35px;
-	}
-}
+/* @end Logo */
 
 /**
  * Nav
@@ -187,22 +169,131 @@ nav#primary ul li a:hover
 /* @end Nav */
 
 /**
+ * Responsive Navigation
+ */
+a.open 
+{
+    float: left;
+    width: 40px;
+    height: 30px;
+    margin-top: 0;
+    float: right;
+    background: #F16863 url("../img/menu.png") center center no-repeat;
+    border-radius: 3px;
+    text-indent: -9999px;
+    position: relative;
+    z-index: 99999;
+}
+
+a:hover.open
+{
+    filter: alpha(opacity=80);
+    -khtml-opacity: 0.8;
+    -moz-opacity: 0.8;
+    opacity: 0.8;
+}
+        
+#pageslide 
+{
+    display: none;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    z-index: 999999;
+    width: 200px;
+    padding: 0;
+    background: #3F3F49;
+    box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+#pageslide ul
+{
+    list-style: none;
+    margin-top: 15px;
+    float: left;
+}
+
+#pageslide ul li
+{
+    width: 170px;
+    display: block;
+    list-style: none;
+    margin-left: -20px;
+    padding: 8px 0 8px 30px;
+    border-bottom: 1px solid #484955;
+}
+
+#pageslide ul li:first-child
+{
+    border-top: none;
+}
+
+#pageslide ul li:last-child
+{
+    border-bottom: none;
+}
+
+#pageslide ul li a
+{
+	color: #ffffff;
+}
+
+#pageslide ul li a:hover
+{
+	color: #F16863;
+}
+
+/* dropdown */
+#pageslide ul li ul
+{
+    width: 170px;
+    display: block;
+    list-style: none;
+    margin-left: -20px;
+    margin-bottom: 10px;
+    padding: 10px 0 10px 30px;
+}
+
+#pageslide ul li ul,
+#pageslide ul li ul li
+{
+    border-bottom: none;
+    border-top: none;
+}
+
+#pageslide ul li ul li
+{
+    padding: 5px 0 5px 20px;
+}
+/* @end Responsive Navigation */
+
+/**
  * Header
  */
-header h1,
-header h2,
-header h3
+header#header h1,
+header#header h2,
+header#header h3
 {
 	color: #ffffff;
 	text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.08);
 }
 
-header .button
+header#header .button
 {
 	margin-top: 25px;
   	text-align: center;
 }
 /* @end Header */
+
+/**
+ * Github
+ */
+#github h5,
+#github a
+{
+	color: #ffffff!important;
+}
+/* @end Github */
 
 /**
  * Footer
@@ -217,3 +308,21 @@ footer#footer
 	float: left;
 }
 /* @end Footer */
+
+/**
+ * Top link
+ */
+#top
+{
+	position: fixed;
+	right: 25px;
+	bottom: 15px;
+}
+
+#top a
+{
+	background: #ffffff;
+	color: #5A6C7F;
+	padding: 15px; 
+}
+/* @end Top link */
