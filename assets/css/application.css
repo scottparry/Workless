@@ -8,43 +8,6 @@
 
 
 
-
-/**
- * We set base colors here as they are
- * application specific
- */
- *
- {
- 	color: #686873;
- }
-
- h1,
- h2,
- h3,
- h4,
- h5,
- h6
- {
- 	color: #555555;
- }
-
- a
- {
- 	color: #2daebf;
- }
-
-a:hover
-{
-	color: #666666;
-}
-
-a:active
-{
-	color: #000000;
-}
-
-
-
 /**
  * Background image
  */
@@ -191,7 +154,7 @@ header h1
  */
 #getit
 {
-	width: 400px;
+	width: 675px;
 	margin: 0 auto;
 	padding-top: 10px;
 	text-align: center;
