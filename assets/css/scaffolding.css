@@ -1,28 +1,61 @@
 /**
  * Scaffolding
  */
-.boxed 
+.boxed
 {
+    width: 70%;
 	margin: 0 auto;
 	padding: 0;
 }
-.fluid
-{	
-	width: 98%;
-	margin: 0 auto;
-	padding: 0;
-}
-.one_full 
-{ 
-	margin: 0; 
-	float: left; 
-}
-.one_half,
-.one_third, 
-.two_third,
-.one_quarter
-{  
+
+.one_full
+{
+    width: 100%;
 	margin: 0;
-	float: left; 
+	float: left;
+}
+
+.one_half,
+.one_third,
+.two_third,
+.one_quarter,
+.one_fifth
+{
+	margin: 0;
+    padding-right: 25px;
+	float: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.one_full
+{
+    width: 100%;
+}
+
+.one_half
+{
+    width: 50%;
+}
+
+.one_third
+{
+    width: 33.33333%;
+}
+
+.two_third
+{
+    width: 66.66666%;
+}
+
+.one_quarter
+{
+    width: 25%;
+}
+
+.one_fifth
+{
+    width: 20%;
 }
 /* @end Scaffolding */
