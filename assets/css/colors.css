@@ -30,3 +30,17 @@ a:active
 {
 	color: #000000;
 }
+
+::-moz-selection 
+{ 
+	background: #34ade8; 
+	color: #ffffff; 
+	text-shadow: none; 
+}
+
+::selection 
+{ 
+	background: #34ade8; 
+	color: #ffffff; 
+	text-shadow: none; 
+}

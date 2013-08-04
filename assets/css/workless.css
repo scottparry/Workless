@@ -1,18 +1,18 @@
 /**
- * Workless by @iKreativ is a CSS base framework to get your 
- * project of the ground as fast as possible.
- * 
- * It is split into a number of seperate CSS files which allows
- * you to use as much, or as little as you please.
- *
- * You'll notice that this file contains the Base styles only 
- * then all other CSS is loaded seperately. This is not 
- * recommended. Once you've decided which parts of Workless you 
- * are going to use, then simply copy/paste them all into a 
- * single CSS file to reduce HTTP requests!
+ | ---------------------------------------------------------------
+ | Workless by @iKreativ is a CSS base framework to get your 
+ | project of the ground as fast as possible.
+ | 
+ | It is split into a number of seperate CSS files which allows
+ | you to use as much, or as little as you please.
+ |
+ | You'll notice that this file contains the Base styles only 
+ | then all other CSS is loaded seperately. This is not 
+ | recommended. Once you've decided which parts of Workless you 
+ | are going to use, then simply copy/paste them all into a 
+ | single CSS file to reduce HTTP requests!
+ | ---------------------------------------------------------------
  */
-
-
 
 /**
  * HTML5 display definitions
@@ -31,6 +31,7 @@ section
 	display: block; 
 	margin: 0 auto;
 }
+
 audio, 
 canvas, 
 video 
@@ -39,21 +40,22 @@ video
 	*display: inline; 
 	*zoom: 1; 
 }
+
 audio:not([controls]) 
 { 
 	display: none; 
 }
+
 [hidden] 
 { 
 	display: none; 
 }
+
 figure 
 { 
 	margin: 0; 
 }
 /* @end HTML5 display definitions */
-
-
 
 /**
  * Base
@@ -65,25 +67,13 @@ body
 	margin: 0; 
 	padding: 0;
 }
+
 body 
 {   
 	width: 100%; 
 	overflow-x: hidden; 
 }
-::-moz-selection 
-{ 
-	background: #34ade8; 
-	color: #ffffff; 
-	text-shadow: none; 
-}
-::selection 
-{ 
-	background: #34ade8; 
-	color: #ffffff; 
-	text-shadow: none; 
-}
 /* @end Base */
-
 
 /**
  * Embedded Content
@@ -95,9 +85,8 @@ img
 	border: 0; 
 	outline: 0; 
 }
-/** 
- * Correct overflow not hidden in IE9 
-*/
+
+/* correct overflow not hidden in IE9 */
 svg:not(:root) 
 { 
 	overflow: hidden; 
