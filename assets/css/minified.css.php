@@ -24,6 +24,7 @@ ob_start("compress");
   	include('tabs.css');
   	include('pagination.css');
   	include('breadcrumbs.css');
+    include('backgrounds.css');
   	include('helpers.css');
     include('scaffolding.css');
   	include('application.css');
