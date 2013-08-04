@@ -2,9 +2,9 @@
  |--------------------------------------
  | All APP specific CSS goes in here.
  |
- | @Version:
- | @Author:
- | @URL:
+ | @Version: 1.0
+ | @Author: iKreativ
+ | @URL: http://ikreativ.com
  |--------------------------------------
  */
 
@@ -14,9 +14,15 @@
 html,
 body
 {
-    background: #f6f6f6;
-    height: 100%;
+	height: 100%;
+    background: #f5f5f5;
     color: #5A6C7F;
+}
+
+#main
+{
+	min-height: 100%;
+	float: left;
 }
 
 h1, h2, h3, h4, h5, h6
@@ -72,9 +78,10 @@ a:active
  * Sections
  */
 .section,
-.section-alt
+.section-alt,
+.section-alt-alt
 {
-	width: 93%;
+	width: 90%;
 	padding: 50px;
 	float: left;
 }
@@ -91,7 +98,9 @@ a:active
 
 .section-alt-alt
 {
-	background: #3F3F49;
+	background: #f7f7f7;
+	border-top: 1px solid #dedede;
+	border-bottom: 1px solid #dedede;
 }
 /* @end Sections */
 
@@ -150,7 +159,7 @@ a:active
 nav#primary
 {
 	width: 100%;
-	padding-bottom: 25px;
+	padding-top: 15px;
 }
 
 nav#primary ul
@@ -164,21 +173,16 @@ nav#primary ul li
 	display: inline;
 }
 
-nav#primary ul li.current a
-{
-	color: #333333;
-}
-
 nav#primary ul li a
 {
-	color: #7F7F8A;
 	font-size: 16px;
-	font-weight: 200;
+	color: #5A6C7F;
+	font-weight: 600;
 }
 
 nav#primary ul li a:hover
 {
-	color: #2daebf;
+ 	color: #F16863;
 }
 /* @end Nav */
 
@@ -187,19 +191,29 @@ nav#primary ul li a:hover
  */
 header h1,
 header h2,
-header h3,
-header p
+header h3
 {
 	color: #ffffff;
+	text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.08);
+}
+
+header .button
+{
+	margin-top: 25px;
+  	text-align: center;
 }
 /* @end Header */
 
 /**
  * Footer
  */
-footer
+footer#footer
 {	
-	margin-top: 35px!important;
-	text-align: center;
+	background: #3F3F49;
+    color: #545563;
+    width: 90%;
+	margin: 0 auto;
+	padding: 50px;
+	float: left;
 }
 /* @end Footer */

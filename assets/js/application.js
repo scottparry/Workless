@@ -28,11 +28,8 @@ jQuery(document).ready(function($) {
 		html: true
 	});
 
-	// Scroll
-	jQuery.localScroll();
-
 	// Prettyprint
-	$('pre').addClass('prettyprint linenums');
+	$('pre').addClass('prettyprint');
 
 	// Uniform
 	$("select, input:checkbox, input:radio, input:file").uniform();

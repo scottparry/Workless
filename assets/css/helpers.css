@@ -1,44 +1,19 @@
 /**
- * Backgrounds
- */
-.blueish 
-{ 
-	background: url(../img/bg_blueish.jpg) repeat !important; 
-}
-.noise 
-{ 
-	background: url(../img/bg_noise.jpg) repeat !important; 
-}
-.noisedark 
-{ 
-	background: url(../img/bg_noisedark.jpg) repeat !important; 
-}
-.classydark 
-{ 
-	background: url(../img/bg_classydark.jpg) repeat !important; 
-}
-/* @end Backgrounds */
-
-
-
-/**
- * Labels
+ * Labels and notifications
  */
 .label
 {
-	font-size: 11px;
+	font-size: 12px;
   	font-weight: bold;
   	line-height: 14px;
   	color: #ffffff;
   	white-space: nowrap;
   	vertical-align: baseline;
-  	background-color: #999999;
+  	background-color: #3F3F49;
   	padding: 2px 6px;
     border-radius: 3px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
-	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
+
 .notification
 {
 	font-size: 11px;
@@ -51,69 +26,56 @@
   	background-color: #999999;
   	padding: 3px 7px 2px 7px;
     border-radius: 25px;
-    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
-	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 }
+
 .label.red,
 .notification.red
 {
  	 background-color: #ff2b25; 
 }
+
 .label.orange,
 .notification.orange
 {
-  	background-color: #ff5c00; 
+  	background-color: #F16863; 
 }
+
 .label.green,
 .notification.green
 {
   	background-color: #91bd09; 
 }
+
 .label.blue,
 .notification.blue
 {
   	background-color: #2daebf; 
 }
+
 .label.pink,
 .notification.pink		
 { 
 	background-color: #fe57a1; 
 }
+
 .label.magenta,
 .notification.magenta		
 { 
 	background-color: #a9014b; 
 }
+
 .label.yellow,
 .notification.yellow	
 { 
 	background-color: #ffb515; 
 }
+
 .label.flat,
 .notification.flat 
 {
 	border-bottom: none;
 	box-shadow: none;
 }
-
-
-
-/**
- * Wrapper
- */
-.wrapper
-{
-	margin: 0 auto;
-	float: none;
-}
-
-
-
-/**
- * Non-semantic helpers
- */
-
 
 /** 
  * Box shadows 
@@ -190,27 +152,12 @@
 	border: none;
 }
 
-
-/** 
- * Last class 
- */
-.last 
-{ 
-	margin-right: 0; 
-}
-
 /** 
  * Colors 
  */
 .muted 
 { 
 	color: #888888; 
-}
-.highlight 
-{ 
-	background: #ffffe0; 
-	color: #555555; 
-	font-weight: normal; 
 }
 
 /** 
@@ -228,28 +175,34 @@
 { 
 	float: left; 
 }
+
 .alignright 
 { 
 	float: right; 
 }
+
 .aligncenter
 {
 	float: none;
 	margin: 0 auto;
 	text-align: center;
 }
+
 .textleft 
 { 
 	text-align: left; 
 }
+
 .textright 
 { 
 	text-align: right; 
 }
+
 .textcenter 
 { 
 	text-align: center;
 }
+
 .inline
 {
 	display: inline;
@@ -262,14 +215,17 @@
 {
 	width: 25%;
 }
+
 .fifty
 {
 	width: 50%;
 }
+
 .seventyfive
 {
 	width: 75%;
 }
+
 .onehundred
 {
 	width: 100%;
@@ -283,6 +239,7 @@
 	display: none !important; 
 	visibility: hidden; 
 }
+
 /** 
  * Hide only visually, but have it available 
  * for screenreaders. 
@@ -298,6 +255,7 @@
 	position: absolute; 
 	width: 1px; 
 }
+
 /**
  * Extends the .visuallyhidden class to allow 
  * the element to be focusable when navigated 
@@ -313,6 +271,7 @@
 	position: static; 
 	width: auto; 
 }
+
 /** 
  * Hide visually and from screenreaders, but 
  * maintain layout 
@@ -321,7 +280,6 @@
 { 
 	visibility: hidden; 
 }
-
 
 /** 
  * Floats
@@ -332,6 +290,7 @@
 	content: ""; 
 	display: table; 
 }
+
 .clearfix:after 
 { 
 	clear: both; 
@@ -348,69 +307,3 @@
 {
 	font-size: 12px;
 }
-/* @end Non-semantic helpers */
-
-
-
-/**
- * Prettyprint 
- */
-.com 
-{ 
-	color: #aaaaaa; 
-}
-.lit 
-{ 
-	color: #195f91; 
-}
-.pun, 
-.opn, 
-.clo 
-{ 
-	color: #34ade8; 
-}
-.fun 
-{ 
-	color: #4F6677; 
-}
-.str, 
-.atv 
-{ 
-	color: #268bd2; 
-}
-.kwd, 
-.tag 
-{ 
-	color: #195f91; 
-}
-.typ, 
-.atn, 
-.dec, 
-.var 
-{ 
-	color: #CB4B16; 
-}
-.pln 
-{ 
-	color: #4F6677; 
-}
-
-pre.prettyprint 
-{
-  	background: #fefefe;
-  	padding: 9px;
-	margin-top: 15px;
-	margin-bottom: 15px;
-  	border: 1px solid rgba(0, 0, 0, 0.2);
-	font-size: 14px;
-}
-.linenums 
-{ 
-	margin: 0; 
-	padding: 0; 
-}
-.linenums li 
-{ 
-	line-height: 20px; 
-}
-/* @end Prettyprint */

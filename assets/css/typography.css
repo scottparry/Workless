@@ -133,7 +133,7 @@ code
 {
 	color: #F16863;
 	padding: 3px 5px;
-	font-size: 13px;
+	font-size: 14px;
 }
 
 pre
@@ -196,14 +196,14 @@ sub
  */
 p
 {
-	font-size: 18px;
+	font-size: 16px;
 	line-height: 1.6m;
 	margin: 0 0 1.4em 0;
 }
 
 p small
 {
-	font-size: 12px;
+	font-size: 14px;
 	filter: alpha(opacity=60);
   	-khtml-opacity: 0.6;
   	-moz-opacity: 0.6;
