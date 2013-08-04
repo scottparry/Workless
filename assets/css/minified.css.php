@@ -28,7 +28,6 @@ ob_start("compress");
   	include('helpers.css');
     include('scaffolding.css');
   	include('application.css');
-    include('colors.css');
     include('responsive.css');
     include('print.css');
 

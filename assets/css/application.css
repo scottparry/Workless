@@ -1,40 +1,94 @@
 /**
- * All APP specific CSS goes in here.
- *
- * @Version:
- * @Author:
- * @URL:
+ |--------------------------------------
+ | All APP specific CSS goes in here.
+ |
+ | @Version:
+ | @Author:
+ | @URL:
+ |--------------------------------------
  */
-
-
 
 /**
- * Background image
+ * Defaults
  */
-.bg_shadow
+html,
+body
 {
-	background: url(../img/shadow.png) no-repeat;
-	background-position: bottom;
+    background: #f6f6f6;
+    height: 100%;
+    color: #5A6C7F;
 }
 
+h1, h2, h3, h4, h5, h6
+{
+    color: #42505F;
+}
 
+p,
+li,
+dl dt,
+dl dd
+{
+	color: #5A6C7F;
+}
+
+blockquote
+{
+	color: #B4C4D0;
+}
+
+a
+{
+ 	color: #F16863;
+}
+
+a:hover,
+a:visited:hover
+{
+	color: #506173;
+}
+
+a:active
+{
+	color: #000000;
+}
+
+::-moz-selection
+{
+	background: #000000;
+	color: #ffffff;
+	text-shadow: none;
+}
+
+::selection
+{
+	background: #000000;
+	color: #ffffff;
+	text-shadow: none;
+}
+
+.section
+{
+	background: #fffefe;
+}
+
+.section-alt
+{
+	background: #F16863;
+}
+/* @end Defaults */
 
 /**
- * Main
+ * Sections
  */
-#main
+.section,
+.section-alt
 {
-	background: #ffffff;
-	min-height: 100%;
+	width: 93%;
 	padding: 50px;
-	margin: 25px auto;
-	box-shadow: 0 0 3px rgba(0, 0, 0, 0.1);
-	border-radius: 5px;
-	border: 1px solid rgba(0, 0, 0, 0.2);
 	float: left;
 }
-
-
+/* @end Sections */
 
 /**
  * Logo
@@ -85,9 +139,6 @@
 	}
 }
 
-
-
-
 /**
  * Nav
  */
@@ -97,8 +148,7 @@ nav#primary
 	padding-bottom: 25px;
 }
 
-nav#primary ul,
-nav#primary .selector
+nav#primary ul
 {
 	float: right;
 }
@@ -127,50 +177,14 @@ nav#primary ul li a:hover
 }
 /* @end Nav */
 
-
-
 /**
  * Header
  */
-header
-{
-	border-bottom: 1px solid #eeeeee;
-	padding: 75px 0 50px 0;
-	margin-bottom: 25px;
-}
-
 header h1
 {
-	font-weight: 200!important;
-	text-align: center;
-	font-weight: normal;
+	color: #ffffff;
 }
 /* @end Header */
-
-
-
-/**
- * Get
- */
-#getit
-{
-	width: 675px;
-	margin: 0 auto;
-	padding-top: 10px;
-	text-align: center;
-}
-
-#getit h3
-{
-	color: #7F7F8A;
-}
-
-#getit p
-{
-	font-size: 12px;
-}
-
-
 
 /**
  * Footer

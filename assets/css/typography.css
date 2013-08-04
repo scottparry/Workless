@@ -1,70 +1,82 @@
 /**
  * Typography
  */
+*
+{
+	font-family: Helvetica, Arial, sans-serif;
+}
 
-* { 
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+p,
+li,
+dl dt,
+dl dd
+{
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+body
+{
 	font-weight: normal;
-	line-height: 1.231; 
-	text-rendering: optimizeLegibility; 
-	font-size: 100%; 
-	-webkit-text-size-adjust: 100%; 
-	-ms-text-size-adjust: 100%; 
-	font-weight: 200;
+	line-height: 1.231;
+	text-rendering: optimizeLegibility;
+	font-size: 100%;
+	-webkit-text-size-adjust: 100%;
+	-ms-text-size-adjust: 100%;
 }
-a 
-{ 
-	font-weight: inherit; 
-	font-size: inherit; 
-	text-decoration: none; 
-	-webkit-transition: 250ms linear all; 
-	-moz-transition: 250ms linear all; 
-	transition: 250ms linear all; 
+
+a
+{
+	font-weight: inherit;
+	font-size: inherit;
+	text-decoration: none;
+	-webkit-transition: 250ms linear all;
+	-moz-transition: 250ms linear all;
+	transition: 250ms linear all;
 }
-a:hover 
-{ 
+
+a:hover
+{
 }
-a:active 
-{ 
+
+a:active
+{
 }
-a:focus 
-{ 
-	outline: 0; 
+
+a:focus
+{
+	outline: 0;
 }
-a:hover, 
-a:active 
-{ 
-	outline: 0; 
+
+a:hover,
+a:active
+{
+	outline: 0;
 }
-abbr[title] 
-{ 
-	border-bottom: 1px dotted; 
+
+abbr[title]
+{
+	border-bottom: 1px dotted;
 }
-b, 
-strong 
-{ 
+
+b,
+strong
+{
 	color: inherit;
-	font-weight: bold; 
+	font-weight: bold;
 }
-blockquote
-{ 
-	font-size: 24px; 
-	font-weight: 100; 
-	line-height: 28px; 
-	padding: 15px 0 0 75px;
-	margin: 15px 0 25px 0;
-	float: left; 
+
+blockquote,
+blockquote p
+{
+	font-size: 24px;
+	font-weight: 400;
+	position: relative;
+	z-index: 5;
+    float: left;
+    margin-top: 0;
+    margin-bottom: 5px;
 }
-blockquote:before 
-{ 
-	content: '\201C'; 
-	font-size: 128px; 
-	font-weight: 200;
-	color: #dddddd;
-	margin-left: -25px;
-	margin-bottom: 10px;
-	position: absolute; 
-}
+
 span.fancyamp
 {
 	font-family: Baskerville, Palatino, "Book Antiqua", serif;
@@ -72,252 +84,270 @@ span.fancyamp
   	color: inherit;
   	font-size: inherit;
 }
-dfn 
-{ 
-	font-style: italic; 
-}
-hr 
-{ 
-	display: block; 
-	height: 0px; 
-	width: 100%; 
-	border: 0; 
-	border-bottom: 1px solid #eeeeee; 
-	margin: 25px 0; 
-	padding: 0; 
-	float: left; 
-}
-ins 
-{ 
-	background: #ffffe0; 
-	text-decoration: none; 
-}
-mark 
-{ 
-	background: #ffffe0; 
-	font-style: italic; 
-	font-weight: bold; 
-}
-address 
-{ 
-	display: block; 
-	line-height: 18px; 
-	margin-bottom: 18px; 
-}
-pre, 
-code, 
-kbd, 
-samp 
-{ 
-	font-family: monospace; 
-}
-code
+
+dfn
 {
-	background: #eeeeee;
-	color: #2daebf;
-	padding: 3px 5px;
-	border: 1px solid #dddddd;
-	border-radius: 3px;
-	font-size: 14px;
+	font-style: italic;
 }
-pre 
+
+hr
 {
 	display: block;
+	height: 0px;
+	width: 100%;
+	border: 0;
+	border-bottom: 1px solid #eeeeee;
+	padding: 0;
+	margin: 15px 0 35px 0;
+	float: left;
+}
+
+ins
+{
+	background: #ffffe0;
+	text-decoration: none;
+}
+
+mark
+{
+	background: #ffffe0;
+	font-style: italic;
+	font-weight: bold;
+}
+
+address
+{
+	display: block;
+	font-style: normal;
+}
+
+pre,
+code,
+kbd,
+samp
+{
+	font-family: monospace;
+}
+
+code
+{
+	color: #F16863;
+	padding: 3px 5px;
+	font-size: 13px;
+}
+
+pre
+{
+    background: #3F3F49;
+    border-radius: 2px;
+    padding: 15px 25px;
+    color: #F16863;
+	font-size: 14px;
+	display: block;
 	overflow: hidden;
-	background: #fefefe;
-	margin-top: 15px;
-	margin-bottom: 15px;
-	border-radius: 2px;
-	box-shadow: 0 2px 0 rgba(0, 0, 0, 0.05);
-	white-space: pre; 
-	white-space: pre-wrap; 
+	white-space: pre;
+	white-space: pre-wrap;
 	word-wrap: break-word;
-	font-family: monospace; 
+	font-family: monospace;
 }
-q 
-{ 
-	quotes: none; 
+
+q
+{
+	quotes: none;
 }
-q:before, 
-q:after 
-{ 
-	content: ""; 
-	content: none; 
+
+q:before,
+q:after
+{
+	content: "";
+	content: none;
 }
-small 
-{ 
-	font-size: 50%;
+
+small
+{
+	font-size: 0.6em;
 }
 
 /**
- * Position subscript and superscript 
- * content without affecting line-height. 
+ * Position subscript and superscript
+ * content without affecting line-height.
  */
-sub, 
-sup 
-{ 
-	font-size: 75%; 
-	line-height: 0; 
-	position: relative; 
-	vertical-align: baseline; 
-}
-sup 
-{ 
-	top: -0.5em; 
-}
-sub 
-{ 
-	bottom: -0.25em; 
+sub,
+sup
+{
+	font-size: 75%;
+	line-height: 0;
+	position: relative;
+	vertical-align: baseline;
 }
 
-/** 
- * Give paragraphs some default styling. 
+sup
+{
+	top: -0.5em;
+}
+
+sub
+{
+	bottom: -0.25em;
+}
+
+/**
+ * Give paragraphs some default styling.
  */
-p 
-{ 
+p
+{
 	font-size: 18px;
-	line-height: 1.125em;
-	margin: 0 0 1.125em 0;
-}
-p small 
-{ 
-	font-size: 12px; 
+	line-height: 1.6m;
+	margin: 0 0 1.4em 0;
 }
 
-/** 
- * Give headings some default styling. 
-*/
-h1, 
-h2, 
-h3, 
-h4, 
-h5, 
-h6
-{ 
-	font-weight: 200;
-}
-/** 
- * Set individual heading styles 
-*/
-h1
-{ 
-	font-size: 2.5em;
-	line-height: 1.2em;
-	margin-top: 0.75em; 
-	margin-bottom: 0.7em; 
-}
-h2
-{ 
-	font-size: 1.8em;
-	line-height: 1.2em;
-	margin-top: 0.75em; 
-	margin-bottom: 0.7em; 
-}
-h3
-{ 
-	font-size: 1.5em; 
-	line-height: 1.2em; 
-	margin-top: 0.75em; 
-	margin-bottom: 0.7em; 
-}
-h4
-{ 
-	font-size: 1.25em; 
-	line-height: 1.2em; 
-	margin-top: 0.75em; 
-	margin-bottom: 0.7em; 
-}
-h5
-{ 
-	font-size: 1em; 
-	line-height: 1.125em; 
-	margin-top: 1.125em; 
-	margin-bottom: 0.6em; 
-}
-h6
-{ 
-	font-size: 0.875em; 
-	line-height: 1.2857em; 
-	margin-top: 1.2857em; 
-	margin-bottom: 0.5em; 
+p small
+{
+	font-size: 12px;
+	filter: alpha(opacity=60);
+  	-khtml-opacity: 0.6;
+  	-moz-opacity: 0.6;
+  	opacity: 0.6;
 }
 
+.single_post .intro
+{
+	font-weight: 600;
+	color: #42505F;
+}
 
-
+.emphasis
+{
+	font-size: 20px;
+}
 
 /**
  * Lists
  */
-ul, 
-ol 
-{ 
-	margin: 0 0 15px 0; 
-	padding: 0; 
+ul,
+ol
+{
+	margin: 0 0 15px 0;
+	padding: 0;
 }
-ul ul, 
-ul ol, 
-ol ol, 
-ol ul 
-{ 
-	margin-bottom: 0; 
+
+ul ul,
+ul ol,
+ol ol,
+ol ul
+{
+	margin-bottom: 0;
 }
-ul 
-{ 
-	list-style: disc; 
+
+ul
+{
+	list-style: disc;
 }
-ol 
-{ 
-	list-style: decimal; 
+
+ol
+{
+	list-style: decimal;
 }
+
 ol.roman
 {
 	list-style: upper-roman;
 }
-li 
-{ 
-	font-size: 18px;
-	line-height: 1.4em;
-}
-dl 
-{ 
-	margin-bottom: 15px; 
-}
-dl dt, 
-dl dd 
-{ 
-	font-size: 18px;
-}
-dl dt 
-{ 
-	font-weight: bold; 
-}
-dl dd 
-{ 
-	margin-left: 9px; 
-}
-ul, ol 
-{ 
-	margin: 0 0 10px 20px; 
-	padding: 0; 
-}
-dd { 
-	margin: 0 0 0 20px; 
+
+li
+{
+	font-size: 16px;
+	line-height: 1.5em;
 }
 
-/** 
- * We probably don't want list-styles if it's in a navigation. 
+dl
+{
+	margin-bottom: 15px;
+}
+
+dl dt,
+dl dd
+{
+	font-size: 16px;
+}
+
+dl dt
+{
+	font-weight: bold;
+}
+
+dl dd
+{
+	margin-left: 9px;
+}
+
+ul, ol
+{
+	margin: 0 0 10px 20px;
+	padding: 0;
+}
+
+dd
+{
+	margin: 0 0 0 20px;
+}
+
+
+/**
+ * Set individual heading styles
  */
-nav ul, 
-nav ol, 
-#nav ul, 
-#nav ol, 
-#navigation ul, 
-#navigation ol, 
-.nav 
-{ 
-	list-style: none; 
-	list-style-image: none; 
-	margin: 0; 
-	padding: 0; 
+h1, h2,h3, h4, h5, h6
+{
+	font-weight: 600;
+	line-height: 1.1em;
+	margin-top: 0.5em;
+	margin-bottom: 0.5em;
+}
+
+h1
+{
+	font-size: 275%;
+}
+
+h2
+{
+	font-size: 250%;
+}
+
+h3
+{
+	font-size: 225%;
+}
+
+h4
+{
+	font-size: 200%;
+}
+
+h5
+{
+	font-size: 150%;
+}
+
+h6
+{
+	font-size: 125%;
+}
+
+/**
+ * We probably don't want list-styles if it's in a navigation.
+ */
+nav ul,
+nav ol,
+#nav ul,
+#nav ol,
+#navigation ul,
+#navigation ol,
+.nav
+{
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
 }
 /* @end Typography */
