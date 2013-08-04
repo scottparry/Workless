@@ -28,6 +28,7 @@ ob_start("compress");
     include('scaffolding.css');
   	include('print.css');
   	include('application.css');
+    include('responsive.css');
 
 ob_end_flush();
 ?>
