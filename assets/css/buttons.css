@@ -1,141 +1,111 @@
 /**
- * Buttons 
+ * Buttons
  */
-.button, 
-.button:visited 
+.button
 {
-	background: #bbbbbb url(../img/button.png) repeat-x; 
-	display: inline-block; 
-	padding: 5px 10px 5px 10px; 
-	margin-right: 3px;
+	background-color: #bbbbbb;
+	display: inline-block;
+	padding: 10px 20px 12px 20px;
 	margin-bottom: 1.5em;
-	color: #ffffff; 
-	font-weight: bold; 
+	color: #ffffff!important;
+	font-weight: 600;
+	text-transform: uppercase;
 	text-decoration: none;
-	border-radius: 3px;
-	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
-	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
-	border-bottom: 2px solid rgba(0, 0, 0, 0.2);
 	position: relative;
 	cursor: pointer;
+	border-radius: 2px;
 }
-.button:hover
-{ 
-	background-color: #111111; 
-	color: #ffffff;
+
+.small.button
+{
+	font-size: 14px;
 }
-.button:active
-{ 
-	top: 1px; 
+
+.medium.button
+{
+	font-size: 18px;
+	line-height: 1;
+	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
 }
-.small.button, 
-.small.button:visited 			
-{ 
-	font-size: 11px;
+
+.large.button
+{
+	font-size: 20px;
+	padding: 20px 35px;
 }
-.medium.button, 
-.medium.button:visited 		
-{ 
-	font-size: 13px; 
-	line-height: 1; 
-	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3); 
-}
-.large.button, 
-.large.button:visited 			
-{ 
-	font-size: 16px; 
-	padding: 15px 20px; 
-}
-.rounded.button 
+
+.rounded.button
 {
 	border-radius: 25px;
 }
-.flat.button 
-{
-	border-bottom: none;
-	box-shadow: none;
-}
+
 /**
  * Pink
  */
-.pink.button, 
-.pink.button:visited		
-{ 
-	background-color: #fe57a1; 
+.pink.button
+{
+	background-color: #fe57a1!important;
 }
-.pink.button:hover	
-{ 
-	background-color: #d74b8a; 
-}
+
 /**
  * Green
  */
-.green.button, 
-.green.button:visited		
-{ 
-	background-color: #91bd09; 
+.green.button
+{
+	background-color: #91bd09!important;
 }
-.green.button:hover	
-{ 
-	background-color: #749a02; 
-}
-/** 
+
+/**
  * Blue
  */
-.blue.button, 
-.blue.button:visited		
-{ 
-	background-color: #2daebf; 
-}
-.blue.button:hover							
+.blue.button
 {
-	background-color: #007d9a; 
+	background-color: #2daebf!important;
 }
+
 /**
  * Red
  */
-.red.button, 
-.red.button:visited			
-{ 
-	background-color: #ff2b25; 
+.red.button
+{
+	background-color: #ff0000!important;
 }
-.red.button:hover							
-{ 
-	background-color: #ba1f1b; 
-}
-/** 
+
+/**
  * Magenta
  */
-.magenta.button, 
-.magenta.button:visited		
-{ 
-	background-color: #a9014b; 
+.magenta.button
+{
+	background-color: #a9014b!important;
 }
-.magenta.button:hover							
-{ 
-	background-color: #630030; 
-}
+
 /**
  * Orange
  */
-.orange.button, 
-.orange.button:visited		
-{ 
-	background-color: #ff5c00; 
+.orange.button
+{
+	background-color: #F16863!important;
 }
-.orange.button:hover
-{ 
-	background-color: #d45500; 
-}
-/** 
+
+/**
  * Yellow
  */
-.yellow.button,
-.yellow.button:visited		
-{ 
-	background-color: #ffb515; 
+.yellow.button
+{
+	background-color: #ffb515!important;
 }
-.yellow.button:hover { 
-	background-color: #fc9200; 
+
+/**
+ * Hovers
+ */
+.button:hover
+{
+	background-color: #7A7B92!important;
+	color: #ffffff;
+}
+
+.button:active
+{
+	top: 1px;
 }
 /* @end Buttons */
