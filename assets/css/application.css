@@ -108,19 +108,15 @@ a:active
  */
 #logo
 {
-	font-weight: 200;
-	font-size: 24px;
 	float: left;
-	margin-top: -8px;
-	margin-bottom: 8px;
 }
 
 #logo a
 {
-	filter: alpha(opacity=100);
-  	-khtml-opacity: 1;
-  	-moz-opacity: 1;
-  	opacity: 1;
+	filter: alpha(opacity=90);
+  	-khtml-opacity: 0.9;
+  	-moz-opacity: 0.9;
+  	opacity: 0.9;
   	-webkit-transition: 250ms linear all; 
 	-moz-transition: 250ms linear all; 
 	transition: 250ms linear all; 
@@ -128,10 +124,10 @@ a:active
 
 #logo a:hover
 {
-	filter: alpha(opacity=80);
-  	-khtml-opacity: 0.8;
-  	-moz-opacity: 0.8;
-  	opacity: 0.8;
+	filter: alpha(opacity=100);
+  	-khtml-opacity: 1;
+  	-moz-opacity: 1;
+  	opacity: 1;
 }
 /* @end Logo */
 
