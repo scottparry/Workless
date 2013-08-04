@@ -80,7 +80,7 @@ a:active
 .section-alt,
 .section-alt-alt
 {
-	width: 90%;
+	width: 92%;
 	padding: 50px;
 	float: left;
 }
@@ -172,10 +172,10 @@ a.open
     float: left;
     width: 40px;
     height: 30px;
-    margin-top: 0;
+    margin-top: 15px;
     float: right;
     background: #F16863 url("../img/menu.png") center center no-repeat;
-    border-radius: 3px;
+    border-radius: 2px;
     text-indent: -9999px;
     position: relative;
     z-index: 99999;
@@ -298,7 +298,7 @@ footer#footer
 {	
 	background: #3F3F49;
     color: #545563;
-    width: 90%;
+    width: 92%;
 	margin: 0 auto;
 	padding: 50px;
 	float: left;
