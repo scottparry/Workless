@@ -93,7 +93,7 @@ dfn
 hr
 {
 	display: block;
-	height: 0px;
+	height: 0;
 	width: 100%;
 	border: 0;
 	border-bottom: 1px solid #eeeeee;
