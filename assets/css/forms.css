@@ -60,7 +60,8 @@ input,
 select, 
 textarea 
 { 
-	margin: 10px 0!important; 
+	/*remove ！important */
+	margin: 10px 0; 
 	vertical-align: baseline; 
 	*vertical-align: middle;
 }
