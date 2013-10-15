@@ -1,112 +1,111 @@
 /**
  * Forms
  */
-form 
-{ 
-	margin: 0; 
+form
+{
+	margin: 0;
 }
 
-form ul 
-{ 
-	margin: 5px 0 5px 0; 
-	padding: 0; 
-}
-
-form ul li 
-{ 
-	list-style: none; 
-}
-
-fieldset 
-{ 
-	border: 1px solid rgba(0, 0, 0, 0.2); 
-	margin: 5px 0 15px 0; 
-	padding: 25px; 
-}
-
-fieldset ul 
-{ 
-	margin: 0; 
+form ul
+{
+	margin: 5px 0 5px 0;
 	padding: 0;
 }
 
-fieldset ul li 
-{ 
-	list-style: none; 
+form ul li
+{
+	list-style: none;
+}
+
+fieldset
+{
+	border: 1px solid rgba(0, 0, 0, 0.2);
+	margin: 5px 0 15px 0;
+	padding: 25px;
+}
+
+fieldset ul
+{
+	margin: 0;
+	padding: 0;
+}
+
+fieldset ul li
+{
+	list-style: none;
 }
 
 /**
- * Indicate that 'label' will shift focus 
- * to the associated form element 
+ * Indicate that 'label' will shift focus
+ * to the associated form element
  */
-label 
-{ 
-	cursor: pointer; 
-	font-size: 16px; 
-	font-weight: 600; 
+label
+{
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 600;
 }
 
-legend 
-{ 
-	border: 0; 
-	padding: 0; 
-	margin-left: 5px; 
-	font-size: 16px; 
-	font-weight: bold; 
+legend
+{
+	border: 0;
+	padding: 0;
+	margin-left: 5px;
+	font-size: 16px;
+	font-weight: bold;
 }
 
-button, 
-input, 
-select, 
-textarea 
-{ 
-	/*remove ！important */
-	margin: 10px 0; 
-	vertical-align: baseline; 
+button,
+input,
+select,
+textarea
+{
+	margin: 10px 0;
+	vertical-align: baseline;
 	*vertical-align: middle;
 }
 
 button,
 input[type="reset"],
 input[type="submit"],
-input[type="button"] 
+input[type="button"]
 {
 	font-size: 16px;
 	font-weight: 600;
 	text-transform: uppercase;
-	display: inline-block; 
-	padding: 10px; 
+	display: inline-block;
+	padding: 10px;
 	margin-bottom: 1.5em;
 	text-decoration: none;
 	border: none;
 	position: relative;
 	cursor: pointer;
-	-webkit-transition: 250ms linear all; 
-	-moz-transition: 250ms linear all; 
-	transition: 250ms linear all; 
+	-webkit-transition: 250ms linear all;
+	-moz-transition: 250ms linear all;
+	transition: 250ms linear all;
 }
 
 button,
 input[type="reset"],
 input[type="submit"],
-input[type="button"] 
+input[type="button"]
 {
-  	background: #F16863; 
-	color: #ffffff; 
+  	background: #F16863;
+	color: #ffffff;
 }
 
 button:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover,
-input[type="button"]:hover 
+input[type="button"]:hover
 {
   	background: #7A7B92;
 	color: #ffffff;
 	border: 1px solid #7A7B92!important;
 }
 
-input[type="text"], 
-input[type="password"], 
+input[type="text"],
+input[type="password"],
 textarea
 {
 	font-size: 16px;
@@ -127,14 +126,14 @@ select
 	border: none;
 }
 
-input[type="file"] 
+input[type="file"]
 {
 	padding: 5px;
 	border: 1px solid rgba(0, 0, 0, 0.2);
 	border-radius: 2px;
 }
 
-textarea 
+textarea
 {
 	min-height: 100px;
 	margin-bottom: 10px;
@@ -142,25 +141,25 @@ textarea
 
 input.blue,
 textarea.blue
-{ 
+{
 	border: 1px solid #2daebf;
 }
 
 input.orange,
 textarea.orange
-{ 
+{
 	border: 1px solid #ff5c00;
 }
 
 input.red,
 textarea.red
-{ 
+{
 	border: 1px solid #ff2b25;
 }
 
 input.green,
 textarea.green
-{ 
+{
 	border: 1px solid #91bd09;
 }
 
@@ -196,8 +195,8 @@ label.green
 	color: #91bd09;
 }
 
-/** 
- * Colors for form validity 
+/**
+ * Colors for form validity
  */
 label.error
 {
@@ -211,12 +210,12 @@ label.error
 }
 
 input.error
-{ 
+{
 	border: 1px solid #F16863;
 }
 
 textarea.error
-{ 
+{
 	border: 1px solid #F16863;
 }
 
