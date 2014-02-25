@@ -3,7 +3,7 @@
  */
 .boxed
 {
-  width: 60%;
+    width: 65%;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -24,9 +24,6 @@
 	margin: 0;
     padding-right: 25px;
 	float: left;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 .one_full
