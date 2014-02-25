@@ -6,11 +6,11 @@ nav#primary ul
     display: none;
 }
 
-.open 
-{ 
-    display: block; 
+.open
+{
+    display: block;
 }
- 
+
 h1
 {
     font-size: 170%;
@@ -43,15 +43,10 @@ h6
 
 .one_full,
 .one_half,
-.one_half_box,
 .one_third,
-.one_third_box,
 .two_third,
-.two_third_box,
 .one_quarter,
-.one_quarter_box,
-.one_fifth,
-.one_fifth_box
+.one_fifth
 {
     width: 260px;
 }
@@ -59,15 +54,15 @@ h6
 /**
  * iPads (portrait)
  */
-@media only screen and (min-width: 767px) {   
+@media only screen and (min-width: 767px) {
 	nav#primary ul
 	{
 	    display: none;
 	}
 
-	.open 
-	{ 
-	    display: block; 
+	.open
+	{
+	    display: block;
 	}
 
     h1
@@ -102,15 +97,10 @@ h6
 
     .one_full,
     .one_half,
-    .one_half_box,
     .one_third,
-    .one_third_box,
     .two_third,
-    .two_third_box,
     .one_quarter,
-    .one_quarter_box,
-    .one_fifth,
-    .one_fifth_box
+    .one_fifth
     {
         width: 100%;
     }
@@ -119,15 +109,15 @@ h6
 /**
  * iPads (landscape)
  */
-@media only screen and (min-width: 1023px) {    
+@media only screen and (min-width: 1023px) {
 	nav#primary ul
     {
         display: none;
     }
 
-    .open 
-    { 
-        display: block; 
+    .open
+    {
+        display: block;
     }
 
     h1
@@ -160,32 +150,27 @@ h6
         font-size: 125%;
     }
 
-    .one_half,
-    .one_half_box
+    .one_half
     {
         width: 50%;
     }
 
-    .one_third,
-    .one_third_box
+    .one_third
     {
         width: 33.33333%;
     }
 
-    .two_third,
-    .two_third_box
+    .two_third
     {
         width: 66.66666%;
     }
 
-    .one_quarter,
-    .one_quarter_box
+    .one_quarter
     {
         width: 25%;
     }
 
-    .one_fifth,
-    .one_fifth_box
+    .one_fifth
     {
         width: 20%;
     }
@@ -200,9 +185,9 @@ h6
 	    display: inline;
 	}
 
-	.open 
-	{ 
-	    display: none; 
+	.open
+	{
+	    display: none;
 	}
 
     h1
@@ -235,32 +220,27 @@ h6
         font-size: 125%;
     }
 
-    .one_half,
-    .one_half_box
+    .one_half
     {
         width: 50%;
     }
 
-    .one_third,
-    .one_third_box
+    .one_third
     {
         width: 33.33333%;
     }
 
-    .two_third,
-    .two_third_box
+    .two_third
     {
         width: 66.66666%;
     }
 
-    .one_quarter,
-    .one_quarter_box
+    .one_quarter
     {
         width: 25%;
     }
 
-    .one_fifth,
-    .one_fifth_box
+    .one_fifth
     {
         width: 20%;
     }
@@ -275,11 +255,11 @@ h6
 	    display: inline;
 	}
 
-	.open 
-	{ 
-	    display: none; 
+	.open
+	{
+	    display: none;
 	}
-	
+
     h1
     {
         font-size: 275%;
@@ -310,32 +290,27 @@ h6
         font-size: 125%;
     }
 
-    .one_half,
-    .one_half_box
+    .one_half
     {
         width: 50%;
     }
 
-    .one_third,
-    .one_third_box
+    .one_third
     {
         width: 33.33333%;
     }
 
-    .two_third,
-    .two_third_box
+    .two_third
     {
         width: 66.66666%;
     }
 
-    .one_quarter,
-    .one_quarter_box
+    .one_quarter
     {
         width: 25%;
     }
 
-    .one_fifth,
-    .one_fifth_box
+    .one_fifth
     {
         width: 20%;
     }
