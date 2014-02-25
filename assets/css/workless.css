@@ -1,94 +1,102 @@
 /**
  | ---------------------------------------------------------------
- | Workless by @iKreativ is a CSS base framework to get your 
+ | Workless by @iKreativ is a CSS base framework to get your
  | project of the ground as fast as possible.
- | 
+ |
  | It is split into a number of seperate CSS files which allows
  | you to use as much, or as little as you please.
  |
- | You'll notice that this file contains the Base styles only 
- | then all other CSS is loaded seperately. This is not 
- | recommended. Once you've decided which parts of Workless you 
- | are going to use, then simply copy/paste them all into a 
+ | You'll notice that this file contains the Base styles only
+ | then all other CSS is loaded seperately. This is not
+ | recommended. Once you've decided which parts of Workless you
+ | are going to use, then simply copy/paste them all into a
  | single CSS file to reduce HTTP requests!
  | ---------------------------------------------------------------
  */
 
 /**
+ * Apply box layout model to all elements
+ */
+*, *:before, *:after
+{
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+/**
  * HTML5 display definitions
  */
-article, 
-aside, 
-details, 
-figcaption, 
-figure, 
-footer, 
-header, 
-hgroup, 
-nav, 
-section 
-{ 
-	display: block; 
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+nav,
+section
+{
+	display: block;
 	margin: 0 auto;
 }
 
-audio, 
-canvas, 
-video 
-{ 
-	display: inline-block; 
-	*display: inline; 
-	*zoom: 1; 
+audio,
+canvas,
+video
+{
+	display: inline-block;
+	*display: inline;
+	*zoom: 1;
 }
 
-audio:not([controls]) 
-{ 
-	display: none; 
+audio:not([controls])
+{
+	display: none;
 }
 
-[hidden] 
-{ 
-	display: none; 
+[hidden]
+{
+	display: none;
 }
 
-figure 
-{ 
-	margin: 0; 
+figure
+{
+	margin: 0;
 }
 /* @end HTML5 display definitions */
 
 /**
  * Base
  */
-html, 
-body 
+html,
+body
 {
-	height: 100%; 
-	margin: 0; 
+	height: 100%;
+	margin: 0;
 	padding: 0;
 }
 
-body 
-{   
-	width: 100%; 
-	overflow-x: hidden; 
+body
+{
+	width: 100%;
+	overflow-x: hidden;
 }
 /* @end Base */
 
 /**
  * Embedded Content
  */
-img 
-{ 
-	-ms-interpolation-mode: bicubic; 
-	vertical-align: middle; 
-	border: 0; 
-	outline: 0; 
+img
+{
+	-ms-interpolation-mode: bicubic;
+	vertical-align: middle;
+	border: 0;
+	outline: 0;
 }
 
 /* correct overflow not hidden in IE9 */
-svg:not(:root) 
-{ 
-	overflow: hidden; 
+svg:not(:root)
+{
+	overflow: hidden;
 }
 /* @end Embedded content */
