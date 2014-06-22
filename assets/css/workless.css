@@ -17,11 +17,14 @@
 /**
  * Apply box layout model to all elements
  */
-*, *:before, *:after
+*,
+*:before,
+*:after
 {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
- }
-
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
 /**
  * HTML5 display definitions
  */
@@ -63,8 +66,6 @@ figure
 {
 	margin: 0;
 }
-/* @end HTML5 display definitions */
-
 /**
  * Base
  */
@@ -81,8 +82,6 @@ body
 	width: 100%;
 	overflow-x: hidden;
 }
-/* @end Base */
-
 /**
  * Embedded Content
  */
@@ -93,10 +92,8 @@ img
 	border: 0;
 	outline: 0;
 }
-
 /* correct overflow not hidden in IE9 */
 svg:not(:root)
 {
 	overflow: hidden;
 }
-/* @end Embedded content */
