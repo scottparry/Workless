@@ -25,41 +25,21 @@ body
     float: left;
 }
 
-h1, h2, h3, h4, h5, h6
-{
-    color: #42505F;
-}
-
-p,
-li,
-dl dt,
-dl dd
-{
-	color: #5A6C7F;
-}
-
 blockquote
 {
 	color: #B4C4D0;
 }
 
-a
-{
- 	color: #F16863;
-}
-
 a:hover,
 a:visited:hover
 {
-	color: #506173;
+	color: #F16863;
 }
 
 a:active
 {
 	color: #000000;
 }
-/* @end Defaults */
-
 /**
  * Sections
  */
@@ -88,8 +68,6 @@ a:active
 	border-top: 1px solid #dedede;
 	border-bottom: 1px solid #dedede;
 }
-/* @end Sections */
-
 /**
  * Logo
  */
@@ -116,10 +94,8 @@ a:active
   	-moz-opacity: 1;
   	opacity: 1;
 }
-/* @end Logo */
-
 /**
- * Nav
+ * Primary Navigation
  */
 nav#primary
 {
@@ -141,16 +117,8 @@ nav#primary ul li
 nav#primary ul li a
 {
 	font-size: 14px;
-	color: #5A6C7F;
 	font-weight: 600;
 }
-
-nav#primary ul li a:hover
-{
- 	color: #F16863;
-}
-/* @end Nav */
-
 /**
  * Responsive Navigation
  */
@@ -220,12 +188,6 @@ a:hover.open
 {
 	color: #ffffff;
 }
-
-#pageslide ul li a:hover
-{
-	color: #F16863;
-}
-
 /* dropdown */
 #pageslide ul li ul
 {
@@ -248,8 +210,6 @@ a:hover.open
 {
     padding: 5px 0 5px 20px;
 }
-/* @end Responsive Navigation */
-
 /**
  * Header
  */
@@ -266,8 +226,6 @@ header#header .button
 	margin-top: 25px;
   	text-align: center;
 }
-/* @end Header */
-
 /**
  * Github
  */
@@ -276,8 +234,6 @@ header#header .button
 {
 	color: #ffffff!important;
 }
-/* @end Github */
-
 /**
  * Footer
  */
@@ -285,13 +241,11 @@ footer#footer
 {
 	background: #3F3F49;
     color: #545563;
-    width: 92%;
+    width: 100%;
 	margin: 0 auto;
 	padding: 50px;
 	float: left;
 }
-/* @end Footer */
-
 /**
  * Top link
  */
@@ -308,4 +262,3 @@ footer#footer
 	color: #5A6C7F;
 	padding: 15px;
 }
-/* @end Top link */
