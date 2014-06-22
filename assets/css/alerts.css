@@ -1,70 +1,42 @@
-/** 
- * Alerts 
+/**
+ * Alerts
  */
-.alert 
+.alert
 {
-    background-color: #e6e6e6;
+    background: #e6e6e6;
     margin-top: 25px;
     margin-bottom: 25px;
-    padding: 10px 15px;
+    padding: 15px;
     color: #5A6C7F;
     border-radius: 2px;
 }
 
-.alert p 
+.alert p
 {
     color: #5A6C7F;
     margin-bottom: 0;
 }
 
-.alert-info 
+.alert-info
 {
     background: #E4F4FD;
-    border: 1px solid #A8CCE2;
     color: #407EA1;
 }
 
-.alert-success 
+.alert-success
 {
     background: #E6F4D8;
-    border: 1px solid #A5D76F;
     color: #61801B;
 }
 
-.alert-warning 
+.alert-warning
 {
     background: #F9F9D5;
-    border: 1px solid #D6CD77;
     color: #7C7548;
 }
 
-.alert-error 
+.alert-error
 {
     background: #FBE3E3;
-    border: 1px solid #F7B5B7;
     color: #D34047;
 }
-
-.close 
-{
-    float: right;
-    margin-top: -6px;
-    color: inherit;
-    font-size: 20px;
-    font-weight: bold;
-    text-shadow: 0 1px 0 #ffffff;
-    filter: alpha(opacity=20);
-    -khtml-opacity: 0.2;
-    -moz-opacity: 0.2;
-    opacity: 0.2;
-}
-
-.close:hover 
-{
-    text-decoration: none;
-    filter: alpha(opacity=40);
-    -khtml-opacity: 0.4;
-    -moz-opacity: 0.4;
-    opacity: 0.4;
-}
-/* @end Alerts */
