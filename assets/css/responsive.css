@@ -315,3 +315,11 @@ h6
         width: 20%;
     }
 }
+/* Fix icons in IE */
+@media screen and (min-width:0\0) {
+    [class^="icon-"]:before,
+    [class*=" icon-"]:before
+    {
+        margin-top: -500px!important;
+    }
+}
