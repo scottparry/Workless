@@ -58,20 +58,6 @@ a:active
 {
 	color: #000000;
 }
-
-::-moz-selection
-{
-	background: #000000;
-	color: #ffffff;
-	text-shadow: none;
-}
-
-::selection
-{
-	background: #000000;
-	color: #ffffff;
-	text-shadow: none;
-}
 /* @end Defaults */
 
 /**

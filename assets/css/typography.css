@@ -16,6 +16,20 @@ body
     text-rendering: optimizeLegibility;
 }
 
+::-moz-selection
+{
+	background: #000000;
+	color: #ffffff;
+	text-shadow: none;
+}
+
+::selection
+{
+	background: #000000;
+	color: #ffffff;
+	text-shadow: none;
+}
+
 a
 {
 	font-weight: inherit;
