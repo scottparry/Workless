@@ -15,11 +15,12 @@ html,
 body
 {
     height: 100%;
-    background: #f5f5f5;
+    background: #eeeeee;
 }
 
 #main
 {
+    background: #eeeeee;
     min-height: 100%;
     width: 100%;
     float: left;
@@ -54,7 +55,7 @@ a:active
 
 .section
 {
-	background: #fffefe;
+	background: #f9f9f9;
 }
 
 .section-alt
@@ -64,9 +65,7 @@ a:active
 
 .section-alt-alt
 {
-	background: #f7f7f7;
-	border-top: 1px solid #dedede;
-	border-bottom: 1px solid #dedede;
+	background: #ffffff;
 }
 /**
  * Logo
@@ -215,7 +214,8 @@ a:hover.open
  */
 header#header h1,
 header#header h2,
-header#header h3
+header#header h3,
+header#header h4
 {
 	color: #ffffff;
 	text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.08);
