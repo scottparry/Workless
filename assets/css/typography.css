@@ -1,27 +1,19 @@
 /**
  * Typography
  */
-*
+html
 {
-	font-family: Helvetica, Arial, sans-serif;
-}
-
-p,
-li,
-dl dt,
-dl dd
-{
-    font-family: Helvetica, Arial, sans-serif;
+	font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body
 {
 	font-weight: normal;
 	line-height: 1.231;
-	text-rendering: optimizeLegibility;
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
 }
 
 a
@@ -92,14 +84,13 @@ dfn
 
 hr
 {
-	display: block;
-	height: 0;
+	display: inline-block;
+	height: 0px;
 	width: 100%;
 	border: 0;
-	border-bottom: 1px solid #eeeeee;
+	border-bottom: 4px solid #f9f9f9;
 	padding: 0;
-	margin: 15px 0 35px 0;
-	float: left;
+	margin: 25px 0;
 }
 
 ins
@@ -118,7 +109,8 @@ mark
 address
 {
 	display: block;
-	font-style: normal;
+	line-height: 18px;
+	margin-bottom: 18px;
 }
 
 pre,
@@ -131,31 +123,33 @@ samp
 
 code
 {
-	color: #F16863;
 	padding: 3px 5px;
+	background: #f9f9f9;
+	border: 1px solid #eeeeee;
+	border-radius: 3px;
 	font-size: 14px;
 }
 
 pre
 {
-    background: #3F3F49;
-    border-radius: 2px;
-    padding: 15px 25px;
-    color: #F16863;
-	font-size: 14px;
 	display: block;
 	overflow: hidden;
-	white-space: pre;
+	background: #f9f9f9;
+	border: 1px solid #eeeeee;
+	padding: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	border-radius: 2px;
 	white-space: pre-wrap;
 	word-wrap: break-word;
 	font-family: monospace;
+	font-size: 14px;
 }
 
 q
 {
 	quotes: none;
 }
-
 q:before,
 q:after
 {
@@ -167,7 +161,6 @@ small
 {
 	font-size: 0.6em;
 }
-
 /**
  * Position subscript and superscript
  * content without affecting line-height.
@@ -190,35 +183,14 @@ sub
 {
 	bottom: -0.25em;
 }
-
 /**
  * Give paragraphs some default styling.
  */
 p
 {
-	font-size: 16px;
-	line-height: 1.6m;
-	margin: 0 0 1.4em 0;
-}
-
-p small
-{
-	font-size: 14px;
-	filter: alpha(opacity=60);
-  	-khtml-opacity: 0.6;
-  	-moz-opacity: 0.6;
-  	opacity: 0.6;
-}
-
-.single_post .intro
-{
-	font-weight: 600;
-	color: #42505F;
-}
-
-.emphasis
-{
-	font-size: 20px;
+	line-height: 26px;
+	margin: 0 0 1em 0;
+	display: block;
 }
 
 /**
@@ -256,7 +228,6 @@ ol.roman
 
 li
 {
-	font-size: 16px;
 	line-height: 1.5em;
 }
 
@@ -291,49 +262,45 @@ dd
 {
 	margin: 0 0 0 20px;
 }
-
-
 /**
- * Set individual heading styles
+ * Set heading styles
  */
-h1, h2,h3, h4, h5, h6
+h1, h2, h3, h4, h5, h6
 {
-	font-weight: 600;
-	line-height: 1.1em;
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
+    font-weight: 600;
+    margin: 0 0 1em 0;
+    line-height: 1.2em;
 }
 
 h1
 {
-	font-size: 275%;
+	font-size: 200%;
 }
 
 h2
 {
-	font-size: 250%;
+	font-size: 180%;
 }
 
 h3
 {
-	font-size: 225%;
+	font-size: 160%;
 }
 
 h4
 {
-	font-size: 200%;
+	font-size: 150%;
 }
 
 h5
 {
-	font-size: 150%;
+	font-size: 140%;
 }
 
 h6
 {
-	font-size: 125%;
+	font-size: 130%;
 }
-
 /**
  * We probably don't want list-styles if it's in a navigation.
  */
@@ -350,4 +317,3 @@ nav ol,
 	margin: 0;
 	padding: 0;
 }
-/* @end Typography */
