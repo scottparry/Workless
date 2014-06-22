@@ -3,7 +3,7 @@
  */
 .boxed
 {
-    width: 65%;
+    width: 60%;
 	margin: 0 auto;
 	padding: 0;
 }
@@ -55,4 +55,3 @@
 {
     width: 20%;
 }
-/* @end Scaffolding */
