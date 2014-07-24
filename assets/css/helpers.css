@@ -31,101 +31,80 @@
 .label.red,
 .notification.red
 {
- 	 background-color: #ff2b25; 
+ 	 background-color: #ff2b25;
 }
 
 .label.orange,
 .notification.orange
 {
-  	background-color: #F16863; 
+  	background-color: #F16863;
 }
 
 .label.green,
 .notification.green
 {
-  	background-color: #91bd09; 
+  	background-color: #91bd09;
 }
 
 .label.blue,
 .notification.blue
 {
-  	background-color: #2daebf; 
+  	background-color: #2daebf;
 }
 
 .label.pink,
-.notification.pink		
-{ 
-	background-color: #fe57a1; 
+.notification.pink
+{
+	background-color: #fe57a1;
 }
 
 .label.magenta,
-.notification.magenta		
-{ 
-	background-color: #a9014b; 
+.notification.magenta
+{
+	background-color: #a9014b;
 }
 
 .label.yellow,
-.notification.yellow	
-{ 
-	background-color: #ffb515; 
+.notification.yellow
+{
+	background-color: #ffb515;
 }
 
 .label.flat,
-.notification.flat 
+.notification.flat
 {
 	border-bottom: none;
 	box-shadow: none;
 }
 
-/** 
- * Box shadows 
+/**
+ * Cancel list styles
  */
-.box_shadow 
+.nolist
 {
-	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-	-moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-	-webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-	border-radius: 3px;
-	-moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 /**
- * Highlight
+ * Cancel margins
  */
- .highlight
- {
- 	background: #fff2a8;
- }
-
-/** 
- * Cancel list styles
- */
-.nolist 
-{ 
-	list-style: none; 
-	margin: 0; 
-	padding: 0; 
+.ntm
+{
+	margin-top: 0;
 }
-
-/** 
- * Cancel margins 
- */
-.ntm 
-{ 
-	margin-top: 0; 
+.nbm
+{
+	margin-bottom: 0;
 }
-.nbm 
-{ 
-	margin-bottom: 0; 
+.nlm
+{
+	margin-left: 0;
 }
-.nlm 
-{ 
-	margin-left: 0; 
-}
-.nrm 
-{ 
-	margin-right: 0; 
+.nrm
+{
+	margin-right: 0;
 }
 
 /**
@@ -152,33 +131,25 @@
 	border: none;
 }
 
-/** 
- * Colors 
+/**
+ * Colors
  */
-.muted 
-{ 
-	color: #888888; 
+.muted
+{
+	color: #888888;
 }
 
-/** 
- * Display 
+/**
+ * Positioning
  */
-.inline 
-{ 
-	display: inline; 
+.alignleft
+{
+	float: left;
 }
 
-/** 
- * Positioning 
- */
-.alignleft 
-{ 
-	float: left; 
-}
-
-.alignright 
-{ 
-	float: right; 
+.alignright
+{
+	float: right;
 }
 
 .aligncenter
@@ -188,18 +159,18 @@
 	text-align: center;
 }
 
-.textleft 
-{ 
-	text-align: left; 
+.textleft
+{
+	text-align: left;
 }
 
-.textright 
-{ 
-	text-align: right; 
+.textright
+{
+	text-align: right;
 }
 
-.textcenter 
-{ 
+.textcenter
+{
 	text-align: center;
 }
 
@@ -208,96 +179,73 @@
 	display: inline;
 }
 
-/** 
- * Sizes 
+/**
+ * Hide from screenreaders and browsers.
  */
-.twentyfive
+.hidden
 {
-	width: 25%;
-}
-
-.fifty
-{
-	width: 50%;
-}
-
-.seventyfive
-{
-	width: 75%;
-}
-
-.onehundred
-{
-	width: 100%;
-}
-
-/** 
- * Hide from screenreaders and browsers. 
- */
-.hidden 
-{ 
-	display: none !important; 
-	visibility: hidden; 
-}
-
-/** 
- * Hide only visually, but have it available 
- * for screenreaders. 
- */
-.visuallyhidden 
-{ 
-	border: 0; 
-	clip: rect(0 0 0 0); 
-	height: 1px; 
-	margin: -1px; 
-	overflow: hidden; 
-	padding: 0; 
-	position: absolute; 
-	width: 1px; 
+	display: none !important;
+	visibility: hidden;
 }
 
 /**
- * Extends the .visuallyhidden class to allow 
- * the element to be focusable when navigated 
- * to via the keyboard. 
+ * Hide only visually, but have it available
+ * for screenreaders.
  */
-.visuallyhidden.focusable:active, 
-.visuallyhidden.focusable:focus 
-{ 
-	clip: auto; 
-	height: auto; 
-	margin: 0; 
-	overflow: visible; 
-	position: static; 
-	width: auto; 
+.visuallyhidden
+{
+	border: 0;
+	clip: rect(0 0 0 0);
+	height: 1px;
+	margin: -1px;
+	overflow: hidden;
+	padding: 0;
+	position: absolute;
+	width: 1px;
 }
 
-/** 
- * Hide visually and from screenreaders, but 
- * maintain layout 
+/**
+ * Extends the .visuallyhidden class to allow
+ * the element to be focusable when navigated
+ * to via the keyboard.
  */
-.invisible 
-{ 
-	visibility: hidden; 
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus
+{
+	clip: auto;
+	height: auto;
+	margin: 0;
+	overflow: visible;
+	position: static;
+	width: auto;
 }
 
-/** 
+/**
+ * Hide visually and from screenreaders, but
+ * maintain layout
+ */
+.invisible
+{
+	visibility: hidden;
+}
+
+/**
  * Floats
- */ 
-.clearfix:before, 
-.clearfix:after 
-{ 
-	content: ""; 
-	display: table; 
+ */
+.clearfix:before,
+.clearfix:after
+{
+	content: "";
+	display: table;
 }
 
-.clearfix:after 
-{ 
-	clear: both; 
+.clearfix:after
+{
+	clear: both;
 }
-.clearfix 
-{ 
-	zoom: 1; 
+.clearfix
+{
+	zoom: 1;
 }
 
 /**
