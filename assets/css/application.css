@@ -14,8 +14,8 @@
 html,
 body
 {
+    background: #ffffff;
     height: 100%;
-    background: #eeeeee;
 }
 
 #main
@@ -34,22 +34,30 @@ blockquote
 a:hover,
 a:visited:hover
 {
-	color: #F16863;
+	color: #f36;
 }
 
 a:active
 {
 	color: #000000;
 }
+h1
+{
+    font-weight: 100;
+}
+
+h2, h3, h4, h5, h6
+{
+    font-weight: 200;
+}
 /**
  * Sections
  */
 .section,
-.section-alt,
-.section-alt-alt
+.section-alt
 {
 	width: 100%;
-	padding: 50px;
+	padding: 150px 0;
 	float: left;
 }
 
@@ -60,51 +68,59 @@ a:active
 
 .section-alt
 {
-	background: #F16863;
+	background: #f9f9fa;
+}
+/**
+ * Header
+ */
+header#header
+{
+    background: #f36;
 }
 
-.section-alt-alt
+header#header h1
 {
-	background: #f9f9f9;
+    color: #ffffff;
+    width: 100%;
+    margin-top: 50px;
+    text-align: center;
+}
+
+header#header .button
+{
+    margin-top: 25px;
+    text-align: center;
 }
 /**
  * Logo
  */
 #logo
 {
-	float: left;
+	margin: 0 auto;
 }
 
-#logo a
+#logo h1
 {
-	filter: alpha(opacity=90);
-  	-khtml-opacity: 0.9;
-  	-moz-opacity: 0.9;
-  	opacity: 0.9;
-  	-webkit-transition: 250ms linear all;
-	-moz-transition: 250ms linear all;
-	transition: 250ms linear all;
-}
-
-#logo a:hover
-{
-	filter: alpha(opacity=100);
-  	-khtml-opacity: 1;
-  	-moz-opacity: 1;
-  	opacity: 1;
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 56px;
 }
 /**
  * Primary Navigation
  */
 nav#primary
 {
-	width: 100%;
-	padding-top: 15px;
+    background: #3F3F49;
+    width: 100%;
+    padding: 25px 0;
+    float: left;
 }
 
 nav#primary ul
 {
-	float: right;
+    width: 100%;
+    text-align: center;
+	float: left;
 }
 
 nav#primary ul li
@@ -115,8 +131,14 @@ nav#primary ul li
 
 nav#primary ul li a
 {
-	font-size: 14px;
+	font-size: 16px;
 	font-weight: 600;
+    color: #ffffff;
+}
+
+nav#primary ul li a:hover
+{
+    color: rgba( 255, 255, 255, 0.5 );
 }
 /**
  * Responsive Navigation
@@ -210,41 +232,49 @@ a:hover.open
     padding: 5px 0 5px 20px;
 }
 /**
- * Header
- */
-header#header h1,
-header#header h2,
-header#header h3,
-header#header h4
-{
-	color: #ffffff;
-	text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.08);
-}
-
-header#header .button
-{
-	margin-top: 25px;
-  	text-align: center;
-}
-/**
  * Github
  */
+#github
+{
+    background: #7A7B92;
+}
+
 #github h5,
 #github a
 {
-	color: #ffffff!important;
+	color: #ffffff;
+}
+
+#github i
+{
+    font-size: 96px;
+}
+
+#github a:hover
+{
+    color: rgba( 255, 255, 255, 0.5 );
 }
 /**
  * Footer
  */
 footer#footer
 {
-	background: #3F3F49;
-    color: #545563;
+	background: #323A45;
+    color: #ffffff;
+    color: rgba( 255, 255, 255, 0.5 );
     width: 100%;
-	margin: 0 auto;
-	padding: 50px;
+	padding: 150px;
 	float: left;
+}
+
+footer#footer a
+{
+    color: #f36;
+}
+
+footer#footer a:hover
+{
+    color: #ffffff;
 }
 /**
  * Top link

@@ -18,7 +18,7 @@
 
     <meta name="author" content="iKreativ">
 	<meta name="description" content="Workless - A classy HTML5, CSS3 framework">
-	<meta name="keywords" content="workless, classy, css, framework, jquery, bootstrap, h5bp, twitter, bolierplate, jquery, html5, ikreativ">
+	<meta name="keywords" content="workless, classy, css, framework, jquery, bootstrap, h3bp, twitter, bolierplate, jquery, html5, ikreativ">
 
 	<!-- favicon -->
 	<link rel="shortcut icon" href="favicon.png">
@@ -46,10 +46,9 @@
 	<!-- main -->
 	<section id="main">
 
-		<!-- wrapper -->
-		<div class="boxed">
-
-			<div class="section">
+		<!-- header -->
+		<header id="header" class="textcenter section-alt">
+			<div class="boxed">
 				<!-- responsive nav -->
 				<a class="open" href="#menu-primary">Menu</a>
 				<!-- /responsive nav -->
@@ -57,42 +56,39 @@
 				<!-- logo -->
 				<div id="logo">
 					<a href="//workless.ikreativ.com">
-						<img src="assets/img/logo.png" alt="Workless" />
+						<h1>Workless</h1>
 					</a>
 		        </div>
 		        <!-- /logo -->
 
-		        <!-- nav -->
-		        <nav id="primary">
-					<ul id="menu-primary">
-						<li><a href="#scaffold">Scaffold</a></li>
-						<li><a href="#icons">Icons</a></li>
-						<li><a href="#buttons">Buttons</a></li>
-						<li><a href="#helpers">Helpers</a></li>
-						<li><a href="#backgrounds">Backgrounds</a></li>
-						<li><a href="#forms">Forms</a></li>
-						<li><a href="#tables">Tables</a></li>
-					</ul>
-				</nav>
-				<!-- /nav -->
+	        	<h1>A clean &amp; classy HTML5 and CSS3 framework that helps you to get your projects up and running as fast as possible.</h1>
+
+        		<a class="button large" href="//github.com/iKreativ/Workless/zipball/master">
+        			Download
+        		</a>
 			</div>
+		</header>
+		<!-- /header -->
 
-			<div class="section-alt">
-				<!-- header -->
-				<header id="header" class="textcenter" role="header">
-		        	<h4>A clean &amp; classy HTML5 and CSS3 framework that helps you to get your projects up and running as fast as possible.</h4>
+		<!-- nav -->
+        <nav id="primary">
+			<ul id="menu-primary">
+				<li><a href="#scaffold">Scaffold</a></li>
+				<li><a href="#icons">Icons</a></li>
+				<li><a href="#buttons">Buttons</a></li>
+				<li><a href="#helpers">Helpers</a></li>
+				<li><a href="#backgrounds">Backgrounds</a></li>
+				<li><a href="#forms">Forms</a></li>
+				<li><a href="#tables">Tables</a></li>
+			</ul>
+		</nav>
+		<!-- /nav -->
 
-	        		<a class="button large" href="//github.com/iKreativ/Workless/zipball/master">
-	        			Download
-	        		</a>
-				</header>
-				<!-- /header -->
-			</div>
-
-			<!-- section getting started -->
-			<section class="section">
+		<!-- section getting started -->
+		<section class="section">
+			<div class="boxed">
 				<div class="one_full">
-					<h5>Getting started:</h5>
+					<h3>Getting started:</h3>
 					<p>
 						Start by grabbing the latest and greatest version from Github. You can either <a href="//github.com/iKreativ/Workless/zipball/master">download</a> the .zip or clone the repo:
 					</p>
@@ -112,15 +108,15 @@ git clone https://github.com/iKreativ/Workless.git
 &lt;link href="assets/css/minified.css.php" rel="stylesheet"&gt;
 </pre>
 				</div>
+			</div>
+		</section>
+		<!-- /section getting started -->
 
-			</section>
-			<!-- /section getting started -->
-
-			<!-- section scaffolding -->
-			<section id="scaffold" class="section-alt-alt">
-
+		<!-- section scaffolding -->
+		<section id="scaffold" class="section-alt">
+			<div class="boxed">
 				<div class="one_full">
-					<h5>Scaffolding.</h5>
+					<h3>Scaffolding.</h3>
 					<p>Scaffolding is a simple, semantic, fluid grid system that is extremely easy-to-use. Just add the class you require to your HTML element and you're done!</p>
 				</div>
 
@@ -133,19 +129,20 @@ git clone https://github.com/iKreativ/Workless.git
 &lt;div class="one_quarter"&gt;your content in here...&lt;/div&gt;
 &lt;div class="one_fifth"&gt;your content in here...&lt;/div&gt;
 </pre>
-			</section>
-			<!-- /scaffolding -->
+			</div>
+		</section>
+		<!-- /scaffolding -->
 
-			<!-- icons -->
-			<section id="icons" class="section">
-				<h5>Icons.</h5>
+		<!-- icons -->
+		<section id="icons" class="section">
+			<div class="boxed">
+				<h3>Icons.</h3>
 				<p>Workless uses Elusive web-font icons, which not only gives you tons of icons to use in your project, you can style them with CSS to change their size, color etc...</p>
 
 <pre>
 // example usage
 &lt;i class="icon-glass"&gt;&lt;/i&gt;
 </pre>
-
 				<div class="one_quarter">
 		            <ul class="nolist">
 		              <li><i class="icon-glass"></i> icon-glass</li>
@@ -432,12 +429,14 @@ git clone https://github.com/iKreativ/Workless.git
 		              <li><i class="icon-css"></i> icon-css</li>
 		            </ul>
 		        </div>
-			</section>
-			<!-- /icons -->
+		    </div>
+		</section>
+		<!-- /icons -->
 
-			<!-- buttons -->
-			<section id="buttons" class="section-alt-alt">
-				<h5>Buttons.</h5>
+		<!-- buttons -->
+		<section id="buttons" class="section-alt">
+			<div class="boxed">
+				<h3>Buttons.</h3>
 				<p>Styling your buttons couldn't be easier, simply add the class to your button or anchor and that's it!</p>
 
 				<a href="#" class="button">Default</a>
@@ -460,12 +459,14 @@ git clone https://github.com/iKreativ/Workless.git
 &lt;a href="#" class="button orange"&gt;Orange&lt;/a&gt;
 &lt;a href="#" class="button yellow"&gt;Yellow&lt;/a&gt;
 </pre>
-			</section>
-			<!-- /buttons -->
+			</div>
+		</section>
+		<!-- /buttons -->
 
-			<!-- helpers -->
-			<section id="helpers" class="section">
-				<h5>Helpers.</h5>
+		<!-- helpers -->
+		<section id="helpers" class="section">
+			<div class="boxed">
+				<h3>Helpers.</h3>
 				<p>The built-in helper classes are great, sizing, alignment, labels, highlights and more. Just add the class and away you go.</p>
 
 				<h6>Labels.</h6>
@@ -531,12 +532,14 @@ git clone https://github.com/iKreativ/Workless.git
 &lt;div class="alert alert-warning"&gt;This is a friendly warning, dont do that again.&lt;/div&gt;
 &lt;div class="alert alert-error"&gt;Ohh, you did it again, you broke the internet!&lt;/div&gt;
 </pre>
-			</section>
-			<!-- /helpers -->
+			</div>
+		</section>
+		<!-- /helpers -->
 
-			<!-- backgrounds -->
-			<section id="backgrounds" class="section-alt-alt">
-				<h5>Backgrounds.</h5>
+		<!-- backgrounds -->
+		<section id="backgrounds" class="section-alt">
+			<div class="boxed">
+				<h3>Backgrounds.</h3>
 				<p>Workless comes with lots of background patterns for you to use in your projects, too many infact to display in the demo. To view all the available backgrounds take a look at assets/css/backgrounds.css.</p>
 
 				<div class="one_fifth bg-axiom">&nbsp;<br><br><br><br><br>&nbsp;</div>
@@ -545,17 +548,17 @@ git clone https://github.com/iKreativ/Workless.git
 				<div class="one_fifth bg-bedgegrunge">&nbsp;<br><br><br><br><br>&nbsp;</div>
 				<div class="one_fifth bg-birds">&nbsp;<br><br><br><br><br>&nbsp;</div>
 
-				<div class="one_fifth bg-blackthread">&nbsp;<br><br><br><br><br>&nbsp;</div>
-				<div class="one_fifth bg-brightsquares">&nbsp;<br><br><br><br><br>&nbsp;</div>
-				<div class="one_fifth bg-bullseyes">&nbsp;<br><br><br><br><br>&nbsp;</div>
-				<div class="one_fifth bg-cartographer">&nbsp;<br><br><br><br><br>&nbsp;</div>
-				<div class="one_fifth bg-circles">&nbsp;<br><br><br><br><br>&nbsp;</div>
-
 				<div class="one_fifth bg-classyfabric">&nbsp;<br><br><br><br><br>&nbsp;</div>
 				<div class="one_fifth bg-crackle">&nbsp;<br><br><br><br><br>&nbsp;</div>
 				<div class="one_fifth bg-crisscross">&nbsp;<br><br><br><br><br>&nbsp;</div>
 				<div class="one_fifth bg-debutdark">&nbsp;<br><br><br><br><br>&nbsp;</div>
 				<div class="one_fifth bg-debutlight">&nbsp;<br><br><br><br><br>&nbsp;</div>
+
+				<div class="one_fifth bg-blackthread">&nbsp;<br><br><br><br><br>&nbsp;</div>
+				<div class="one_fifth bg-brightsquares">&nbsp;<br><br><br><br><br>&nbsp;</div>
+				<div class="one_fifth bg-bullseyes">&nbsp;<br><br><br><br><br>&nbsp;</div>
+				<div class="one_fifth bg-cartographer">&nbsp;<br><br><br><br><br>&nbsp;</div>
+				<div class="one_fifth bg-circles">&nbsp;<br><br><br><br><br>&nbsp;</div>
 
 				<p>&nbsp;</p>
 
@@ -563,13 +566,15 @@ git clone https://github.com/iKreativ/Workless.git
 // example usage
 &lt;div class="bg-axiom"&gt;&lt;/div&gt;
 </pre>
-			</section>
-			<!-- /backgrounds -->
+			</div>
+		</section>
+		<!-- /backgrounds -->
 
-			<!-- forms -->
-			<section id="forms" class="section">
+		<!-- forms -->
+		<section id="forms" class="section">
+			<div class="boxed">
 				<form action="#" method="POST">
-		        	<h5>Forms.</h5>
+		        	<h3>Forms.</h3>
 
 			        <div class="one_full">
 		    	    	<p>You don't even need to do anything that you wouldn't normally do when creating forms, the framework will automatically style the elements for you!</p>
@@ -610,13 +615,13 @@ git clone https://github.com/iKreativ/Workless.git
 
 		            <!-- elements -->
 		            <div class="one_quarter">
-		            	<h5>Elements.</h5>
+		            	<h3>Elements.</h3>
 		            	<p>All form elements like checboxes, radios and selects are automatically styled just by adding the CSS file and the JavaScript.</p>
 		            </div>
 
 		            <!-- checkboxes -->
 		            <div class="one_quarter">
-		            	<h5>Checkboxes.</h5>
+		            	<h3>Checkboxes.</h3>
 		    		    <input type="checkbox" value="" checked> Checked<br>
 		        		<input type="checkbox" value="" checked> Checked<br>
 		            	<input type="checkbox" value=""> Not checked<br>
@@ -626,7 +631,7 @@ git clone https://github.com/iKreativ/Workless.git
 
 		            <!-- radios -->
 		            <div class="one_quarter">
-		                <h5>Radios.</h5>
+		                <h3>Radios.</h3>
 		    		    <input type="radio" value="" checked> Checked<br>
 		        		<input type="radio" value="" checked> Checked<br>
 		            	<input type="radio" value=""> Not checked<br>
@@ -636,7 +641,7 @@ git clone https://github.com/iKreativ/Workless.git
 
 		            <!-- select -->
 		            <div class="one_quarter">
-		                 <h5>Selects.</h5>
+		                 <h3>Selects.</h3>
 		    	         <select>
 		        	      	<option>Choose</option>
 		            	   	<option>A great option</option>
@@ -646,17 +651,10 @@ git clone https://github.com/iKreativ/Workless.git
 		              	</select>
 		            </div>
 
-		          	<hr>
-
-		            <div class="one_full">
-		                <label>Cheeky little file inputs.</label>
-		                <input class="onehundred" type="file" />
-		            </div>
-
 		            <hr>
 
 		            <div class="one_full">
-		                <h5>Textareas.</h5>
+		                <h3>Textareas.</h3>
 		            </div>
 		          	<div class="one_third">
 		            	<p>We can add to the default styling of textareas using the same helper class that we used on the input boxes.</p>
@@ -670,13 +668,15 @@ git clone https://github.com/iKreativ/Workless.git
 		            	<input type="submit" class="button red" value="Cancel" />
 		          	</div>
 		      	</form>
-			</section>
-			<!--/forms -->
+		    </div>
+		</section>
+		<!--/forms -->
 
-			<!-- tables -->
-			<section id="tables" class="section-alt-alt">
+		<!-- tables -->
+		<section id="tables" class="section-alt">
+			<div class="boxed">
 				<div class="one_full">
-					<h5>Tables.</h5>
+					<h3>Tables.</h3>
 					<p>The default table CSS does everything for you. Simply reference the tables CSS file and you're good to go! Want more? You can add the .table-striped class to alternate each rows background color!</p>
 				</div>
 
@@ -892,33 +892,36 @@ git clone https://github.com/iKreativ/Workless.git
 	        			</tbody>
 	      			</table>
 	      		</div>
-			</section>
-			<!-- /tables -->
+	      	</div>
+		</section>
+		<!-- /tables -->
 
-			<!-- github -->
-			<section id="github" class="section-alt">
+		<!-- github -->
+		<section id="github" class="section">
+			<div class="boxed">
 				<div class="aligncenter textcenter">
 					<a href="//github.com/iKreativ/Workless" title="Workless on Github" target="_blank">
-						<i style="font-size:68px;" class="icon-github"></i>
-						<h5>Workless on Github</h5>
+						<i class="icon-github"></i>
+						<h3>Workless on Github</h3>
 					</a>
 				</div>
-			</section>
-			<!-- /github -->
+			</div>
+		</section>
+		<!-- /github -->
 
-			<!-- footer -->
-			<footer id="footer" class="textcenter">
-				<div class="boxed">
-					<p>A project by <a href="//ikreativ.com">iKreativ</a> (<a href="//twitter.com/iKreativ">@iKreativ</a>).<br>Originally based off <a href="//html5boilerplate.com/">H5BP</a> &amp; <a href="//twitter.github.com/bootstrap/">Bootstrap</a>. Released under the <a href="//philsturgeon.co.uk/code/dbad-license/">DBAD License</a>.<br>We reserve the right to stay classy.</p>
-				</div>
-			</footer>
-			<!-- /footer -->
+		<!-- footer -->
+		<footer id="footer" class="textcenter">
+			<div class="boxed">
+				<p>A project by <a href="//ikreativ.com">iKreativ</a> (<a href="//twitter.com/iKreativ">@iKreativ</a>).<br>Originally based off <a href="//html5boilerplate.com/">h3BP</a> &amp; <a href="//twitter.github.com/bootstrap/">Bootstrap</a>. Released under the <a href="//philsturgeon.co.uk/code/dbad-license/">DBAD License</a>.<br>We reserve the right to stay classy.</p>
+			</div>
+		</footer>
+		<!-- /footer -->
 
-		</div>
-		<!-- /wrapper -->
+	</div>
+	<!-- /wrapper -->
 
-	</section>
-	<!-- /main -->
+</section>
+<!-- /main -->
 
 	<!-- top -->
 	<div id="top">
