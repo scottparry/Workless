@@ -2,12 +2,12 @@
  * Buttons
  */
 .button {
-	background-color: #3F3F49;
+	background-color: #444444;
 	display: inline-block;
 	padding: 10px 20px;
 	margin-bottom: 1.5em;
 	color: #ffffff!important;
-	font-weight: 600;
+	font-weight: 400;
 	text-transform: uppercase;
 	text-decoration: none;
 	position: relative;
@@ -26,8 +26,8 @@
 }
 
 .large.button {
-	font-size: 20px;
-	padding: 20px 35px;
+	font-size: 18px;
+	padding: 15px 30px;
 }
 
 .rounded.button {
@@ -80,7 +80,7 @@
  * Hovers
  */
 .button:hover {
-	background-color: #7A7B92!important;
+	background-color: #333333!important;
 	color: #ffffff;
 }
 

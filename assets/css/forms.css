@@ -57,7 +57,7 @@ input[type="reset"],
 input[type="submit"],
 input[type="button"] {
 	background: #eeeeee;
-	font-size: 16px;
+	font-size: 14px;
 	font-weight: 600;
 	color: #333333;
 	display: inline-block;
@@ -86,14 +86,12 @@ input[type="password"],
 input[type="email"],
 input[type="number"],
 textarea {
-	font-size: 16px;
+	width: 100%;
+	font-size: 14px;
 	background: #f9f9f9;
 	padding: 10px;
 	border-radius: 2px;
 	border: none;
-	-webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
 }
 
 select {

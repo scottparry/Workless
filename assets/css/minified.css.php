@@ -27,7 +27,7 @@ ob_start("compress");
     include('helpers.css');
     include('scaffolding.css');
     include('print.css');
-    include('animation.css');
+    include('animations.css');
     include('application.css');
     include('responsive.css');
 

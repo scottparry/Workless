@@ -12,161 +12,105 @@
  * Defaults
  */
 html,
-body
-{
-    background: #ffffff;
+body {
     height: 100%;
+    width: 100%;
+    overflow-x: hidden;
 }
 
-#main
-{
-    background: #eeeeee;
+#main {
     min-height: 100%;
     width: 100%;
     float: left;
 }
 
-blockquote
-{
+blockquote {
 	color: #B4C4D0;
 }
 
 a:hover,
-a:visited:hover
-{
+a:visited:hover {
 	color: #f36;
 }
 
-a:active
-{
+a:active {
 	color: #000000;
 }
-h1
-{
-    font-weight: 100;
-}
 
-h2, h3, h4, h5, h6
-{
-    font-weight: 200;
+h2, h3, h4, h5, h6 {
+    font-weight: 400;
 }
 /**
- * Sections
+ * Section
  */
-.section,
-.section-alt
-{
+.section {
 	width: 100%;
 	padding: 150px 0;
 	float: left;
 }
-
-.section
-{
-	background: #ffffff;
-}
-
-.section-alt
-{
-	background: #f9f9fa;
-}
-/**
- * Header
- */
-header#header
-{
-    background: #f36;
-}
-
-header#header h1
-{
-    color: #ffffff;
-    width: 100%;
-    margin-top: 50px;
-    text-align: center;
-}
-
-header#header .button
-{
-    margin-top: 25px;
-    text-align: center;
-}
-/**
- * Logo
- */
-#logo
-{
-	margin: 0 auto;
-}
-
-#logo h1
-{
-    color: #ffffff;
-    font-weight: 600;
-    font-size: 56px;
-}
 /**
  * Primary Navigation
  */
-nav#primary
-{
-    background: #3F3F49;
+nav#primary {
+    background: rgba( 0, 0, 0, 0.4 );
     width: 100%;
-    padding: 25px 0;
+    padding: 15px 0;
+    position: fixed;
+    z-index: 999;
     float: left;
 }
 
-nav#primary ul
-{
+nav#primary ul {
     width: 100%;
-    text-align: center;
 	float: left;
 }
 
-nav#primary ul li
-{
+nav#primary ul li {
 	margin-left: 25px;
 	display: inline;
 }
 
-nav#primary ul li a
-{
-	font-size: 16px;
+nav#primary ul li a {
+	font-size: 14px;
 	font-weight: 600;
     color: #ffffff;
 }
 
-nav#primary ul li a:hover
+nav#primary ul li.workless a
 {
+    padding-right: 25px;
+    border-right: 1px solid rgba( 255, 255, 255, 0.2 );
+    font-size: 18px;
+}
+
+nav#primary ul li a:hover {
     color: rgba( 255, 255, 255, 0.5 );
 }
 /**
  * Responsive Navigation
  */
-a.open
-{
+a.open {
     float: left;
     width: 40px;
     height: 30px;
-    margin-top: 15px;
+    margin-top: 5px;
+    margin-right: 25px;
     float: right;
-    background: #F16863 url("../img/menu.png") center center no-repeat;
+    background: #222222 url("../img/menu.png") center center no-repeat;
     border-radius: 2px;
     text-indent: -9999px;
     position: relative;
     z-index: 99999;
 }
 
-a:hover.open
-{
+a:hover.open {
     filter: alpha(opacity=80);
     -khtml-opacity: 0.8;
     -moz-opacity: 0.8;
     opacity: 0.8;
 }
 
-#pageslide
-{
+#pageslide {
     display: none;
     position: fixed;
     top: 0;
@@ -178,15 +122,13 @@ a:hover.open
     box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
-#pageslide ul
-{
+#pageslide ul {
     list-style: none;
     margin-top: 15px;
     float: left;
 }
 
-#pageslide ul li
-{
+#pageslide ul li {
     width: 170px;
     display: block;
     list-style: none;
@@ -195,23 +137,19 @@ a:hover.open
     border-bottom: 1px solid #484955;
 }
 
-#pageslide ul li:first-child
-{
+#pageslide ul li:first-child {
     border-top: none;
 }
 
-#pageslide ul li:last-child
-{
+#pageslide ul li:last-child {
     border-bottom: none;
 }
 
-#pageslide ul li a
-{
+#pageslide ul li a {
 	color: #ffffff;
 }
 /* dropdown */
-#pageslide ul li ul
-{
+#pageslide ul li ul {
     width: 170px;
     display: block;
     list-style: none;
@@ -221,74 +159,113 @@ a:hover.open
 }
 
 #pageslide ul li ul,
-#pageslide ul li ul li
-{
+#pageslide ul li ul li {
     border-bottom: none;
     border-top: none;
 }
 
-#pageslide ul li ul li
-{
+#pageslide ul li ul li {
     padding: 5px 0 5px 20px;
 }
 /**
- * Github
+ * Header
  */
-#github
-{
-    background: #7A7B92;
+#header {
+    background: url("../img/workless.jpg") no-repeat center center fixed;
+    background-size: cover;
+    min-width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    padding-top: 20%;
+    float: left;
 }
 
-#github h5,
-#github a
-{
-	color: #ffffff;
+#header h1 {
+    color: #ffffff;
 }
 
-#github i
-{
-    font-size: 96px;
+#header h2 {
+    color: rgba( 255, 255, 255, 0.8 );
 }
 
-#github a:hover
+#header a.button {
+    background: none!important;
+    border: 2px solid rgba( 255, 255, 255, 0.5 );
+    color: rgba( 255, 255, 255, 0.5 )!important;
+    margin-top: 25px;
+    text-align: center;
+}
+
+#header a:hover.button
 {
-    color: rgba( 255, 255, 255, 0.5 );
+    border: 2px solid #f36!important;;
+    background: #f36!important;
+    color: #ffffff!important;
+}
+/**
+ * Logo
+ */
+#logo {
+    margin: 0 auto;
+}
+
+#logo h1 {
+    color: #ffffff;
+    font-weight: 600;
+}
+/**
+ * Icon styles for demo
+ */
+ul.icons li {
+    width: 100px;
+    height: 100px;
+    background: #eeeeee;
+    padding: 25px 15px 15px 15px;
+    margin: 1px;
+    font-size: 12px;
+    text-align: center;
+    float: left;
+    -webkit-transition: 250ms linear all;
+    -moz-transition: 250ms linear all;
+    transition: 250ms linear all;
+}
+
+ul.icons li:hover {
+    background: #f36;
+    color: #ffffff;
+}
+
+ul.icons li i {
+    width: 100px!important;
+    font-size: 14px!important;
+    text-align: center;
+    display: block;
 }
 /**
  * Footer
  */
-footer#footer
-{
-	background: #323A45;
-    color: #ffffff;
-    color: rgba( 255, 255, 255, 0.5 );
+footer#footer {
+    color: #666666;
+    font-size: 14px;
+    border-top: 1px solid #eeeeee;
     width: 100%;
-	padding: 150px;
+	padding: 100px;
 	float: left;
 }
 
-footer#footer a
-{
+footer#footer a {
     color: #f36;
 }
 
-footer#footer a:hover
-{
+footer#footer a:hover {
     color: #ffffff;
 }
-/**
- * Top link
- */
-#top
-{
-	position: fixed;
-	right: 25px;
-	bottom: 15px;
+
+#sharing {
+    margin-bottom: 25px;
 }
 
-#top a
-{
-	background: #ffffff;
-	color: #5A6C7F;
-	padding: 15px;
+#sharing li {
+    display: inline;
 }

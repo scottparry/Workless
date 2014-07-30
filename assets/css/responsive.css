@@ -9,36 +9,12 @@ nav#primary ul {
     display: block;
 }
 
-h1 {
-    font-size: 170%;
-}
-
-h2 {
-    font-size: 160%;
-}
-
-h3 {
-    font-size: 150%;
-}
-
-h4 {
-    font-size: 140%;
-}
-
-h5 {
-    font-size: 130%;
-}
-
-h6 {
-    font-size: 120%;
-}
-
-.one_full,
-.one_half,
-.one_third,
-.two_third,
-.one_quarter,
-.one_fifth {
+.one-full,
+.one-half,
+.one-third,
+.two-third,
+.one-quarter,
+.one-fifth {
     width: 260px;
 }
 
@@ -54,36 +30,12 @@ h6 {
 	    display: block;
 	}
 
-    h1 {
-        font-size: 225%;
-    }
-
-    h2 {
-        font-size: 200%;
-    }
-
-    h3 {
-        font-size: 175%;
-    }
-
-    h4 {
-        font-size: 150%;
-    }
-
-    h5 {
-        font-size: 125%;
-    }
-
-    h6 {
-        font-size: 115%;
-    }
-
-    .one_full,
-    .one_half,
-    .one_third,
-    .two_third,
-    .one_quarter,
-    .one_fifth {
+    .one-full,
+    .one-half,
+    .one-third,
+    .two-third,
+    .one-quarter,
+    .one-fifth {
         width: 100%;
     }
 }
@@ -100,47 +52,23 @@ h6 {
         display: block;
     }
 
-    h1 {
-        font-size: 250%;
-    }
-
-    h2 {
-        font-size: 225%;
-    }
-
-    h3 {
-        font-size: 200%;
-    }
-
-    h4 {
-        font-size: 175%;
-    }
-
-    h5 {
-        font-size: 150%;
-    }
-
-    h6 {
-        font-size: 125%;
-    }
-
-    .one_half {
+    .one-half {
         width: 50%;
     }
 
-    .one_third {
+    .one-third {
         width: 33.33333%;
     }
 
-    .two_third {
+    .two-third {
         width: 66.66666%;
     }
 
-    .one_quarter {
+    .one-quarter {
         width: 25%;
     }
 
-    .one_fifth {
+    .one-fifth {
         width: 20%;
     }
 }
@@ -157,47 +85,23 @@ h6 {
 	    display: none;
 	}
 
-    h1 {
-        font-size: 275%;
-    }
-
-    h2 {
-        font-size: 250%;
-    }
-
-    h3 {
-        font-size: 225%;
-    }
-
-    h4 {
-        font-size: 200%;
-    }
-
-    h5 {
-        font-size: 150%;
-    }
-
-    h6 {
-        font-size: 125%;
-    }
-
-    .one_half {
+    .one-half {
         width: 50%;
     }
 
-    .one_third {
+    .one-third {
         width: 33.33333%;
     }
 
-    .two_third {
+    .two-third {
         width: 66.66666%;
     }
 
-    .one_quarter {
+    .one-quarter {
         width: 25%;
     }
 
-    .one_fifth {
+    .one-fifth {
         width: 20%;
     }
 }
@@ -214,47 +118,23 @@ h6 {
 	    display: none;
 	}
 
-    h1 {
-        font-size: 275%;
-    }
-
-    h2 {
-        font-size: 250%;
-    }
-
-    h3 {
-        font-size: 225%;
-    }
-
-    h4 {
-        font-size: 200%;
-    }
-
-    h5 {
-        font-size: 150%;
-    }
-
-    h6 {
-        font-size: 125%;
-    }
-
-    .one_half {
+    .one-half {
         width: 50%;
     }
 
-    .one_third {
+    .one-third {
         width: 33.33333%;
     }
 
-    .two_third {
+    .two-third {
         width: 66.66666%;
     }
 
-    .one_quarter {
+    .one-quarter {
         width: 25%;
     }
 
-    .one_fifth {
+    .one-fifth {
         width: 20%;
     }
 }

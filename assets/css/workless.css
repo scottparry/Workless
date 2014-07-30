@@ -84,6 +84,9 @@ img {
 	border: 0;
 	outline: 0;
 }
+iframe {
+	border: none;
+}
 /* correct overflow not hidden in IE9 */
 svg:not(:root) {
 	overflow: hidden;

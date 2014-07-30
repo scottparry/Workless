@@ -2,7 +2,7 @@
  * Typography
  */
 html {
-	font: 18px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -84,7 +84,7 @@ hr {
 	height: 0px;
 	width: 100%;
 	border: 0;
-	border-bottom: 4px solid #f9f9f9;
+	border-bottom: 1px solid #eeeeee;
 	padding: 0;
 	margin: 25px 0;
 }
@@ -114,11 +114,11 @@ samp {
 }
 
 code {
-	padding: 3px 5px;
+	padding: 2px 4px;
 	background: #f9f9f9;
 	border: 1px solid #eeeeee;
 	border-radius: 3px;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 pre {
@@ -133,7 +133,7 @@ pre {
 	white-space: pre-wrap;
 	word-wrap: break-word;
 	font-family: monospace;
-	font-size: 14px;
+	font-size: 12px;
 }
 
 q {
