@@ -1,26 +1,26 @@
 /**
  | ---------------------------------------------------------------
- | Workless by @iKreativ is a CSS base framework to get your
- | project of the ground as fast as possible.
+ | Workless by @iKreativ is a HTML, CSS and JS framework to get
+ | your projects of the ground as fast as possible.
  |
- | It is split into a number of seperate CSS files which allows
- | you to use as much, or as little as you please.
+ | It is split into a number of seperate CSS & JS files which
+ | allows you to use as much, or as little as you please.
  |
  | You'll notice that this file contains the Base styles only
- | then all other CSS is loaded seperately. This is not
- | recommended. Once you've decided which parts of Workless you
- | are going to use, then simply copy/paste them all into a
- | single CSS file to reduce HTTP requests!
+ | then all other CSS is loaded seperately.
+ |
+ | This is not recommended.
+ |
+ | Once you've decided which components you are going to use, then
+ | simply copy/paste them all into a single CSS file to reduce HTTP
+ | requests!
  | ---------------------------------------------------------------
  */
 
 /**
  * Apply box layout model to all elements
  */
-*,
-*:before,
-*:after
-{
+*, *:before, *:after {
 	-moz-box-sizing: border-box;
 	-webkit-box-sizing: border-box;
 	box-sizing: border-box;
@@ -37,63 +37,54 @@ footer,
 header,
 hgroup,
 nav,
-section
-{
+section {
 	display: block;
 	margin: 0 auto;
 }
 
 audio,
 canvas,
-video
-{
+video {
 	display: inline-block;
 	*display: inline;
 	*zoom: 1;
 }
 
-audio:not([controls])
-{
+audio:not([controls]) {
 	display: none;
 }
 
-[hidden]
-{
+[hidden] {
 	display: none;
 }
 
-figure
-{
+figure {
 	margin: 0;
 }
 /**
  * Base
  */
 html,
-body
-{
+body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
 }
 
-body
-{
+body {
 	width: 100%;
 	overflow-x: hidden;
 }
 /**
  * Embedded Content
  */
-img
-{
+img {
 	-ms-interpolation-mode: bicubic;
 	vertical-align: middle;
 	border: 0;
 	outline: 0;
 }
 /* correct overflow not hidden in IE9 */
-svg:not(:root)
-{
+svg:not(:root) {
 	overflow: hidden;
 }
