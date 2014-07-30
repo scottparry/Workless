@@ -1,6 +1,3 @@
 Workless
-============================================
-Workless by @iKreativ is a HTML, CSS and JS
-framework to get your projects of the ground
-as fast as possible.
-============================================
+=======
+Workless by @iKreativ is an open source HTML, CSS & JS framework for developing front-end web applications faster.
