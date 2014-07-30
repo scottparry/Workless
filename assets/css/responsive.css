@@ -1,43 +1,35 @@
 /**
  * Smartphones (portrait)
  */
-nav#primary ul
-{
+nav#primary ul {
     display: none;
 }
 
-.open
-{
+.open {
     display: block;
 }
 
-h1
-{
+h1 {
     font-size: 170%;
 }
 
-h2
-{
+h2 {
     font-size: 160%;
 }
 
-h3
-{
+h3 {
     font-size: 150%;
 }
 
-h4
-{
+h4 {
     font-size: 140%;
 }
 
-h5
-{
+h5 {
     font-size: 130%;
 }
 
-h6
-{
+h6 {
     font-size: 120%;
 }
 
@@ -46,8 +38,7 @@ h6
 .one_third,
 .two_third,
 .one_quarter,
-.one_fifth
-{
+.one_fifth {
     width: 260px;
 }
 
@@ -55,43 +46,35 @@ h6
  * iPads (portrait)
  */
 @media only screen and (min-width: 767px) {
-	nav#primary ul
-	{
+	nav#primary ul {
 	    display: none;
 	}
 
-	.open
-	{
+	.open {
 	    display: block;
 	}
 
-    h1
-    {
+    h1 {
         font-size: 225%;
     }
 
-    h2
-    {
+    h2 {
         font-size: 200%;
     }
 
-    h3
-    {
+    h3 {
         font-size: 175%;
     }
 
-    h4
-    {
+    h4 {
         font-size: 150%;
     }
 
-    h5
-    {
+    h5 {
         font-size: 125%;
     }
 
-    h6
-    {
+    h6 {
         font-size: 115%;
     }
 
@@ -100,8 +83,7 @@ h6
     .one_third,
     .two_third,
     .one_quarter,
-    .one_fifth
-    {
+    .one_fifth {
         width: 100%;
     }
 }
@@ -110,68 +92,55 @@ h6
  * iPads (landscape)
  */
 @media only screen and (min-width: 1023px) {
-	nav#primary ul
-    {
+	nav#primary ul {
         display: none;
     }
 
-    .open
-    {
+    .open {
         display: block;
     }
 
-    h1
-    {
+    h1 {
         font-size: 250%;
     }
 
-    h2
-    {
+    h2 {
         font-size: 225%;
     }
 
-    h3
-    {
+    h3 {
         font-size: 200%;
     }
 
-    h4
-    {
+    h4 {
         font-size: 175%;
     }
 
-    h5
-    {
+    h5 {
         font-size: 150%;
     }
 
-    h6
-    {
+    h6 {
         font-size: 125%;
     }
 
-    .one_half
-    {
+    .one_half {
         width: 50%;
     }
 
-    .one_third
-    {
+    .one_third {
         width: 33.33333%;
     }
 
-    .two_third
-    {
+    .two_third {
         width: 66.66666%;
     }
 
-    .one_quarter
-    {
+    .one_quarter {
         width: 25%;
     }
 
-    .one_fifth
-    {
+    .one_fifth {
         width: 20%;
     }
 }
@@ -180,68 +149,55 @@ h6
  * Desktops
  */
 @media only screen and (min-width: 1279px) {
-	nav#primary ul
-	{
+	nav#primary ul {
 	    display: inline;
 	}
 
-	.open
-	{
+	.open {
 	    display: none;
 	}
 
-    h1
-    {
+    h1 {
         font-size: 275%;
     }
 
-    h2
-    {
+    h2 {
         font-size: 250%;
     }
 
-    h3
-    {
+    h3 {
         font-size: 225%;
     }
 
-    h4
-    {
+    h4 {
         font-size: 200%;
     }
 
-    h5
-    {
+    h5 {
         font-size: 150%;
     }
 
-    h6
-    {
+    h6 {
         font-size: 125%;
     }
 
-    .one_half
-    {
+    .one_half {
         width: 50%;
     }
 
-    .one_third
-    {
+    .one_third {
         width: 33.33333%;
     }
 
-    .two_third
-    {
+    .two_third {
         width: 66.66666%;
     }
 
-    .one_quarter
-    {
+    .one_quarter {
         width: 25%;
     }
 
-    .one_fifth
-    {
+    .one_fifth {
         width: 20%;
     }
 }
@@ -250,76 +206,62 @@ h6
  * Large Desktops
  */
 @media only screen and (min-width: 1679px) {
-	nav#primary ul
-	{
+	nav#primary ul {
 	    display: inline;
 	}
 
-	.open
-	{
+	.open {
 	    display: none;
 	}
 
-    h1
-    {
+    h1 {
         font-size: 275%;
     }
 
-    h2
-    {
+    h2 {
         font-size: 250%;
     }
 
-    h3
-    {
+    h3 {
         font-size: 225%;
     }
 
-    h4
-    {
+    h4 {
         font-size: 200%;
     }
 
-    h5
-    {
+    h5 {
         font-size: 150%;
     }
 
-    h6
-    {
+    h6 {
         font-size: 125%;
     }
 
-    .one_half
-    {
+    .one_half {
         width: 50%;
     }
 
-    .one_third
-    {
+    .one_third {
         width: 33.33333%;
     }
 
-    .two_third
-    {
+    .two_third {
         width: 66.66666%;
     }
 
-    .one_quarter
-    {
+    .one_quarter {
         width: 25%;
     }
 
-    .one_fifth
-    {
+    .one_fifth {
         width: 20%;
     }
 }
 /* Fix icons in IE */
 @media screen and (min-width:0\0) {
     [class^="icon-"]:before,
-    [class*=" icon-"]:before
-    {
+    [class*=" icon-"]:before {
         margin-top: -500px!important;
     }
 }
