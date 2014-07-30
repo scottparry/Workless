@@ -1,25 +1,23 @@
 /**
  * Zoom hover
  */
-.zoomy
-{
+.zoomy {
     -webkit-transition: 250ms linear all;
     -moz-transition: 250ms linear all;
     transition: 250ms linear all;
 }
-.zoomy:hover
-{
+.zoomy:hover {
     -webkit-transform: scale(1.5) rotate(-5deg);
     -moz-transform: scale(1.5) rotate(-5deg);
     transform: scale(1.5) rotate(-5deg);
 }
-
 /**
  * Animations
  */
 body {
     -webkit-backface-visibility: hidden;
 }
+
 .animated {
     -webkit-animation-duration: 2s;
        -moz-animation-duration: 2s;

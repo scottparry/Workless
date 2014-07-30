@@ -1,8 +1,7 @@
 /**
  * Labels and notifications
  */
-.label
-{
+.label {
 	font-size: 12px;
   	font-weight: bold;
   	line-height: 14px;
@@ -14,8 +13,7 @@
     border-radius: 3px;
 }
 
-.notification
-{
+.notification {
 	font-size: 11px;
   	font-weight: bold;
   	text-align: center;
@@ -29,171 +27,131 @@
 }
 
 .label.red,
-.notification.red
-{
+.notification.red {
  	 background-color: #ff2b25;
 }
 
 .label.orange,
-.notification.orange
-{
+.notification.orange {
   	background-color: #F16863;
 }
 
 .label.green,
-.notification.green
-{
+.notification.green {
   	background-color: #91bd09;
 }
 
 .label.blue,
-.notification.blue
-{
+.notification.blue {
   	background-color: #2daebf;
 }
 
 .label.pink,
-.notification.pink
-{
+.notification.pink {
 	background-color: #fe57a1;
 }
 
 .label.magenta,
-.notification.magenta
-{
+.notification.magenta {
 	background-color: #a9014b;
 }
 
 .label.yellow,
-.notification.yellow
-{
+.notification.yellow {
 	background-color: #ffb515;
 }
 
 .label.flat,
-.notification.flat
-{
+.notification.flat {
 	border-bottom: none;
 	box-shadow: none;
 }
-
 /**
  * Cancel list styles
  */
-.nolist
-{
+.nolist {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
-
 /**
  * Cancel margins
  */
-.ntm
-{
+.no-top-margin {
 	margin-top: 0;
 }
-.nbm
-{
+.no-bottom-margin {
 	margin-bottom: 0;
 }
-.nlm
-{
+.no-left-margin {
 	margin-left: 0;
 }
-.nrm
-{
+.no-right-margin {
 	margin-right: 0;
 }
-
 /**
  * Cancel borders
  */
-.nb
+.no-border {
+	border: none;
+}
+.no-top-border {
+	border: none;
+}
+.no-bottom-border {
+	border: none;
+}
+.no-left-border {
+	border: none;
+}
+.no-right-border
 {
 	border: none;
 }
-.ntb
-{
-	border: none;
-}
-.nbb
-{
-	border: none;
-}
-.nlb
-{
-	border: none;
-}
-.nrb
-{
-	border: none;
-}
-
 /**
  * Colors
  */
-.muted
-{
+.muted {
 	color: #888888;
 }
-
 /**
  * Positioning
  */
-.alignleft
-{
+.alignleft {
 	float: left;
 }
-
-.alignright
-{
+.alignright {
 	float: right;
 }
-
-.aligncenter
-{
+.aligncenter {
 	float: none;
 	margin: 0 auto;
 	text-align: center;
 }
-
-.textleft
-{
+.textleft {
 	text-align: left;
 }
-
-.textright
-{
+.textright {
 	text-align: right;
 }
-
-.textcenter
-{
+.textcenter {
 	text-align: center;
 }
-
-.inline
-{
+.inline {
 	display: inline;
 }
-
 /**
  * Hide from screenreaders and browsers.
  */
-.hidden
-{
+.hidden {
 	display: none !important;
 	visibility: hidden;
 }
-
 /**
  * Hide only visually, but have it available
  * for screenreaders.
  */
-.visuallyhidden
-{
+.visuallyhidden {
 	border: 0;
 	clip: rect(0 0 0 0);
 	height: 1px;
@@ -203,15 +161,13 @@
 	position: absolute;
 	width: 1px;
 }
-
 /**
  * Extends the .visuallyhidden class to allow
  * the element to be focusable when navigated
  * to via the keyboard.
  */
 .visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus
-{
+.visuallyhidden.focusable:focus {
 	clip: auto;
 	height: auto;
 	margin: 0;
@@ -219,39 +175,30 @@
 	position: static;
 	width: auto;
 }
-
 /**
  * Hide visually and from screenreaders, but
  * maintain layout
  */
-.invisible
-{
+.invisible {
 	visibility: hidden;
 }
-
 /**
  * Floats
  */
 .clearfix:before,
-.clearfix:after
-{
+.clearfix:after {
 	content: "";
 	display: table;
 }
-
-.clearfix:after
-{
+.clearfix:after {
 	clear: both;
 }
-.clearfix
-{
+.clearfix {
 	zoom: 1;
 }
-
 /**
  * Misc
  */
-.help-text
-{
+.help-text {
 	font-size: 12px;
 }

@@ -17,8 +17,7 @@ pre .dec,
 pre .var { color:#660066; }
 pre .fun { color:#ff0000; }
 
-pre.prettyprint
-{
+pre.prettyprint {
     background: #3F3F49!important;
     border: 0!important;
     border-radius: 2px;
