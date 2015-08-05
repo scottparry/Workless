@@ -1,6 +1,50 @@
 /**
  * Forms
  */
+::-webkit-input-placeholder
+{
+   color: #aaaaaa;
+   font-size: 14px;
+}
+
+:-moz-placeholder
+{
+   color: #aaaaaa;
+   font-size: 14px;
+}
+
+::-moz-placeholder
+{
+   color: #aaaaaa;
+   font-size: 14px;
+}
+
+:-ms-input-placeholder
+{
+   color: #aaaaaa;
+   font-size: 14px;
+}
+
+input:focus::-webkit-input-placeholder
+{
+    color: transparent!important;
+}
+
+input:focus::-moz-placeholder
+{
+    color: transparent!important;
+}
+
+input:focus:-moz-placeholder
+{
+    color: transparent!important;
+}
+
+input:-webkit-autofill
+{
+    -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+}
+
 :focus 
 {
     outline-color: transparent;
