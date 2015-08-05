@@ -12,38 +12,45 @@
  * Defaults
  */
 html,
-body {
+body 
+{
     height: 100%;
     width: 100%;
     overflow-x: hidden;
 }
 
-#main {
+#main 
+{
     min-height: 100%;
     width: 100%;
     float: left;
 }
 
-blockquote {
+blockquote 
+{
 	color: #B4C4D0;
 }
 
 a:hover,
-a:visited:hover {
+a:visited:hover 
+{
 	color: #f36;
 }
 
-a:active {
+a:active 
+{
 	color: #000000;
 }
 
-h2, h3, h4, h5, h6 {
+h2, h3, h4, h5, h6 
+{
     font-weight: 400;
 }
 /**
  * Section
  */
-.section {
+.section 
+{
 	width: 100%;
 	padding: 150px 0;
 	float: left;
@@ -51,7 +58,8 @@ h2, h3, h4, h5, h6 {
 /**
  * Primary Navigation
  */
-nav#primary {
+nav#primary 
+{
     background: rgba( 0, 0, 0, 0.4 );
     width: 100%;
     padding: 15px 0;
@@ -60,17 +68,20 @@ nav#primary {
     float: left;
 }
 
-nav#primary ul {
+nav#primary ul 
+{
     width: 100%;
 	float: left;
 }
 
-nav#primary ul li {
+nav#primary ul li 
+{
 	margin-left: 25px;
 	display: inline;
 }
 
-nav#primary ul li a {
+nav#primary ul li a 
+{
 	font-size: 14px;
 	font-weight: 600;
     color: #ffffff;
@@ -83,13 +94,15 @@ nav#primary ul li.workless a
     font-size: 18px;
 }
 
-nav#primary ul li a:hover {
+nav#primary ul li a:hover 
+{
     color: rgba( 255, 255, 255, 0.5 );
 }
 /**
  * Responsive Navigation
  */
-a.open {
+a.open 
+{
     float: left;
     width: 40px;
     height: 30px;
@@ -103,14 +116,16 @@ a.open {
     z-index: 99999;
 }
 
-a:hover.open {
+a:hover.open 
+{
     filter: alpha(opacity=80);
     -khtml-opacity: 0.8;
     -moz-opacity: 0.8;
     opacity: 0.8;
 }
 
-#pageslide {
+#pageslide 
+{
     display: none;
     position: fixed;
     top: 0;
@@ -122,13 +137,15 @@ a:hover.open {
     box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
-#pageslide ul {
+#pageslide ul 
+{
     list-style: none;
     margin-top: 15px;
     float: left;
 }
 
-#pageslide ul li {
+#pageslide ul li 
+{
     width: 170px;
     display: block;
     list-style: none;
@@ -137,19 +154,23 @@ a:hover.open {
     border-bottom: 1px solid #484955;
 }
 
-#pageslide ul li:first-child {
+#pageslide ul li:first-child 
+{
     border-top: none;
 }
 
-#pageslide ul li:last-child {
+#pageslide ul li:last-child 
+{
     border-bottom: none;
 }
 
-#pageslide ul li a {
+#pageslide ul li a 
+{
 	color: #ffffff;
 }
 /* dropdown */
-#pageslide ul li ul {
+#pageslide ul li ul 
+{
     width: 170px;
     display: block;
     list-style: none;
@@ -159,18 +180,21 @@ a:hover.open {
 }
 
 #pageslide ul li ul,
-#pageslide ul li ul li {
+#pageslide ul li ul li 
+{
     border-bottom: none;
     border-top: none;
 }
 
-#pageslide ul li ul li {
+#pageslide ul li ul li 
+{
     padding: 5px 0 5px 20px;
 }
 /**
  * Header
  */
-#header {
+#header 
+{
     background: url("../img/workless.jpg") no-repeat center center fixed;
     background-size: cover;
     min-width: 100%;
@@ -181,15 +205,18 @@ a:hover.open {
     float: left;
 }
 
-#header h1 {
+#header h1 
+{
     color: #ffffff;
 }
 
-#header h2 {
+#header h2 
+{
     color: rgba( 255, 255, 255, 0.8 );
 }
 
-#header a.button {
+#header a.button 
+{
     background: none!important;
     border: 2px solid rgba( 255, 255, 255, 0.5 );
     color: rgba( 255, 255, 255, 0.5 )!important;
@@ -206,18 +233,21 @@ a:hover.open {
 /**
  * Logo
  */
-#logo {
+#logo 
+{
     margin: 0 auto;
 }
 
-#logo h1 {
+#logo h1 
+{
     color: #ffffff;
     font-weight: 600;
 }
 /**
  * Icon styles for demo
  */
-ul.icons li {
+ul.icons li 
+{
     width: 100px;
     height: 100px;
     background: #eeeeee;
@@ -231,21 +261,23 @@ ul.icons li {
     transition: 250ms linear all;
 }
 
-ul.icons li:hover {
+ul.icons li:hover 
+{
     background: #f36;
     color: #ffffff;
 }
 
-ul.icons li i {
-    width: 100px!important;
+ul.icons li i 
+{
     font-size: 14px!important;
-    text-align: center;
+    margin-bottom: 5px;
     display: block;
 }
 /**
  * Footer
  */
-footer#footer {
+footer#footer 
+{
     color: #666666;
     font-size: 14px;
     border-top: 1px solid #eeeeee;
@@ -254,11 +286,13 @@ footer#footer {
 	float: left;
 }
 
-footer#footer a {
+footer#footer a 
+{
     color: #f36;
 }
 
-footer#footer a:hover {
+footer#footer a:hover 
+{
     color: #ffffff;
 }
 
@@ -266,6 +300,7 @@ footer#footer a:hover {
     margin-bottom: 25px;
 }
 
-#sharing li {
+#sharing li 
+{
     display: inline;
 }
