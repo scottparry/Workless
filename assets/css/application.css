@@ -14,16 +14,8 @@
 html,
 body 
 {
-    height: 100%;
     width: 100%;
-    overflow-x: hidden;
-}
-
-#main 
-{
-    min-height: 100%;
-    width: 100%;
-    float: left;
+    color: #111111;
 }
 
 blockquote 
@@ -195,24 +187,8 @@ a:hover.open
  */
 #header 
 {
-    background: url("../img/workless.jpg") no-repeat center center fixed;
-    background-size: cover;
-    min-width: 100%;
-    min-height: 100vh;
-    margin: 0;
-    padding: 0;
-    padding-top: 20%;
+	width: 100%;
     float: left;
-}
-
-#header h1 
-{
-    color: #ffffff;
-}
-
-#header h2 
-{
-    color: rgba( 255, 255, 255, 0.8 );
 }
 
 #header a.button 
