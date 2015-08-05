@@ -2,12 +2,11 @@
  * Typography
  */
 html {
-	font: 16px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 body {
 	font-weight: normal;
-	line-height: 1.231;
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
 	-ms-text-size-adjust: 100%;
