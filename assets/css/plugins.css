@@ -1,23 +1,24 @@
 /**
  * Pretty printing styles
  */
-.pln { color:#bada55!important; }
-pre .str { color:#F16863; }
-pre .kwd { color:#4bb1b1; }
-pre .com { color:#888888; }
-pre .typ { color:#ef7c61; }
-pre .lit { color:#bcd42a; }
+.pln { color: #60bfb1!important; }
+pre .str { color: #F16863; }
+pre .kwd { color: #4bb1b1; }
+pre .com { color: #888888; }
+pre .typ { color: #ef7c61; }
+pre .lit { color: #bcd42a; }
 pre .pun,
 pre .opn,
-pre .clo { color:#ffffff; }
-pre .tag { color:#4bb1b1; }
-pre .atn { color:#ef7c61; }
-pre .atv { color:#bcd42a; }
+pre .clo { color: #ffffff; }
+pre .tag { color: #4bb1b1; }
+pre .atn { color: #ef7c61; }
+pre .atv { color: #bcd42a; }
 pre .dec,
-pre .var { color:#660066; }
-pre .fun { color:#ff0000; }
+pre .var { color: #660066; }
+pre .fun { color: #ff0000; }
 
-pre.prettyprint {
+pre.prettyprint 
+{
     background: #3F3F49!important;
     border: 0!important;
     border-radius: 2px;

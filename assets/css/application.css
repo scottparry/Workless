@@ -15,7 +15,7 @@ html,
 body 
 {
     width: 100%;
-    color: #111111;
+    color: #222222;
 }
 
 blockquote 
@@ -23,10 +23,16 @@ blockquote
 	color: #B4C4D0;
 }
 
+a
+{
+	color: #60bfb1;
+	text-decoration: underline;
+}
+
 a:hover,
 a:visited:hover 
 {
-	color: #f36;
+	color: #222222;
 }
 
 a:active 
@@ -77,6 +83,7 @@ nav#primary ul li a
 	font-size: 14px;
 	font-weight: 400;
     color: #ffffff;
+    text-decoration: none;
 }
 
 nav#primary ul li.workless a
@@ -110,6 +117,7 @@ nav#primary ul li a:hover
 #header a.button
 {
 	background: #262626;
+	background: rgba( 0, 0, 0, 0.2 );
 }
 
 #header a:hover.button
@@ -125,9 +133,9 @@ ul.icons li
     width: 100px;
     height: 100px;
     background: #f9f9f9;
-    padding: 25px;
+    padding: 25px 15px 15px 15px;
     margin: 1px;
-    font-size: 12px;
+    font-size: 11px;
     text-align: center;
     float: left;
     border-radius: 2px;
@@ -138,7 +146,7 @@ ul.icons li
 
 ul.icons li:hover 
 {
-    background: #f36;
+    background: #60bfb1;
     color: #ffffff;
 }
 
@@ -161,17 +169,8 @@ footer#footer
 	float: left;
 }
 
-footer#footer a 
+#sharing 
 {
-    color: #f36;
-}
-
-footer#footer a:hover 
-{
-    color: #ffffff;
-}
-
-#sharing {
     margin-bottom: 25px;
 }
 
