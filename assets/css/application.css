@@ -197,6 +197,18 @@ a.aside-open i
     background: #25282c;
 }
 
+#aside::-webkit-scrollbar
+{
+	background: #262626!important;
+	color: #262626!important;
+}
+
+#aside::-webkit-scrollbar-thumb
+{
+	background: #262626!important;
+	color: #262626!important;
+}
+
 #aside.toggled
 {
 	right: 0;
