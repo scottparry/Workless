@@ -3,10 +3,8 @@
  */
 .boxed
 {
-    width: 75%;
+    width: 55%;
 	margin: 0 auto;
-	padding: 0;
-	position: relative;
 }
 
 .one_full
