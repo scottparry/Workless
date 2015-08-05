@@ -4,7 +4,7 @@
 .button,
 a.button
 {
-    background: #f3f3f3;
+    background: #262626;
     color: #ffffff!important;
     border: none;
 	width: auto;
@@ -102,7 +102,7 @@ a.button
 /* states */
 .button:hover
 {
-    background: #222222;
+    background: #555555;
 }
 
 .button:active

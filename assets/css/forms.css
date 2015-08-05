@@ -117,7 +117,7 @@ input[type="reset"],
 input[type="submit"],
 input[type="button"] 
 {
-    background: #f8f8f8;
+    background: #262626;
     color: #ffffff!important;
     border: none;
 	width: auto;
@@ -141,7 +141,7 @@ input[type="reset"]:hover,
 input[type="submit"]:hover,
 input[type="button"]:hover 
 {
-    background: #111111;
+    background: #555555;
 }
 
 input[type="text"], 
