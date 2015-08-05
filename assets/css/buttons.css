@@ -1,89 +1,110 @@
 /**
  * Buttons
  */
-.button {
-	background-color: #444444;
+.button,
+a.button
+{
+    background: #f3f3f3;
+    color: #ffffff!important;
+    border: none;
+	width: auto;
 	display: inline-block;
-	padding: 10px 20px;
-	margin-bottom: 1.5em;
-	color: #ffffff!important;
-	font-weight: 400;
-	text-transform: uppercase;
+	padding: 15px 25px;
+	margin-bottom: 10px;
 	text-decoration: none;
 	position: relative;
+	z-index: 99;
 	cursor: pointer;
-	border-radius: 2px;
+	border-radius: 3px;
+	-webkit-transition: 150ms linear all; 
+	-moz-transition: 150ms linear all; 
+	transition: 150ms linear all;
 }
 
-.small.button {
+.small.button
+{
+	font-size: 12px;
+}
+
+.medium.button
+{
 	font-size: 14px;
-}
-
-.medium.button {
-	font-size: 18px;
 	line-height: 1;
-	text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.3);
 }
 
-.large.button {
-	font-size: 18px;
+.large.button
+{
+	font-size: 16px;
 	padding: 15px 30px;
 }
 
-.rounded.button {
+.rounded.button
+{
 	border-radius: 25px;
 }
 /**
  * Pink
  */
-.pink.button {
-	background-color: #fe57a1!important;
+.pink.button
+{
+	border-color: #fe57a1!important;
+	color: #fe57a1!important;
 }
 /**
  * Green
  */
-.green.button {
-	background-color: #91bd09!important;
+.green.button
+{
+	border-color: #60bfb1!important;
+	color: #60bfb1!important;
 }
 /**
  * Blue
  */
-.blue.button {
-	background-color: #2daebf!important;
+.blue.button
+{
+	border-color: #2daebf!important;
+	color: #2daebf!important;
 }
-
 /**
  * Red
  */
-.red.button {
-	background-color: #ff0000!important;
+.red.button
+{
+	border-color: #ff0000!important;
+	color: #ff0000!important;
 }
 /**
  * Magenta
  */
-.magenta.button {
-	background-color: #a9014b!important;
+.magenta.button
+{
+	border-color: #a9014b!important;
+	color: #a9014b!important;
 }
 /**
  * Orange
  */
-.orange.button {
-	background-color: #F16863!important;
+.orange.button
+{
+	border-color: #F16863!important;
+	color: #F16863!important;
 }
 /**
  * Yellow
  */
-.yellow.button {
-	background-color: #ffb515!important;
+.yellow.button
+{
+	border-color: #ffb515!important;
+	color: #ffb515!important;
 }
-/**
- * Hovers
- */
-.button:hover {
-	background-color: #333333!important;
-	color: #ffffff;
+/* states */
+.button:hover
+{
+    background: #222222;
 }
 
-.button:active {
+.button:active
+{
 	top: 1px;
 }

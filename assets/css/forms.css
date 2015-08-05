@@ -1,146 +1,183 @@
 /**
  * Forms
  */
-form {
-	margin: 0;
+:focus 
+{
+    outline-color: transparent;
+    outline-style: none;
 }
 
-form ul {
-	margin: 5px 0 5px 0;
+form 
+{ 
+	margin: 0 auto; 
+}
+
+form ul 
+{ 
+	margin: 5px 0 5px 0; 
+	padding: 0; 
+}
+
+form ul li 
+{ 
+	list-style: none; 
+}
+
+fieldset 
+{ 
+	margin: 5px 0 15px 0; 
+	padding: 25px; 
+	border: 1px solid #f5f5f5;
+}
+
+fieldset ul 
+{ 
+	margin: 0; 
 	padding: 0;
 }
 
-form ul li {
-	list-style: none;
-}
-
-fieldset {
-	margin: 5px 0 15px 0;
-	padding: 25px;
-}
-
-fieldset ul {
-	margin: 0;
-	padding: 0;
-}
-
-fieldset ul li {
-	list-style: none;
+fieldset ul li 
+{ 
+	list-style: none; 
 }
 /**
- * Indicate that 'label' will shift focus
- * to the associated form element
+ * Indicate that 'label' will shift focus 
+ * to the associated form element 
  */
-label {
-	cursor: pointer;
-	font-size: 16px;
-	font-weight: 600;
+label 
+{ 
+    width: 100%;
+    font-size: 14px;
+	cursor: pointer; 
+	float: left;
 }
 
-legend {
-	border: 0;
-	padding: 0;
-	font-size: 16px;
-	font-weight: bold;
+legend 
+{ 
+	border: 0; 
+	padding: 0; 
+	font-size: 14px; 
 }
 
-button,
-input,
-select,
-textarea {
-	vertical-align: baseline;
+button, 
+input, 
+select, 
+textarea 
+{ 
+	vertical-align: baseline; 
 	*vertical-align: middle;
 }
 
 button,
 input[type="reset"],
 input[type="submit"],
-input[type="button"] {
-	background: #eeeeee;
-	font-size: 14px;
-	font-weight: 600;
-	color: #333333;
+input[type="button"] 
+{
+    background: #f8f8f8;
+    color: #ffffff!important;
+    border: none;
+	width: auto;
 	display: inline-block;
 	padding: 15px 25px;
-	margin-bottom: 1.5em;
+	margin-bottom: 10px;
 	text-decoration: none;
 	position: relative;
+	z-index: 99;
 	cursor: pointer;
-	border: none;
-	-webkit-transition: 250ms linear all;
-	-moz-transition: 250ms linear all;
-	transition: 250ms linear all;
+	border-radius: 3px;
+	-webkit-transition: 150ms linear all; 
+	-moz-transition: 150ms linear all; 
+	transition: 150ms linear all; 
+	-webkit-appearance: none;
+	-moz-appearance: none;
 }
 
 button:hover,
 input[type="reset"]:hover,
 input[type="submit"]:hover,
-input[type="button"]:hover {
-  	background: #aaaaaa;
-	color: #333333;
+input[type="button"]:hover 
+{
+    background: #111111;
 }
 
-input[type="text"],
+input[type="text"], 
 input[type="number"],
-input[type="password"],
+input[type="password"], 
 input[type="email"],
 input[type="number"],
-textarea {
-	width: 100%;
-	font-size: 14px;
-	background: #f9f9f9;
-	padding: 10px;
-	border-radius: 2px;
-	border: none;
-}
-
-select {
-    background: #ffffff;
+textarea
+{
+    background: #f8f8f8;
+    border-radius: 3px;
     width: 100%;
-    height: 60px;
-	font-size: 16px;
-	padding: 25px;
-	margin-bottom: 20px;
-	border-radius: 2px;
-	border: none;
-	border: 4px solid #eeeeee;
-}
-
-input[type="file"] {
-	padding: 5px;
-	border: 1px solid rgba(0, 0, 0, 0.2);
-	border-radius: 2px;
-}
-
-textarea {
-	min-height: 100px;
+	padding: 15px 25px;
 	margin-bottom: 10px;
+	border: none;
+	border: 1px solid #f5f5f5;
+}
+
+input[type="number"]
+{
+    margin-right: 5px;
+    float: left;
+}
+
+input[type="file"] 
+{
+	padding: 5px;
+	border: none;
+}
+
+select
+{
+	-webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: #f8f8f8;
+    border-radius: 3px;
+    width: 100%;
+    height: 55px;
+	padding: 15px 25px;
+	margin-bottom: 10px;
+	border: none;
+	cursor: pointer;
+	border: 1px solid #f5f5f5;
+}
+
+textarea 
+{
+	min-height: 150px;
 }
 
 input.blue,
-textarea.blue {
+textarea.blue
+{ 
 	border: 1px solid #2daebf;
 }
 
 input.orange,
-textarea.orange {
+textarea.orange
+{ 
 	border: 1px solid #ff5c00;
 }
 
 input.red,
-textarea.red {
+textarea.red
+{ 
 	border: 1px solid #ff2b25;
 }
 
 input.green,
-textarea.green {
+textarea.green
+{ 
 	border: 1px solid #91bd09;
 }
 
 label.blue,
 label.orange,
 label.red,
-label.green {
+label.green
+{
 	width: 100%;
 	font-size: 12px;
 	font-weight: normal;
@@ -148,15 +185,18 @@ label.green {
 	margin: 0 0 5px 2px;
 }
 
-label.blue {
+label.blue
+{
 	color: #2daebf;
 }
 
-label.orange {
+label.orange
+{
 	color: #ff5c00;
 }
 
-label.red {
+label.red
+{
 	color: #ff2b25;
 }
 
@@ -164,14 +204,16 @@ label.green
 {
 	color: #91bd09;
 }
-/**
- * Colors for form validity
+
+/** 
+ * Colors for form validity 
  */
-label.error {
+label.error
+{
     color: #D34047;
 	width: 100%;
 	display: block;
-	font-size: 14px;
+	font-size: 13px;
 	font-weight: 400;
 	margin-top: 5px;
 	margin-bottom: 15px;
@@ -180,22 +222,26 @@ label.error {
 	float: left;
 }
 
-input.error {
+input.error
+{ 
 	border: 2px solid #FBE3E3;
 }
 
 input[type="text"].error,
 input[type="password"].error,
 input[type="numbers"].error,
-textarea.error {
-	border: 2px solid #FBE3E3;
+textarea.error
+{ 
+	border: 1px solid #FBE3E3;
 }
 
-label span.required {
+label span.required
+{
 	color: #FBE3E3;
 }
 
-label span.info {
+label span.info
+{
 	filter: alpha(opacity=50);
     -khtml-opacity: 0.5;
     -moz-opacity: 0.5;
