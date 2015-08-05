@@ -35,8 +35,9 @@
 		<!-- nav -->
         <nav id="primary">
         	<div class="boxed">
-				<ul id="menu-primary">
-					<li class="workless"><a href="http://workless.ikreativ.com">Workless&nbsp;&nbsp;<i class="icon-html5"></i> <i class="icon-css3"></i></a></li>
+	        	<a class="workless" href="http://workless.ikreativ.com">Workless&nbsp;&nbsp;<i class="icon-html5"></i> <i class="icon-css3"></i></a>
+				
+				<ul id="menu-primary" class="nolist">
 					<li><a href="#getting-started">Get Started</a></li>
 					<li><a href="#scaffold">Scaffold</a></li>
 					<li><a href="#icons">Icons</a></li>
@@ -46,10 +47,11 @@
 					<li><a href="#forms">Forms</a></li>
 					<li><a href="#tables">Tables</a></li>
 				</ul>
+				
+				<!-- aside toggle -->
+				<a class="mobile aside-open" href="#aside"><i class="icon-navicon"></i></a>
+				<!-- /aside toggle -->
 			</div>
-			<!-- responsive nav -->
-			<a class="open" href="#menu-primary">Menu</a>
-			<!-- /responsive nav -->
 		</nav>
 		<!-- /nav -->
 
@@ -1200,6 +1202,21 @@ git clone https://github.com/iKreativ/Workless.git
 
 </section>
 <!-- /main -->
+
+<!-- aside -->
+<aside id="aside">
+	<ul id="menu-mobile" class="nolist">
+		<li><a href="#getting-started">Get Started</a></li>
+		<li><a href="#scaffold">Scaffold</a></li>
+		<li><a href="#icons">Icons</a></li>
+		<li><a href="#buttons">Buttons</a></li>
+		<li><a href="#helpers">Helpers</a></li>
+		<li><a href="#backgrounds">Backgrounds</a></li>
+		<li><a href="#forms">Forms</a></li>
+		<li><a href="#tables">Tables</a></li>
+	</ul>
+</aside>
+<!-- aside -->
 
 <!-- load up our js -->
 <script>window.twttr = (function (d,s,id) {var t, js, fjs = d.getElementsByTagName(s)[0];if (d.getElementById(id)) return; js=d.createElement(s); js.id=id; js.async=1;js.src="https://platform.twitter.com/widgets.js"; fjs.parentNode.insertBefore(js, fjs);return window.twttr || (t = { _e: [], ready: function(f){ t._e.push(f) } });}(document, "script", "twitter-wjs"));</script>

@@ -1,12 +1,34 @@
 /**
  * Smartphones (portrait)
  */
-nav#primary ul {
+.alignright
+{
+	float: left;
+}
+
+.mobile,
+#menu-mobile
+{
+    display: inherit;
+}
+	
+
+#menu-primary
+{
     display: none;
 }
 
-.open {
-    display: block;
+#aside
+{
+	width: 220px;
+	padding: 25px;
+}
+
+#main.toggled
+{
+	-moz-transform: translateX(-220px);
+	-webkit-transform: translateX(-220px);
+	transform: translateX(-220px);
 }
 
 .one-full,
@@ -14,20 +36,55 @@ nav#primary ul {
 .one-third,
 .two-third,
 .one-quarter,
-.one-fifth {
+.one-fifth 
+{
     width: 260px;
 }
 
+h1 
+{
+	font-size: 180%;
+}
+
+h2 
+{
+	font-size: 160%;
+}
+
+h3 
+{
+	font-size: 140%;
+}
+
+h4 
+{
+	font-size: 120%;
+}
+
+h5 
+{
+	font-size: 110%;
+}
+
+h6 
+{
+	font-size: 16px;
+}
 /**
  * iPads (portrait)
  */
 @media only screen and (min-width: 767px) {
-	nav#primary ul {
-	    display: none;
+	#aside
+	{
+		width: 310px;
+		padding: 50px;
 	}
-
-	.open {
-	    display: block;
+	
+	#main.toggled
+	{
+		-moz-transform: translateX(-310px);
+		-webkit-transform: translateX(-310px);
+		transform: translateX(-310px);
 	}
 
     .one-full,
@@ -35,7 +92,8 @@ nav#primary ul {
     .one-third,
     .two-third,
     .one-quarter,
-    .one-fifth {
+    .one-fifth 
+    {
         width: 100%;
     }
 }
@@ -44,104 +102,97 @@ nav#primary ul {
  * iPads (landscape)
  */
 @media only screen and (min-width: 1023px) {
-	nav#primary ul {
-        display: none;
-    }
-
-    .open {
-        display: block;
-    }
-
-    .one-half {
+	.alignright
+	{
+		float: right;
+	}
+	
+    .one-half 
+    {
         width: 50%;
     }
 
-    .one-third {
+    .one-third 
+    {
         width: 33.33333%;
     }
 
-    .two-third {
+    .two-third 
+    {
         width: 66.66666%;
     }
 
-    .one-quarter {
+    .one-quarter 
+    {
         width: 25%;
     }
 
     .one-fifth {
         width: 20%;
     }
+    
+    h1 
+	{
+		font-size: 220%;
+	}
+	
+	h2 
+	{
+		font-size: 180%;
+	}
+	
+	h3 
+	{
+		font-size: 160%;
+	}
+	
+	h4 
+	{
+		font-size: 150%;
+	}
+	
+	h5 
+	{
+		font-size: 140%;
+	}
+	
+	h6 
+	{
+		font-size: 130%;
+	}
 }
 
 /**
  * Desktops
  */
 @media only screen and (min-width: 1279px) {
-	nav#primary ul {
-	    display: inline;
-	}
-
-	.open {
+	.mobile,
+	#menu-mobile
+	{
 	    display: none;
 	}
 
-    .one-half {
-        width: 50%;
-    }
-
-    .one-third {
-        width: 33.33333%;
-    }
-
-    .two-third {
-        width: 66.66666%;
-    }
-
-    .one-quarter {
-        width: 25%;
-    }
-
-    .one-fifth {
-        width: 20%;
-    }
+	#menu-primary
+	{
+		display: inherit;
+	}
 }
 
 /**
  * Large Desktops
  */
 @media only screen and (min-width: 1679px) {
-	nav#primary ul {
-	    display: inline;
-	}
 
-	.open {
-	    display: none;
-	}
-
-    .one-half {
-        width: 50%;
-    }
-
-    .one-third {
-        width: 33.33333%;
-    }
-
-    .two-third {
-        width: 66.66666%;
-    }
-
-    .one-quarter {
-        width: 25%;
-    }
-
-    .one-fifth {
-        width: 20%;
-    }
 }
-/* Fix icons in IE */
+/* Fixes for IE */
 @media screen and (min-width:0\0) {
     [class^="icon-"]:before,
     [class*=" icon-"]:before {
         margin-top: -500px!important;
     }
+    
+    #main.toggled
+	{
+		margin-left: -310px;
+	}
 }

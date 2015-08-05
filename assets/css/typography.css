@@ -289,39 +289,13 @@ h6
     line-height: 1.2em;
 }
 
-h1 
+h1, h2, h3, h4
 {
-	font-size: 220%;
 	font-weight: 400;
 }
 
-h2 
+h5, h6 
 {
-	font-size: 180%;
-	font-weight: 400;
-}
-
-h3 
-{
-	font-size: 160%;
-	font-weight: 400;
-}
-
-h4 
-{
-	font-size: 150%;
-	font-weight: 400;
-}
-
-h5 
-{
-	font-size: 140%;
-	font-weight: 600;
-}
-
-h6 
-{
-	font-size: 130%;
 	font-weight: 600;
 }
 /**

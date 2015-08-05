@@ -56,9 +56,24 @@ h2, h3, h4, h5, h6
 /**
  * Primary Navigation
  */
+.workless
+{
+	float: left;
+	margin-right: 15px;
+	padding-right: 25px;
+	border-right: 1px solid rgba( 255, 255, 255, 0.1 );
+}
+
+.workless,
+.workless i
+{
+	color: #ffffff;
+	text-decoration: none;
+}
+
 nav#primary 
 {
-    background: #262626;
+    background: #32353a;
     width: 100%;
     padding: 15px 0;
     position: fixed;
@@ -68,7 +83,6 @@ nav#primary
 
 nav#primary ul 
 {
-    width: 100%;
 	float: left;
 }
 
@@ -84,13 +98,6 @@ nav#primary ul li a
 	font-weight: 400;
     color: #ffffff;
     text-decoration: none;
-}
-
-nav#primary ul li.workless a
-{
-    padding-right: 25px;
-    border-right: 1px solid rgba( 255, 255, 255, 0.2 );
-    font-size: 18px;
 }
 
 nav#primary ul li a:hover 
@@ -155,6 +162,62 @@ ul.icons li i
     font-size: 14px!important;
     margin-bottom: 5px;
     display: block;
+}
+/**
+ * Aside & Toggle
+ */
+a.aside-open
+{
+	margin: 0;
+	padding: 0;
+	float: right;
+}
+
+a.aside-open i
+{
+	color: #ffffff;
+}
+
+#main,
+#aside
+{
+	-webkit-transition: 150ms linear all;
+	-moz-transition: 150ms linear all;
+	transition: 150ms linear all; 
+}
+
+#aside
+{
+	overflow-y: scroll;
+    position: fixed;
+    right: -400px;
+    top: 0;
+    bottom: 0;
+    z-index: 9995;
+    background: #25282c;
+}
+
+#aside.toggled
+{
+	right: 0;
+}
+
+#aside li
+{
+	display: block;
+}
+
+#aside li a
+{
+	color: #ffffff;
+	text-decoration: none;
+	font-size: 14px;
+	margin-bottom: 15px;
+}
+
+#aside li a:hover 
+{
+    color: rgba( 255, 255, 255, 0.5 );
 }
 /**
  * Footer
