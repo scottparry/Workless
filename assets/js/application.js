@@ -14,9 +14,6 @@
     };
     window.scrollReveal = new scrollReveal( config );
 
-	// Responsive menu
-  	$(".open").pageslide();
-
 	// Prettyprint
 	$('pre').addClass('prettyprint');
 
