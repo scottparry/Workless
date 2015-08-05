@@ -16,78 +16,95 @@
  | requests!
  | ---------------------------------------------------------------
  */
-
 /**
- * Apply box layout model to all elements
+ * Border Box
  */
-*, *:before, *:after {
-	-moz-box-sizing: border-box;
+*
+{
 	-webkit-box-sizing: border-box;
-	box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box; 
 }
 /**
  * HTML5 display definitions
  */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section {
-	display: block;
+article, 
+aside, 
+details, 
+figcaption, 
+figure, 
+footer, 
+header, 
+hgroup, 
+nav, 
+section 
+{ 
+	display: block; 
 	margin: 0 auto;
 }
 
-audio,
-canvas,
-video {
-	display: inline-block;
-	*display: inline;
-	*zoom: 1;
+audio, 
+canvas, 
+video 
+{ 
+	display: inline-block; 
+	*display: inline; 
+	*zoom: 1; 
 }
 
-audio:not([controls]) {
-	display: none;
+audio:not([controls]) 
+{ 
+	display: none; 
 }
 
-[hidden] {
-	display: none;
+[hidden] 
+{ 
+	display: none; 
 }
 
-figure {
-	margin: 0;
+figure 
+{ 
+	margin: 0; 
 }
 /**
  * Base
  */
-html,
-body {
-	height: 100%;
-	margin: 0;
+html, 
+body 
+{
+	margin: 0; 
 	padding: 0;
 }
 
-body {
-	width: 100%;
-	overflow-x: hidden;
+body 
+{   
+	width: 100%; 
+	overflow-x: hidden; 
 }
 /**
  * Embedded Content
  */
-img {
-	-ms-interpolation-mode: bicubic;
-	vertical-align: middle;
-	border: 0;
-	outline: 0;
+img 
+{ 
+	max-width: 100%;
+	height: auto;
+	-ms-interpolation-mode: bicubic; 
+	vertical-align: middle; 
+	border: 0; 
+	outline: 0; 
+	-webkit-transition: 150ms linear all;
+	-moz-transition: 150ms linear all;
+	transition: 150ms linear all; 
 }
-iframe {
+
+iframe
+{
 	border: none;
 }
-/* correct overflow not hidden in IE9 */
-svg:not(:root) {
-	overflow: hidden;
+/**
+ * Correct overflow not hidden in IE9 
+ */
+svg:not(:root) 
+{ 
+	overflow: hidden; 
 }
