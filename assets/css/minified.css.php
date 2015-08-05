@@ -23,7 +23,7 @@ ob_start("compress");
     include('alerts.css');
     include('pagination.css');
     include('breadcrumbs.css');
-    include('font.css');
+    include('icons.css');
     include('helpers.css');
     include('scaffolding.css');
     include('print.css');
