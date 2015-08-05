@@ -1,11 +1,13 @@
 /**
  * Typography
  */
-html {
+html 
+{
 	font: 16px/1.4 "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
-body {
+body 
+{
 	font-weight: normal;
 	font-size: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -13,19 +15,22 @@ body {
     text-rendering: optimizeLegibility;
 }
 
-::-moz-selection {
+::-moz-selection 
+{
 	background: #000000;
 	color: #ffffff;
 	text-shadow: none;
 }
 
-::selection {
+::selection 
+{
 	background: #000000;
 	color: #ffffff;
 	text-shadow: none;
 }
 
-a {
+a 
+{
 	color: #000000;
 	font-weight: inherit;
 	font-size: inherit;
@@ -35,29 +40,40 @@ a {
 	transition: 250ms linear all;
 }
 
-a:hover {}
-a:active {}
-a:focus {
+a:hover 
+{
+}
+
+a:active 
+{
+}
+
+a:focus 
+{
 	outline: 0;
 }
 
 a:hover,
-a:active {
+a:active 
+{
 	outline: 0;
 }
 
-abbr[title] {
+abbr[title] 
+{
 	border-bottom: 1px dotted;
 }
 
 b,
-strong {
+strong 
+{
 	color: inherit;
 	font-weight: bold;
 }
 
 blockquote,
-blockquote p {
+blockquote p 
+{
 	font-size: 24px;
 	font-weight: 400;
 	position: relative;
@@ -67,18 +83,21 @@ blockquote p {
     margin-bottom: 5px;
 }
 
-span.fancyamp {
+span.fancyamp 
+{
 	font-family: Baskerville, Palatino, "Book Antiqua", serif;
   	font-style: italic;
   	color: inherit;
   	font-size: inherit;
 }
 
-dfn {
+dfn 
+{
 	font-style: italic;
 }
 
-hr {
+hr 
+{
 	display: inline-block;
 	height: 0px;
 	width: 100%;
@@ -88,18 +107,21 @@ hr {
 	margin: 25px 0;
 }
 
-ins {
+ins 
+{
 	background: #ffffe0;
 	text-decoration: none;
 }
 
-mark {
+mark 
+{
 	background: #ffffe0;
 	font-style: italic;
 	font-weight: bold;
 }
 
-address {
+address 
+{
 	display: block;
 	line-height: 18px;
 	margin-bottom: 18px;
@@ -108,11 +130,13 @@ address {
 pre,
 code,
 kbd,
-samp {
+samp 
+{
 	font-family: monospace;
 }
 
-code {
+code 
+{
 	padding: 2px 4px;
 	background: #f9f9f9;
 	border: 1px solid #eeeeee;
@@ -120,7 +144,8 @@ code {
 	font-size: 12px;
 }
 
-pre {
+pre 
+{
 	display: block;
 	overflow: hidden;
 	background: #f9f9f9;
@@ -135,16 +160,19 @@ pre {
 	font-size: 12px;
 }
 
-q {
+q 
+{
 	quotes: none;
 }
 q:before,
-q:after {
+q:after 
+{
 	content: "";
 	content: none;
 }
 
-small {
+small 
+{
 	font-size: 0.6em;
 }
 /**
@@ -152,18 +180,21 @@ small {
  * content without affecting line-height.
  */
 sub,
-sup {
+sup 
+{
 	font-size: 75%;
 	line-height: 0;
 	position: relative;
 	vertical-align: baseline;
 }
 
-sup {
+sup 
+{
 	top: -0.5em;
 }
 
-sub {
+sub 
+{
 	bottom: -0.25em;
 }
 /**
@@ -179,7 +210,8 @@ p
  * Lists
  */
 ul,
-ol {
+ol 
+{
 	margin: 0 0 15px 0;
 	padding: 0;
 }
@@ -187,49 +219,60 @@ ol {
 ul ul,
 ul ol,
 ol ol,
-ol ul {
+ol ul 
+{
 	margin-bottom: 0;
 }
 
-ul {
+ul 
+{
 	list-style: disc;
 }
 
-ol {
+ol 
+{
 	list-style: decimal;
 }
 
-ol.roman {
+ol.roman 
+{
 	list-style: upper-roman;
 }
 
-li {
+li 
+{
 	line-height: 1.5em;
 }
 
-dl {
+dl 
+{
 	margin-bottom: 15px;
 }
 
 dl dt,
-dl dd {
+dl dd 
+{
 	font-size: 16px;
 }
 
-dl dt {
+dl dt 
+{
 	font-weight: bold;
 }
 
-dl dd {
+dl dd 
+{
 	margin-left: 9px;
 }
 
-ul, ol {
+ul, ol 
+{
 	margin: 0 0 10px 20px;
 	padding: 0;
 }
 
-dd {
+dd 
+{
 	margin: 0 0 0 20px;
 }
 /**
@@ -240,33 +283,40 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6 
+{
     font-weight: 600;
     margin: 0 0 1em 0;
     line-height: 1.2em;
 }
 
-h1 {
+h1 
+{
 	font-size: 220%;
 }
 
-h2 {
+h2 
+{
 	font-size: 180%;
 }
 
-h3 {
+h3 
+{
 	font-size: 160%;
 }
 
-h4 {
+h4 
+{
 	font-size: 150%;
 }
 
-h5 {
+h5 
+{
 	font-size: 140%;
 }
 
-h6 {
+h6 
+{
 	font-size: 130%;
 }
 /**
